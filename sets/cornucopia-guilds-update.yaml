@@ -1,0 +1,54 @@
+name: Cornucopia & Guilds (update)
+cards:
+  - name: Farrier
+    cost:
+      treasure: 2
+    isAction: true
+    isBuySupplier: true
+    isDrawer: true
+
+  - name: Shop
+    cost:
+      treasure: 4
+      potion: 0
+    isAction: true
+    isReaction: true
+
+  - name: Infirmary
+    cost:
+      treasure: 4
+    isAction: true
+    isReaction: true
+
+  - name: Farmhands
+    cost:
+      treasure: 5
+    isAttack: true
+    isAction: true
+
+  - name: Carnival
+    cost:
+      treasure: 5
+    isAttack: true
+    isBuySupplier: true
+    isTreasure: true
+
+  - name: Ferryman
+    cost:
+      treasure: 3
+    isAction: true
+    isDrawer: true
+    isMultiDrawer: true
+    isReaction: true
+
+  - name: Footpad
+    cost:
+      treasure: 5
+    isBuySupplier: true
+    isAction: true
+
+  - name: Joust
+    cost:
+      treasure: 5
+    isAction: true
+    isDrawer: true

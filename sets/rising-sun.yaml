@@ -1,0 +1,69 @@
+name: Empires
+5D: Mountain Shrine
+6D: Daimyo
+8D: Artist
+$2: Fishmonger, Snake Witch
+$3: Aristocrat, Craftsman, Riverboat, Root Cellar
+$4: Alley, Change, Ninja, Poet, River Shrine, Rustic Village
+$5: Gold Mine, Imperial Envoy, Kitsune, Litter, Rice Broker, Ronin, Tanuki, Tea House,
+$6: Samurai
+$7: Rice
+cards:
+  - name: 
+    cost:
+      treasure: 0
+      potion: 0
+      debt: 4
+    isAction: true
+    isActionSupplier: false
+    isAttack: false
+    isBuySupplier: false
+    isDuration: false
+    isReaction: false
+    isTrashing: false
+    isTreasure: false
+    isVictory: false
+
+
+5D: Mountain Shrine
+6D: Daimyo
+8D: Artist
+$2: Fishmonger, Snake Witch
+$3: Aristocrat, Craftsman, Riverboat, Root Cellar
+$4: Alley, Change, Ninja, Poet, River Shrine, Rustic Village
+$5: Gold Mine, Imperial Envoy, Kitsune, Litter, Rice Broker, Ronin, Tanuki, Tea House,
+$6: Samurai
+$7: Rice
+events:
+  - name: 
+    cost:
+      treasure: 0
+      potion: 0
+      debt: 5
+    isActionSupplier: false
+    isBuySupplier: false
+    isDrawer: false
+    isTrashing: false
+  
+Approaching Army
+Biding Time
+Bureaucracy
+Divine Wind
+Enlightenment
+Flourishing Trade
+Good Harvest
+Great Leader
+Growth
+Harsh Winter
+Kind Emperor
+Panic
+Progress
+Rapid Expansion
+Sickness
+prophecies:
+  - name: 
+    cost:
+      treasure: 0
+      potion: 0
+      debt: 0
+  
