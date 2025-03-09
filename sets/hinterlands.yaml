@@ -91,6 +91,7 @@ cards:
     isTrashing: false
     isReaction: false
     isBuySupplier: true
+    toPick: false
 
   - name: Spice Merchant
     cost:
@@ -151,6 +152,7 @@ cards:
     isVictory: false
     isTrashing: false
     isReaction: false
+    toPick: false
 
   - name: Margrave
     cost:
@@ -280,6 +282,7 @@ cards:
     isVictory: false
     isTrashing: false
     isReaction: false
+    toPick: false
 
   - name: Stables
     cost:

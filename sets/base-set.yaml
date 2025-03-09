@@ -10,6 +10,7 @@ cards:
     isVictory: false
     isTrashing: false
     isReaction: false
+    toPick: false
 
   - name: Bureaucrat
     cost:
@@ -41,10 +42,11 @@ cards:
       potion: 0
     isAttack: false
     isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
     isReaction: false
+    isTreasure: false
+    isTrashing: false
+    isVictory: false
+    toPick: false
 
   - name: Chapel
     cost:
@@ -81,6 +83,7 @@ cards:
     isVictory: false
     isTrashing: false
     isReaction: false
+    toPick: false
 
   - name: Festival
     cost:
@@ -223,6 +226,7 @@ cards:
     isVictory: false
     isTrashing: false
     isReaction: false
+    toPick: false
 
   - name: Thief
     cost:
@@ -234,6 +238,7 @@ cards:
     isVictory: false
     isTrashing: false
     isReaction: false
+    toPick: false
 
   - name: Throne Room
     cost:
@@ -282,6 +287,7 @@ cards:
     isTrashing: false
     isReaction: false
     isBuyProvider: true
+    toPick: false
 
   - name: Workshop
     cost:

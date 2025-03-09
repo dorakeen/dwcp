@@ -276,6 +276,7 @@ cards:
     isTrashing: false
     isReaction: false
     isDuration: false
+    toPick: false
 
   - name: Upgrade
     cost:
@@ -302,6 +303,7 @@ cards:
     isTrashing: false
     isReaction: false
     isDuration: false
+    toPick: false
 
   - name: Great Hall
     cost:

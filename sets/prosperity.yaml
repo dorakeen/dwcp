@@ -38,6 +38,7 @@ cards:
     isTrashing: false
     isReaction: false
     isBuySupplier: true
+    toPick: false
 
   - name: Counting House
     cost:
@@ -221,6 +222,7 @@ cards:
     isVictory: false
     isTrashing: true
     isReaction: false
+    toPick: false
 
   - name: Trade Route
     cost:
@@ -233,6 +235,7 @@ cards:
     isTrashing: true
     isReaction: false
     isBuySupplier: true
+    toPick: false
 
   - name: Quarry
     cost:
@@ -257,6 +260,7 @@ cards:
     isTrashing: false
     isReaction: false
     isDuration: false
+    toPick: false
 
   - name: Mountebank
     cost:
@@ -308,3 +312,4 @@ cards:
     isTrashing: false
     isReaction: false
     isDuration: false
+    toPick: false

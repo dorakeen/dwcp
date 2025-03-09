@@ -1,4 +1,4 @@
-name: Empires
+name: Rising Sun
 5D: Mountain Shrine
 6D: Daimyo
 8D: Artist
@@ -19,21 +19,19 @@ cards:
     isAttack: false
     isBuySupplier: false
     isDuration: false
+    isOmen: false
     isReaction: false
     isTrashing: false
     isTreasure: false
     isVictory: false
 
 
-5D: Mountain Shrine
-6D: Daimyo
-8D: Artist
-$2: Fishmonger, Snake Witch
-$3: Aristocrat, Craftsman, Riverboat, Root Cellar
-$4: Alley, Change, Ninja, Poet, River Shrine, Rustic Village
-$5: Gold Mine, Imperial Envoy, Kitsune, Litter, Rice Broker, Ronin, Tanuki, Tea House,
-$6: Samurai
-$7: Rice
+8D: Continue
+$2: Amass, Asceticism, Credit, Foresight
+$3: Kintsugi, Practice
+$4: Sea Trade
+$5: Receive Tribute
+$7: Gather
 events:
   - name: 
     cost:

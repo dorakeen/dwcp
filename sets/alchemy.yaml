@@ -92,6 +92,7 @@ cards:
     isVictory: false
     isTrashing: false
     isReaction: false
+    toPick: false
 
   - name: Scrying Pool
     cost:

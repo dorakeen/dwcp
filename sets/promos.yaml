@@ -16,6 +16,7 @@ cards:
     isTraveller: false
     isTreasure: false
     isVictory: false
+    toPick: false
 
   - name: Church
     cost:
@@ -38,6 +39,7 @@ cards:
     isTreasure: false
     isTerminal: false
     isVictory: false
+    toPick: false
 
   - name: Dismantle
     cost:
@@ -60,6 +62,7 @@ cards:
     isTreasure: false
     isTerminal: true
     isVictory: false
+    toPick: false
 
   - name: Envoy
     cost:
@@ -173,6 +176,24 @@ cards:
     isTreasure: false
     isTerminal: true
     isVictory: false
+    toPick: false
+
+  - name: Marchland
+    cost:
+      treasure: 5
+      potion: 0
+    isAction: false
+    isActionSupplier: false
+    isAttack: false
+    isBuySupplier: true
+    isDuration: false
+    isDrawer: false
+    isReaction: false
+    isReserve: false
+    isTrashing: false
+    isTraveller: false
+    isTreasure: false
+    isVictory: true
 
   - name: Prince
     cost:
