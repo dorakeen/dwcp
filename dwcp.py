@@ -1,6 +1,43 @@
 #!/usr/bin/env python3.6
 # -*- coding: utf-8 -*-
+# ===============================================================================
+# Title: Dominion Weighted Card Picker
 #
+# Description:
+#   This script will randomly select 10 kingdom cards and 0-2 landscape cards
+#   from the Dominion card sets. The selection is weighted based on the
+#   attributes of the cards.
+#
+#   The script will output the selected cards to the console.
+#
+#
+# Author: dorakeen
+#
+# Date: 2021-09-01
+#
+# Version: 0.1
+#
+# Usage: python3 dwcp.py
+#
+# Requirements:
+#   - Python 3.6 or higher
+#   - PyYAML
+#   - Rich
+#
+# TODO:
+#   - Selection of one Favor card (from Allies) when one or more Liaison cards are selected
+#   - Save the picked cards to the respective yaml files
+#   - Save the picked cards to a database
+#   - Selection of one Prophecy card (from Rising Sun) when one or more Omen cards are selected
+#   - Add support for specifying the number of kingdom and landscape cards to select
+#   - Add support for specifying the card sets to include in the selection
+#   - Add support for specifying the card attributes to weight the selection
+#   - Add support for specifying the card attributes to exclude from the selection
+#   - Save the selection to a file
+#   - Save the selection to a database
+#
+# ===============================================================================
+# 
 
 # globals imports
 import argparse
@@ -11,6 +48,8 @@ import random
 import os
 import sys
 import yaml
+
+from rich.console import Console
 
 # third-party libraries
 
@@ -84,6 +123,40 @@ LANDSCAPE_NAMES_TO_NAME = {
 # ===============================================================================
 # Create master randomizer piles
 # ===============================================================================
+def set_default_card_attibutes() :
+    '''
+    Sets default card attributes for a card
+    '''
+
+    card_attibutes = {
+                      'pickTimes': 0,
+                      'toPick': True,
+                      'isAction': False,
+                      'isActionSupplier': False,
+                      'isArtifactSupplier': False,
+                      'isAttack': False,
+                      'isBuySupplier': False,
+                      'isDoom': False,
+                      'isDrawer': False,
+                      'isDuration': False,
+                      'isFate': False,
+                      'isMultiDrawer': False,
+                      'isNight': False,
+                      'isOmen': False,
+                      'isReaction': False,
+                      'isReserve': False,
+                      'isTrashing': False,
+                      'isTraveller': False,
+                      'isTreasure': False,
+                      'isVictory': False,
+                      'isTerminal': True
+    }
+
+    return card_attibutes
+
+# ===============================================================================
+# Create master randomizer piles
+# ===============================================================================
 def create_randomizer_piles(l_args):
     '''
     Create Randomizer Piles (one for Kingdom, one for Landscape)
@@ -102,18 +175,24 @@ def create_randomizer_piles(l_args):
 
     log.debug(f" ==== create_randomizer_piles({l_args})")
 
+    card_attibutes = set_default_card_attibutes()
     for setname, yamlname in SETNAME_TO_YAMLNAME.items():
         log.debug(f" [{setname}][{yamlname}]")
 
         set_filepath = pathlib.Path.cwd() / "sets" / yamlname
         with open(set_filepath, 'r', encoding="utf-8") as file:
             dSet = yaml.safe_load(file)
+            # log.debug(f" {dSet}")
 
         # Iterate over each kingdom card, and copy into randpiles while adding key/value for the set name itself
         for kcard in dSet["cards"]:
+            kcard = card_attibutes | kcard
             kcard["set"] = setname
-            #log.debug(f" [{kcard}]")
-            randpiles["kingdoms"].append(kcard)
+            # log.debug(f" {kcard}")
+            if kcard["toPick"] :
+                randpiles["kingdoms"].append(kcard)
+            else :
+                log.debug(f"\t{kcard['name']} not to be picked")
 
         # Iterate over each landscape card type, and copy into randpiles while adding key/value
         # for the set name itself, and the key/value of the landscape type
@@ -124,7 +203,6 @@ def create_randomizer_piles(l_args):
                     landscape["type"] = name_s
                     randpiles["landscapes"].append(landscape)
 
-    log.debug(f" [{randpiles}]")
     return randpiles
 
 
@@ -160,6 +238,72 @@ def pick_random_cards(randpiles, num_kingdom=10, num_landscape=0):
     return picked
 
 
+
+# ===============================================================================
+# dwcp(l_args)
+# =============================================================================== 
+def print_result(selection) :
+    """
+    Print the selected cards
+    """
+    
+    console.print("")
+    console.print("               ─━═ Kingdom Cards ═━─        ", style='bold blue1')
+    n = 1
+    log.info("Selected Kingdom Cards:")
+    for kcard in selection["kingdoms"]:
+        # Set color. For multi-types, the first chosen here is the priority color
+        if kcard.get('isTreasure'):
+            color = "yellow"
+        elif kcard.get('isAttack'): 
+            color = "red"
+        elif kcard.get('isReaction'): 
+            color = "cyan"
+        elif kcard.get('isVictory'): 
+            color = "green"
+        else: 
+            color = "white"
+
+        """
+        # Manual exception: Harem now is known as Farm
+        if kcard['name'] == 'Harem':
+            kcard['name'] = 'Harem (Farm)'
+        """
+
+        log.info(f"\t{kcard['name']}\t({kcard['set']})")
+        # <3 and <20 for spacing. Num has to be combined with . old fashioned way for this to work
+        console.print(f"{str(n) + '.' : <3} [{color}]{kcard['name'] : <27}[/{color}] ({kcard['set'].title()})")
+        n += 1
+
+
+    console.print("")
+    console.print("             ─━═ Landscapes Cards ═━─        ", style='bold blue1')
+    n = 1
+    log.info("Selectedionndscape Cards:") 
+    for landscape in selection["landscapes"]:
+        if landscape['type'] == 'event': 
+            color = "bright_black"
+        elif landscape['type'] == 'landmark': 
+            color = "green"
+        elif landscape['type'] == 'prophecy': 
+            color = "deep_sky_blue3"
+        elif landscape['type'] == 'project': 
+            color = "red"
+        elif landscape['type'] == 'way': 
+            color = "cyan"
+        elif landscape['type'] == 'trait': 
+            color = "magenta"
+        else: 
+            color = "white"
+
+        log.info(f"\t{landscape['name']}\t({landscape['set']}) - {landscape['type']}")
+        # <3 and <27 for spacing. Num has to be combined with . old fashioned way for this to work
+        console.print(f"{str(n) + '.' : <3} [{color}]{landscape['name'] : <27}[/{color}] ({landscape['set'].title()})\t- ({landscape['type'].title()})")
+        n += 1
+
+    console.print("")
+    
+
 # ===============================================================================
 # dwcp(l_args)
 # ===============================================================================
@@ -176,14 +320,7 @@ def dwcp(l_args):
     # Pick random cards (10 kingdom, 0/2 landscape)
     selected = pick_random_cards(randpiles, num_kingdom=10, num_landscape=random.randrange(3))
     
-    # Log results
-    log.info("Selected Kingdom Cards:")
-    for card in selected["kingdoms"]:
-        log.info(f"\t{card['name']}\t({card['set']})")
-    
-    log.info("Selected Landscape Cards:") 
-    for card in selected["landscapes"]:
-        log.info(f"\t{card['name']}\t({card['set']}) - {card['type']}")
+    print_result(selected)
 
     return selected
 
@@ -229,7 +366,7 @@ def get_argparse():
     l_parser.add_argument('-l', '--log-file', default=LOG_FILE,
                         help='Path to python-script logfile. Default is path to script + .log')
     l_parser.add_argument('-ll', '--log-level',
-                        default='INFO',
+                        default='WARNING',
                         choices=['CRITICAL', 'ERROR', 'WARNING', 'INFO', 'DEBUG', 'NOTSET'],
                         help='Logfile Loglevel.  Default = INFO')
     l_parser.add_argument('-lms', '--log-size',
@@ -250,6 +387,33 @@ def get_argparse():
 # ===============================================================================
 if __name__ == '__main__':
 
+    console = Console()
+
+    title = r'''
+___________       _________________ 
+___  __ \_ |     / /_  ____/__  __ \
+__  / / /_ | /| / /_  /    __  /_/ /
+_  /_/ /__ |/ |/ / / /___  _  ____/ 
+/_____/ ____/|__/  \____/  /_/
+    '''
+    title = r'''
+.----------------.  .----------------.  .----------------.  .----------------. 
+| .--------------. || .--------------. || .--------------. || .--------------. |
+| |  ________    | || | _____  _____ | || |     ______   | || |   ______     | |
+| | |_   ___ `.  | || ||_   _||_   _|| || |   .' ___  |  | || |  |_   __ \   | |
+| |   | |   `. \ | || |  | | /\ | |  | || |  / .'   \_|  | || |    | |__) |  | |
+| |   | |    | | | || |  | |/  \| |  | || |  | |         | || |    |  ___/   | |
+| |  _| |___.' / | || |  |   /\   |  | || |  \ `.___.'\  | || |   _| |_      | |
+| | |________.'  | || |  |__/  \__|  | || |   `._____.'  | || |  |_____|     | |
+| |              | || |              | || |              | || |              | |
+| '--------------' || '--------------' || '--------------' || '--------------' |
+ '----------------'  '----------------'  '----------------'  '----------------'
+ '''
+    subtitle = r'''by dorakeen'''
+        
+    console.print(title, style='bold', highlight=False)
+    console.print(subtitle)
+    
     try:
         parser = get_argparse()
         args = parser.parse_args()
@@ -257,7 +421,7 @@ if __name__ == '__main__':
         setup_file_log(args)
         log.setLevel(args.log_level)
 
-        log.info(" ================= Start Dominion Weighted Card Picker =================")
+        log.info("\n================= Start Dominion Weighted Card Picker =================\n")
         log.debug(f"Args: {args}")
 
 
@@ -268,4 +432,4 @@ if __name__ == '__main__':
 
     dwcp(args)
 
-    log.info(" ================= Stop Dominion Weighted Card Picker =================")
+    log.info("\n================= Stop Dominion Weighted Card Picker =================\n")
