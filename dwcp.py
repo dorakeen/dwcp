@@ -25,16 +25,14 @@
 #   - Rich
 #
 # TODO:
-#   - Selection of one Favor card (from Allies) when one or more Liaison cards are selected
+#   - Sort selected kingdoms
+#   - Selection max number of kingdom set cards
 #   - Save the picked cards to the respective yaml files
 #   - Save the picked cards to a database
-#   - Selection of one Prophecy card (from Rising Sun) when one or more Omen cards are selected
 #   - Add support for specifying the number of kingdom and landscape cards to select
 #   - Add support for specifying the card sets to include in the selection
 #   - Add support for specifying the card attributes to weight the selection
 #   - Add support for specifying the card attributes to exclude from the selection
-#   - Save the selection to a file
-#   - Save the selection to a database
 #
 # ===============================================================================
 # 
@@ -110,6 +108,7 @@ SETNAME_TO_YAMLNAME = {
 # LANDSCAPES
 # This is needed to iterate over landscape types
 LANDSCAPE_NAMES_TO_NAME = {
+    "allies": "ally",
     "events": "event",
     "landmarks": "landmark",
     "prophecies": "prophecy",
@@ -140,6 +139,7 @@ def set_default_card_attibutes() :
                       'isDrawer': False,
                       'isDuration': False,
                       'isFate': False,
+                      'isLiaison': False,
                       'isMultiDrawer': False,
                       'isNight': False,
                       'isOmen': False,
@@ -170,7 +170,9 @@ def create_randomizer_piles(l_args):
 
     randpiles = {
         "kingdoms": [],
-        "landscapes": []
+        "landscapes": [],
+        "allies": [],
+        "prophecies": []
     }
 
     log.debug(f" ==== create_randomizer_piles({l_args})")
@@ -201,7 +203,14 @@ def create_randomizer_piles(l_args):
                 for landscape in dSet[name_p]:
                     landscape["set"] = setname
                     landscape["type"] = name_s
-                    randpiles["landscapes"].append(landscape)
+
+
+                    if landscape["type"] == 'ally' :
+                        randpiles["allies"].append(landscape)
+                    elif landscape["type"] == 'prophecy' :
+                        randpiles["prophecies"].append(landscape)
+                    else :
+                        randpiles["landscapes"].append(landscape)
 
     return randpiles
 
@@ -214,6 +223,7 @@ def pick_random_cards(randpiles, num_kingdom=10, num_landscape=0):
     Pick random cards from the randomizer piles
     Returns dict with selected kingdom and landscape cards
     """
+
     picked = {
         "kingdoms": [],
         "landscapes": []
@@ -223,17 +233,39 @@ def pick_random_cards(randpiles, num_kingdom=10, num_landscape=0):
     if randpiles["kingdoms"]:
         kingdom_cards = random.sample(randpiles["kingdoms"], min(num_kingdom, len(randpiles["kingdoms"])))
         picked["kingdoms"].extend(kingdom_cards)
+
+        # Looking for Liaison/Omen cards in the picked kingdom cards
+        ally_card = None
+        prophecy_card = None
+        for kcard in picked["kingdoms"]:
+
+            kcard['pickTimes'] += 1
+
+            if ally_card == None and kcard.get('isLiaison'):
+                # Pick one Ally card from Allies
+                ally_card = random.choice(randpiles["allies"])
+                picked["landscapes"].append(ally_card)
+
+            if prophecy_card == None and kcard.get('isOmen'):
+                # Pick one Prophecy card from Prophecies
+                prophecy_card = random.choice(randpiles["prophecies"])
+                picked["landscapes"].append(prophecy_card)
+                
         # Remove picked cards from randomizer pile
-        for card in kingdom_cards:
-            randpiles["kingdoms"].remove(card)
+        # for card in kingdom_cards:
+            # randpiles["kingdoms"].remove(card)
 
     # Pick landscape cards 
     if randpiles["landscapes"] and num_landscape > 0:
         landscape_cards = random.sample(randpiles["landscapes"], min(num_landscape, len(randpiles["landscapes"])))
         picked["landscapes"].extend(landscape_cards)
+
+        #for lcard in picked["landscapes"]:
+            #lcard['pickTimes'] += 1
+
         # Remove picked cards from randomizer pile
-        for card in landscape_cards:
-            randpiles["landscapes"].remove(card)
+        # for card in landscape_cards:
+            # randpiles["landscapes"].remove(card)
 
     return picked
 
@@ -254,7 +286,7 @@ def print_result(selection) :
     for kcard in selection["kingdoms"]:
         # Set color. For multi-types, the first chosen here is the priority color
         if kcard.get('isTreasure'):
-            color = "yellow"
+            color = "gold1"
         elif kcard.get('isAttack'): 
             color = "red"
         elif kcard.get('isReaction'): 
@@ -279,9 +311,11 @@ def print_result(selection) :
     console.print("")
     console.print("             ─━═ Landscapes Cards ═━─        ", style='bold blue1')
     n = 1
-    log.info("Selectedionndscape Cards:") 
+    log.info("Selected Landscape Cards:") 
     for landscape in selection["landscapes"]:
-        if landscape['type'] == 'event': 
+        if landscape['type'] == 'ally': 
+            color = "yellow"
+        elif landscape['type'] == 'event': 
             color = "bright_black"
         elif landscape['type'] == 'landmark': 
             color = "green"
