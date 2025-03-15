@@ -1,0 +1,67 @@
+name: Rising Sun
+5D: Mountain Shrine
+6D: Daimyo
+8D: Artist
+$2: Fishmonger, Snake Witch
+$3: Aristocrat, Craftsman, Riverboat, Root Cellar
+$4: Alley, Change, Ninja, Poet, River Shrine, Rustic Village
+$5: Gold Mine, Imperial Envoy, Kitsune, Litter, Rice Broker, Ronin, Tanuki, Tea House,
+$6: Samurai
+$7: Rice
+cards:
+  - name: 
+    cost:
+      treasure: 0
+      potion: 0
+      debt: 4
+    isAction: true
+    isActionSupplier: false
+    isAttack: false
+    isBuySupplier: false
+    isDuration: false
+    isOmen: false
+    isReaction: false
+    isTrashing: false
+    isTreasure: false
+    isVictory: false
+
+
+8D: Continue
+$2: Amass, Asceticism, Credit, Foresight
+$3: Kintsugi, Practice
+$4: Sea Trade
+$5: Receive Tribute
+$7: Gather
+events:
+  - name: 
+    cost:
+      treasure: 0
+      potion: 0
+      debt: 5
+    isActionSupplier: false
+    isBuySupplier: false
+    isDrawer: false
+    isTrashing: false
+  
+Approaching Army
+Biding Time
+Bureaucracy
+Divine Wind
+Enlightenment
+Flourishing Trade
+Good Harvest
+Great Leader
+Growth
+Harsh Winter
+Kind Emperor
+Panic
+Progress
+Rapid Expansion
+Sickness
+prophecies:
+  - name: 
+    cost:
+      treasure: 0
+      potion: 0
+      debt: 0
+  

@@ -70,7 +70,6 @@ log.addHandler(SH)
 # #
 #
 
-
 #
 # CARDS 
 # This is needed to iterate over cards types
@@ -120,7 +119,7 @@ LANDSCAPE_NAMES_TO_NAME = {
 #
 
 # ===============================================================================
-# Create master randomizer piles
+# Create cards attributes dictionary
 # ===============================================================================
 def set_default_card_attibutes() :
     '''
@@ -204,7 +203,6 @@ def create_randomizer_piles(l_args):
                     landscape["set"] = setname
                     landscape["type"] = name_s
 
-
                     if landscape["type"] == 'ally' :
                         randpiles["allies"].append(landscape)
                     elif landscape["type"] == 'prophecy' :
@@ -255,6 +253,8 @@ def pick_random_cards(randpiles, num_kingdom=10, num_landscape=0):
         # for card in kingdom_cards:
             # randpiles["kingdoms"].remove(card)
 
+    picked["kingdoms"].sort(key=lambda x: x['name'])
+    
     # Pick landscape cards 
     if randpiles["landscapes"] and num_landscape > 0:
         landscape_cards = random.sample(randpiles["landscapes"], min(num_landscape, len(randpiles["landscapes"])))
@@ -282,6 +282,7 @@ def print_result(selection) :
     console.print("")
     console.print("               ─━═ Kingdom Cards ═━─        ", style='bold blue1')
     n = 1
+    sets_list = set()
     log.info("Selected Kingdom Cards:")
     for kcard in selection["kingdoms"]:
         # Set color. For multi-types, the first chosen here is the priority color
@@ -302,6 +303,8 @@ def print_result(selection) :
             kcard['name'] = 'Harem (Farm)'
         """
 
+        sets_list.add(kcard['set'])
+        
         log.info(f"\t{kcard['name']}\t({kcard['set']})")
         # <3 and <20 for spacing. Num has to be combined with . old fashioned way for this to work
         console.print(f"{str(n) + '.' : <3} [{color}]{kcard['name'] : <27}[/{color}] ({kcard['set'].title()})")
@@ -330,10 +333,21 @@ def print_result(selection) :
         else: 
             color = "white"
 
+        sets_list.add(landscape['set'])
+
         log.info(f"\t{landscape['name']}\t({landscape['set']}) - {landscape['type']}")
         # <3 and <27 for spacing. Num has to be combined with . old fashioned way for this to work
         console.print(f"{str(n) + '.' : <3} [{color}]{landscape['name'] : <27}[/{color}] ({landscape['set'].title()})\t- ({landscape['type'].title()})")
         n += 1
+
+    color = "white"
+    sets_list = sorted(sets_list)  # Sort the set names alphabetically
+
+    console.print("")
+    console.print(f"             ─━═ {len(sets_list)} Sets Choosen ═━─        ", style='bold blue1')
+    #console.print(f"[{color}]{', '.join(sets_list)}[/{color}] ") # one line list
+    for s in sets_list :
+        console.print(f"[{color}]{s.title()}[/{color}] ")
 
     console.print("")
     
@@ -430,7 +444,7 @@ __  / / /_ | /| / /_  /    __  /_/ /
 _  /_/ /__ |/ |/ / / /___  _  ____/ 
 /_____/ ____/|__/  \____/  /_/
     '''
-    title = r'''
+    title2 = r'''
 .----------------.  .----------------.  .----------------.  .----------------. 
 | .--------------. || .--------------. || .--------------. || .--------------. |
 | |  ________    | || | _____  _____ | || |     ______   | || |   ______     | |
