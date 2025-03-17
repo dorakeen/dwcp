@@ -11,6 +11,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 18
+    toPick: true
   - name: City
     cost:
       treasure: 5
@@ -27,6 +29,8 @@ cards:
     isActionSupplier: true
     isBuySupplier: true
 
+    pickTimes: 18
+    toPick: true
   - name: Contraband
     cost:
       treasure: 5
@@ -40,6 +44,7 @@ cards:
     isBuySupplier: true
     toPick: false
 
+    pickTimes: 18
   - name: Counting House
     cost:
       treasure: 5
@@ -52,6 +57,8 @@ cards:
     isReaction: false
     isBuySupplier: false
 
+    pickTimes: 18
+    toPick: true
   - name: Bishop
     cost:
       treasure: 4
@@ -63,6 +70,8 @@ cards:
     isTrashing: true
     isReaction: false
 
+    pickTimes: 18
+    toPick: true
   - name: Grand Market
     cost:
       treasure: 6
@@ -76,6 +85,8 @@ cards:
     isDuration: false
     isBuySupplier: true
 
+    pickTimes: 18
+    toPick: true
   - name: Goons
     cost:
       treasure: 6
@@ -89,6 +100,8 @@ cards:
     isDuration: false
     isBuySupplier: true
 
+    pickTimes: 18
+    toPick: true
   - name: Watchtower
     cost:
       treasure: 3
@@ -103,6 +116,8 @@ cards:
     isReaction: true
     isDuration: false
 
+    pickTimes: 18
+    toPick: true
   - name: Expand
     cost:
       treasure: 7
@@ -115,6 +130,8 @@ cards:
     isReaction: false
     isDuration: false
 
+    pickTimes: 18
+    toPick: true
   - name: King's Court
     cost:
       treasure: 7
@@ -127,6 +144,8 @@ cards:
     isReaction: false
     isDuration: false
 
+    pickTimes: 18
+    toPick: true
   - name: Hoard
     cost:
       treasure: 6
@@ -139,6 +158,8 @@ cards:
     isReaction: false
     isDuration: false
 
+    pickTimes: 18
+    toPick: true
   - name: Peddler
     cost:
       treasure: 8
@@ -151,6 +172,8 @@ cards:
     isReaction: false
     isDuration: false
 
+    pickTimes: 18
+    toPick: true
   - name: Monument
     cost:
       treasure: 4
@@ -162,6 +185,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 18
+    toPick: true
   - name: Forge
     cost:
       treasure: 7
@@ -174,6 +199,8 @@ cards:
     isReaction: false
     isDuration: false
 
+    pickTimes: 18
+    toPick: true
   - name: Rabble
     cost:
       treasure: 5
@@ -188,6 +215,8 @@ cards:
     isReaction: false
     isDuration: false
 
+    pickTimes: 18
+    toPick: true
   - name: Talisman
     cost:
       treasure: 4
@@ -200,6 +229,8 @@ cards:
     isReaction: false
     isDuration: false
 
+    pickTimes: 18
+    toPick: true
   - name: Mint
     cost:
       treasure: 5
@@ -212,6 +243,8 @@ cards:
     isReaction: false
     isDuration: false
 
+    pickTimes: 18
+    toPick: true
   - name: Loan
     cost:
       treasure: 3
@@ -224,6 +257,7 @@ cards:
     isReaction: false
     toPick: false
 
+    pickTimes: 18
   - name: Trade Route
     cost:
       treasure: 3
@@ -237,6 +271,7 @@ cards:
     isBuySupplier: true
     toPick: false
 
+    pickTimes: 18
   - name: Quarry
     cost:
       treasure: 4
@@ -249,6 +284,8 @@ cards:
     isReaction: false
     isDuration: false
 
+    pickTimes: 18
+    toPick: true
   - name: Royal Seal
     cost:
       treasure: 5
@@ -262,6 +299,7 @@ cards:
     isDuration: false
     toPick: false
 
+    pickTimes: 18
   - name: Mountebank
     cost:
       treasure: 5
@@ -273,6 +311,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 18
+    toPick: true
   - name: Worker's Village
     cost:
       treasure: 4
@@ -287,6 +327,8 @@ cards:
     isActionSupplier: true
     isBuySupplier: true
 
+    pickTimes: 18
+    toPick: true
   - name: Vault
     cost:
       treasure: 5
@@ -301,6 +343,8 @@ cards:
     isReaction: false
     isDuration: false
 
+    pickTimes: 18
+    toPick: true
   - name: Venture
     cost:
       treasure: 5
@@ -313,3 +357,4 @@ cards:
     isReaction: false
     isDuration: false
     toPick: false
+    pickTimes: 18

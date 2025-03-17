@@ -18,9 +18,10 @@ cards:
     isVictory: false
     toPick: false
 
+    pickTimes: 21
   - name: Church
     cost:
-      treasure: 3 
+      treasure: 3
       potion: 0
       debt: 0
     isAction: true
@@ -41,6 +42,7 @@ cards:
     isVictory: false
     toPick: false
 
+    pickTimes: 21
   - name: Dismantle
     cost:
       treasure: 4
@@ -64,6 +66,7 @@ cards:
     isVictory: false
     toPick: false
 
+    pickTimes: 21
   - name: Envoy
     cost:
       treasure: 4
@@ -81,6 +84,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 21
+    toPick: true
   - name: Sauna / Avanto
     cost:
       treasure: 4
@@ -103,6 +108,8 @@ cards:
     isTerminal: false
     isVictory: false
 
+    pickTimes: 21
+    toPick: true
   - name: Walled Village
     cost:
       treasure: 4
@@ -120,6 +127,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 21
+    toPick: true
   - name: Governor
     cost:
       treasure: 5
@@ -138,6 +147,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 21
+    toPick: true
   - name: Stash
     cost:
       treasure: 5
@@ -154,7 +165,9 @@ cards:
     isTraveller: false
     isTreasure: true
     isVictory: false
-    
+
+    pickTimes: 21
+    toPick: true
   - name: Captain
     cost:
       treasure: 6
@@ -178,6 +191,7 @@ cards:
     isVictory: false
     toPick: false
 
+    pickTimes: 21
   - name: Marchland
     cost:
       treasure: 5
@@ -195,6 +209,8 @@ cards:
     isTreasure: false
     isVictory: true
 
+    pickTimes: 21
+    toPick: true
   - name: Prince
     cost:
       treasure: 8
@@ -212,6 +228,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 21
+    toPick: true
 events:
   - name: Summon
     cost:

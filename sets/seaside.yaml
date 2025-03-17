@@ -14,6 +14,7 @@ cards:
     isReaction: false
     toPick: false
 
+    pickTimes: 20
   - name: Smugglers
     cost:
       treasure: 3
@@ -25,6 +26,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 20
+    toPick: true
   - name: Salvager
     cost:
       treasure: 4
@@ -37,6 +40,8 @@ cards:
     isReaction: false
     isBuySupplier: true
 
+    pickTimes: 20
+    toPick: true
   - name: Haven
     cost:
       treasure: 2
@@ -49,6 +54,8 @@ cards:
     isReaction: false
     isDuration: true
 
+    pickTimes: 20
+    toPick: true
   - name: Ambassador
     cost:
       treasure: 3
@@ -62,6 +69,7 @@ cards:
     isDuration: false
     toPick: false
 
+    pickTimes: 20
   - name: Sea Hag
     cost:
       treasure: 4
@@ -75,6 +83,7 @@ cards:
     isDuration: false
     toPick: false
 
+    pickTimes: 20
   - name: Native Village
     cost:
       treasure: 2
@@ -88,6 +97,8 @@ cards:
     isDuration: false
     isActionSupplier: true
 
+    pickTimes: 20
+    toPick: true
   - name: Navigator
     cost:
       treasure: 4
@@ -101,6 +112,7 @@ cards:
     isDuration: false
     toPick: false
 
+    pickTimes: 20
   - name: Tactician
     cost:
       treasure: 5
@@ -117,6 +129,8 @@ cards:
     isActionSupplier: false
     isBuySupplier: true
 
+    pickTimes: 20
+    toPick: true
   - name: Fishing Village
     cost:
       treasure: 3
@@ -130,6 +144,8 @@ cards:
     isDuration: true
     isActionSupplier: true
 
+    pickTimes: 20
+    toPick: true
   - name: Island
     cost:
       treasure: 4
@@ -142,6 +158,8 @@ cards:
     isReaction: false
     isDuration: false
 
+    pickTimes: 20
+    toPick: true
   - name: Wharf
     cost:
       treasure: 5
@@ -157,6 +175,8 @@ cards:
     isDuration: true
     isBuySupplier: true
 
+    pickTimes: 20
+    toPick: true
   - name: Bazaar
     cost:
       treasure: 5
@@ -170,6 +190,8 @@ cards:
     isDuration: false
     isActionSupplier: true
 
+    pickTimes: 20
+    toPick: true
   - name: Treasure Map
     cost:
       treasure: 4
@@ -182,6 +204,8 @@ cards:
     isReaction: false
     isDuration: false
 
+    pickTimes: 20
+    toPick: true
   - name: Explorer
     cost:
       treasure: 5
@@ -195,6 +219,7 @@ cards:
     isDuration: false
     toPick: false
 
+    pickTimes: 20
   - name: Lookout
     cost:
       treasure: 3
@@ -207,6 +232,8 @@ cards:
     isReaction: false
     isDuration: false
 
+    pickTimes: 20
+    toPick: true
   - name: Treasury
     cost:
       treasure: 5
@@ -219,6 +246,8 @@ cards:
     isReaction: false
     isDuration: false
 
+    pickTimes: 20
+    toPick: true
   - name: Cutpurse
     cost:
       treasure: 4
@@ -231,6 +260,8 @@ cards:
     isReaction: false
     isDuration: false
 
+    pickTimes: 20
+    toPick: true
   - name: Caravan
     cost:
       treasure: 4
@@ -243,6 +274,8 @@ cards:
     isReaction: false
     isDuration: true
 
+    pickTimes: 20
+    toPick: true
   - name: Warehouse
     cost:
       treasure: 3
@@ -257,6 +290,8 @@ cards:
     isReaction: false
     isDuration: false
 
+    pickTimes: 20
+    toPick: true
   - name: Lighthouse
     cost:
       treasure: 2
@@ -269,6 +304,8 @@ cards:
     isReaction: false
     isDuration: true
 
+    pickTimes: 20
+    toPick: true
   - name: Pirate Ship
     cost:
       treasure: 4
@@ -282,6 +319,7 @@ cards:
     isDuration: false
     toPick: false
 
+    pickTimes: 20
   - name: Pearl Diver
     cost:
       treasure: 2
@@ -295,6 +333,7 @@ cards:
     isDuration: false
     toPick: false
 
+    pickTimes: 20
   - name: Merchant Ship
     cost:
       treasure: 5
@@ -307,6 +346,8 @@ cards:
     isReaction: false
     isDuration: true
 
+    pickTimes: 20
+    toPick: true
   - name: Embargo
     cost:
       treasure: 2
@@ -320,6 +361,7 @@ cards:
     isDuration: false
     toPick: false
 
+    pickTimes: 20
   - name: Outpost
     cost:
       treasure: 5
@@ -331,3 +373,5 @@ cards:
     isTrashing: false
     isReaction: false
     isDuration: true
+    pickTimes: 20
+    toPick: true

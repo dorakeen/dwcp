@@ -1,5 +1,3 @@
-#!/usr/bin/env python3.6
-# -*- coding: utf-8 -*-
 # ===============================================================================
 # Title: Dominion Weighted Card Picker
 #
@@ -25,9 +23,10 @@
 #   - Rich
 #
 # TODO:
-#   - Sort selected kingdoms
-#   - Selection max number of kingdom set cards
 #   - Save the picked cards to the respective yaml files
+#   - Add Colony/Platinum selection
+#   - Add Shelter selection
+#   - Selection max number of kingdom set cards
 #   - Save the picked cards to a database
 #   - Add support for specifying the number of kingdom and landscape cards to select
 #   - Add support for specifying the card sets to include in the selection
@@ -45,7 +44,8 @@ import pathlib
 import random
 import os
 import sys
-import yaml
+#import yaml
+from ruamel.yaml import YAML
 
 from rich.console import Console
 
@@ -71,34 +71,45 @@ log.addHandler(SH)
 #
 
 #
+# Global vars
+
+# Global variable to hold the card sets
+dSet = 0
+yaml = YAML()
+    
+
+# #
+#
+
+#
 # CARDS 
 # This is needed to iterate over cards types
 # This is also used as master list of all setnames themselves 
 SETNAME_TO_YAMLNAME = {
     "base": "base-set.yaml",
-    "base-update": "base-set-update.yaml",
     "intrigue": "intrigue.yaml",
-    "intrigue-update": "intrigue-update.yaml",
+    "promos": "promos.yaml",
     "seaside": "seaside.yaml",
-    "seaside-update": "seaside-update.yaml",
     "alchemy": "alchemy.yaml",
     "prosperity": "prosperity.yaml",
-    "prosperity-update": "prosperity-update.yaml",
     "cornucopia": "cornucopia.yaml",
     "hinterlands": "hinterlands.yaml",
-    "hinterlands-update": "hinterlands-update.yaml",
     "dark_ages": "dark-ages.yaml",
     "guilds": "guilds.yaml",
-    "cornucopia-guilds-update": "cornucopia-guilds-update.yaml",
     "adventures": "adventures.yaml",
     "empires": "empires.yaml",
+    "base-update": "base-set-update.yaml",
+    "intrigue-update": "intrigue-update.yaml",
     "nocturne": "nocturne.yaml",
     "renaissance": "renaissance.yaml",
     "menagerie": "menagerie.yaml",
     "allies": "allies.yaml",
+    "seaside-update": "seaside-update.yaml",
+    "prosperity-update": "prosperity-update.yaml",
+    "hinterlands-update": "hinterlands-update.yaml",
     "plunder": "plunder.yaml",
-    #"rising-sun": "rising-sun.yaml",
-    "promos": "promos.yaml"
+    "cornucopia-guilds-update": "cornucopia-guilds-update.yaml"
+    #"rising-sun": "rising-sun.yaml"
 }
 # #
 #
@@ -154,6 +165,41 @@ def set_default_card_attibutes() :
     return card_attibutes
 
 # ===============================================================================
+# Create landscapes attributes dictionary
+# ===============================================================================
+def set_default_landscape_attibutes() :
+    '''
+    Sets default landscape attributes for a landscape
+    '''
+
+    landscape_attibutes = {
+                      'pickTimes': 0,
+                      'toPick': True,
+                      'isAction': False,
+                      'isActionSupplier': False,
+                      'isArtifactSupplier': False,
+                      'isAttack': False,
+                      'isBuySupplier': False,
+                      'isDoom': False,
+                      'isDrawer': False,
+                      'isDuration': False,
+                      'isFate': False,
+                      'isLiaison': False,
+                      'isMultiDrawer': False,
+                      'isNight': False,
+                      'isOmen': False,
+                      'isReaction': False,
+                      'isReserve': False,
+                      'isTrashing': False,
+                      'isTraveller': False,
+                      'isTreasure': False,
+                      'isVictory': False,
+                      'isTerminal': True
+    }
+
+    return landscape_attibutes
+
+# ===============================================================================
 # Create master randomizer piles
 # ===============================================================================
 def create_randomizer_piles(l_args):
@@ -166,6 +212,8 @@ def create_randomizer_piles(l_args):
 
     This list will be modified/deleted to track what cards were taken. Those cards will be "moved" to pickedpiles.
     '''
+
+    global dSet
 
     randpiles = {
         "kingdoms": [],
@@ -182,7 +230,8 @@ def create_randomizer_piles(l_args):
 
         set_filepath = pathlib.Path.cwd() / "sets" / yamlname
         with open(set_filepath, 'r', encoding="utf-8") as file:
-            dSet = yaml.safe_load(file)
+            #dSet = yaml.safe_load(file)
+            dSet = yaml.load(file)
             # log.debug(f" {dSet}")
 
         # Iterate over each kingdom card, and copy into randpiles while adding key/value for the set name itself
@@ -195,14 +244,19 @@ def create_randomizer_piles(l_args):
             else :
                 log.debug(f"\t{kcard['name']} not to be picked")
 
+            # Count the number of times a card has been picked
+            kcard["pickTimes"] += 1
+
         # Iterate over each landscape card type, and copy into randpiles while adding key/value
         # for the set name itself, and the key/value of the landscape type
+        log.debug('Landscape cards: ')
         for name_p, name_s in LANDSCAPE_NAMES_TO_NAME.items():
             if name_p in dSet:
                 for landscape in dSet[name_p]:
                     landscape["set"] = setname
                     landscape["type"] = name_s
 
+                    log.debug(f'\t{landscape}')
                     if landscape["type"] == 'ally' :
                         randpiles["allies"].append(landscape)
                     elif landscape["type"] == 'prophecy' :
@@ -272,7 +326,7 @@ def pick_random_cards(randpiles, num_kingdom=10, num_landscape=0):
 
 
 # ===============================================================================
-# dwcp(l_args)
+# print_result(l_args)
 # =============================================================================== 
 def print_result(selection) :
     """
@@ -353,6 +407,24 @@ def print_result(selection) :
     
 
 # ===============================================================================
+# save_picked_cards(selection)
+# =============================================================================== 
+def save_picked_cards(selection) :
+    """
+    Saves the picked cards to the respective yaml files.
+    This is needed to select the weight probability.
+    """
+    global dSet
+    
+    #print(dSet)
+    for kcard in selection["kingdoms"]:
+        pass
+
+    for landscape in selection["landscapes"]:
+        pass
+
+
+# ===============================================================================
 # dwcp(l_args)
 # ===============================================================================
 def dwcp(l_args):
@@ -369,6 +441,8 @@ def dwcp(l_args):
     selected = pick_random_cards(randpiles, num_kingdom=10, num_landscape=random.randrange(3))
     
     print_result(selected)
+
+    save_picked_cards(selected)
 
     return selected
 

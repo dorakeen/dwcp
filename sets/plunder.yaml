@@ -24,6 +24,8 @@ cards:
     isVictory: false
     isLootSupplier: false
 
+    pickTimes: 2
+    toPick: true
   - name: Grotto
     cost:
       treasure: 2
@@ -49,6 +51,8 @@ cards:
     isLootSupplier: false
 
 
+    pickTimes: 2
+    toPick: true
   - name: Jewelled Egg
     cost:
       treasure: 2
@@ -73,6 +77,8 @@ cards:
     isVictory: false
     isLootSupplier: true
 
+    pickTimes: 2
+    toPick: true
   - name: Search
     cost:
       treasure: 2
@@ -97,6 +103,8 @@ cards:
     isVictory: false
     isLootSupplier: true
 
+    pickTimes: 2
+    toPick: true
   - name: Shaman
     cost:
       treasure: 2
@@ -121,6 +129,8 @@ cards:
     isVictory: false
     isLootSupplier: false
 
+    pickTimes: 2
+    toPick: true
   - name: Secluded Shrine
     cost:
       treasure: 3
@@ -145,6 +155,8 @@ cards:
     isVictory: false
     isLootSupplier: false
 
+    pickTimes: 2
+    toPick: true
   - name: Siren
     cost:
       treasure: 3
@@ -169,6 +181,8 @@ cards:
     isVictory: false
     isLootSupplier: false
 
+    pickTimes: 2
+    toPick: true
   - name: Stowaway
     cost:
       treasure: 3
@@ -193,6 +207,8 @@ cards:
     isVictory: false
     isLootSupplier: false
 
+    pickTimes: 2
+    toPick: true
   - name: Taskmaster
     cost:
       treasure: 3
@@ -217,6 +233,8 @@ cards:
     isVictory: false
     isLootSupplier: false
 
+    pickTimes: 2
+    toPick: true
   - name: Abundance
     cost:
       treasure: 4
@@ -240,7 +258,9 @@ cards:
     isTreasure: true
     isVictory: false
     isLootSupplier: false
-      
+
+    pickTimes: 2
+    toPick: true
   - name: Cabin Boy
     cost:
       treasure: 4
@@ -265,6 +285,8 @@ cards:
     isVictory: false
     isLootSupplier: false
 
+    pickTimes: 2
+    toPick: true
   - name: Crucible
     cost:
       treasure: 4
@@ -289,6 +311,8 @@ cards:
     isVictory: false
     isLootSupplier: false
 
+    pickTimes: 2
+    toPick: true
   - name: Flagship
     cost:
       treasure: 4
@@ -313,6 +337,8 @@ cards:
     isVictory: false
     isLootSupplier: false
 
+    pickTimes: 2
+    toPick: true
   - name: Fortune Hunter
     cost:
       treasure: 4
@@ -337,6 +363,8 @@ cards:
     isVictory: false
     isLootSupplier: false
 
+    pickTimes: 2
+    toPick: true
   - name: Gondola
     cost:
       treasure: 4
@@ -361,6 +389,8 @@ cards:
     isVictory: false
     isLootSupplier: false
 
+    pickTimes: 2
+    toPick: true
   - name: Harbor Village
     cost:
       treasure: 4
@@ -385,6 +415,8 @@ cards:
     isVictory: false
     isLootSupplier: false
 
+    pickTimes: 2
+    toPick: true
   - name: Landing Party
     cost:
       treasure: 4
@@ -409,6 +441,8 @@ cards:
     isVictory: false
     isLootSupplier: false
 
+    pickTimes: 2
+    toPick: true
   - name: Mapmaker
     cost:
       treasure: 4
@@ -433,6 +467,8 @@ cards:
     isVictory: false
     isLootSupplier: false
 
+    pickTimes: 2
+    toPick: true
   - name: Maroon
     cost:
       treasure: 4
@@ -457,6 +493,8 @@ cards:
     isVictory: false
     isLootSupplier: false
 
+    pickTimes: 2
+    toPick: true
   - name: Rope
     cost:
       treasure: 4
@@ -481,6 +519,8 @@ cards:
     isVictory: false
     isLootSupplier: false
 
+    pickTimes: 2
+    toPick: true
   - name: Swamp Shacks
     cost:
       treasure: 4
@@ -505,6 +545,8 @@ cards:
     isVictory: false
     isLootSupplier: false
 
+    pickTimes: 2
+    toPick: true
   - name: Tools
     cost:
       treasure: 4
@@ -529,6 +571,8 @@ cards:
     isVictory: false
     isLootSupplier: false
 
+    pickTimes: 2
+    toPick: true
   - name: Buried Treasure
     cost:
       treasure: 5
@@ -552,7 +596,9 @@ cards:
     isTreasure: true
     isVictory: false
     isLootSupplier: false
-      
+
+    pickTimes: 2
+    toPick: true
   - name: Crew
     cost:
       treasure: 5
@@ -576,7 +622,9 @@ cards:
     isTreasure: false
     isVictory: false
     isLootSupplier: false
-      
+
+    pickTimes: 2
+    toPick: true
   - name: Cutthroat
     cost:
       treasure: 5
@@ -600,7 +648,9 @@ cards:
     isTreasure: false
     isVictory: false
     isLootSupplier: true
-      
+
+    pickTimes: 2
+    toPick: true
   - name: Enlarge
     cost:
       treasure: 5
@@ -624,7 +674,9 @@ cards:
     isTreasure: false
     isVictory: false
     isLootSupplier: false
-      
+
+    pickTimes: 2
+    toPick: true
   - name: Figurine
     cost:
       treasure: 5
@@ -648,7 +700,9 @@ cards:
     isTreasure: true
     isVictory: false
     isLootSupplier: false
-      
+
+    pickTimes: 2
+    toPick: true
   - name: First Mate
     cost:
       treasure: 5
@@ -673,6 +727,8 @@ cards:
     isVictory: false
     isLootSupplier: false
 
+    pickTimes: 2
+    toPick: true
   - name: Frigate
     cost:
       treasure: 5
@@ -696,7 +752,9 @@ cards:
     isTreasure: false
     isVictory: false
     isLootSupplier: false
-      
+
+    pickTimes: 2
+    toPick: true
   - name: Longship
     cost:
       treasure: 5
@@ -720,7 +778,9 @@ cards:
     isTreasure: false
     isVictory: false
     isLootSupplier: false
-      
+
+    pickTimes: 2
+    toPick: true
   - name: Mining Road
     cost:
       treasure: 5
@@ -744,7 +804,9 @@ cards:
     isTreasure: false
     isVictory: false
     isLootSupplier: false
-      
+
+    pickTimes: 2
+    toPick: true
   - name: Pendant
     cost:
       treasure: 5
@@ -768,7 +830,9 @@ cards:
     isTreasure: true
     isVictory: false
     isLootSupplier: false
-      
+
+    pickTimes: 2
+    toPick: true
   - name: Pickaxe
     cost:
       treasure: 5
@@ -792,7 +856,9 @@ cards:
     isTreasure: true
     isVictory: false
     isLootSupplier: true
-      
+
+    pickTimes: 2
+    toPick: true
   - name: Pilgrim
     cost:
       treasure: 5
@@ -816,7 +882,9 @@ cards:
     isTreasure: false
     isVictory: false
     isLootSupplier: false
-      
+
+    pickTimes: 2
+    toPick: true
   - name: Quartermaster
     cost:
       treasure: 5
@@ -840,7 +908,9 @@ cards:
     isTreasure: false
     isVictory: false
     isLootSupplier: false
-      
+
+    pickTimes: 2
+    toPick: true
   - name: Silver Mine
     cost:
       treasure: 5
@@ -864,7 +934,9 @@ cards:
     isTreasure: true
     isVictory: false
     isLootSupplier: false
-      
+
+    pickTimes: 2
+    toPick: true
   - name: Trickster
     cost:
       treasure: 5
@@ -888,7 +960,9 @@ cards:
     isTreasure: false
     isVictory: false
     isLootSupplier: false
-      
+
+    pickTimes: 2
+    toPick: true
   - name: Wealthy Village
     cost:
       treasure: 5
@@ -912,7 +986,9 @@ cards:
     isTreasure: false
     isVictory: false
     isLootSupplier: true
-      
+
+    pickTimes: 2
+    toPick: true
   - name: Sack of Loot
     cost:
       treasure: 6
@@ -937,6 +1013,8 @@ cards:
     isVictory: false
     isLootSupplier: true
 
+    pickTimes: 2
+    toPick: true
   - name: King's Cache
     cost:
       treasure: 7
@@ -960,7 +1038,9 @@ cards:
     isTreasure: true
     isVictory: false
     isLootSupplier: false
-  
+
+    pickTimes: 2
+    toPick: true
 events:
   - name: Bury
     cost:
@@ -1038,4 +1118,3 @@ traits:
   - name: Rich
   - name: Shy
   - name: Tireless
-  

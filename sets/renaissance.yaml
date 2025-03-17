@@ -1,5 +1,5 @@
 name: Renaissance
-cards:  
+cards:
   - name: Border Guard
     cost:
       treasure: 2
@@ -22,6 +22,8 @@ cards:
     isTerminal: false
     isVictory: false
 
+    pickTimes: 8
+    toPick: true
   - name: Ducat
     cost:
       treasure: 2
@@ -44,6 +46,8 @@ cards:
     isTerminal: false
     isVictory: false
 
+    pickTimes: 8
+    toPick: true
   - name: Lackeys
     cost:
       treasure: 2
@@ -67,6 +71,8 @@ cards:
     isVictory: false
     isVillageSupplier: true
 
+    pickTimes: 8
+    toPick: true
   - name: Acting Troupe
     cost:
       treasure: 3
@@ -90,6 +96,8 @@ cards:
     isVictory: false
     isVillageSupplier: true
 
+    pickTimes: 8
+    toPick: true
   - name: Cargo Ship
     cost:
       treasure: 3
@@ -113,6 +121,8 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
+    pickTimes: 8
+    toPick: true
   - name: Experiment
     cost:
       treasure: 3
@@ -136,6 +146,8 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
+    pickTimes: 8
+    toPick: true
   - name: Improve
     cost:
       treasure: 3
@@ -158,7 +170,9 @@ cards:
     isTerminal: false
     isVictory: false
     isVillageSupplier: false
-  
+
+    pickTimes: 8
+    toPick: true
   - name: Flag Bearer
     cost:
       treasure: 4
@@ -182,6 +196,8 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
+    pickTimes: 8
+    toPick: true
   - name: Hideout
     cost:
       treasure: 4
@@ -205,6 +221,8 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
+    pickTimes: 8
+    toPick: true
   - name: Inventor
     cost:
       treasure: 4
@@ -228,6 +246,8 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
+    pickTimes: 8
+    toPick: true
   - name: Mountain Village
     cost:
       treasure: 4
@@ -251,6 +271,8 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
+    pickTimes: 8
+    toPick: true
   - name: Patron
     cost:
       treasure: 4
@@ -274,6 +296,8 @@ cards:
     isVictory: false
     isVillageSupplier: true
 
+    pickTimes: 8
+    toPick: true
   - name: Priest
     cost:
       treasure: 4
@@ -297,6 +321,8 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
+    pickTimes: 8
+    toPick: true
   - name: Research
     cost:
       treasure: 4
@@ -320,6 +346,8 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
+    pickTimes: 8
+    toPick: true
   - name: Silk Merchant
     cost:
       treasure: 4
@@ -343,6 +371,8 @@ cards:
     isVictory: false
     isVillageSupplier: true
 
+    pickTimes: 8
+    toPick: true
   - name: Old Witch
     cost:
       treasure: 5
@@ -366,6 +396,8 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
+    pickTimes: 8
+    toPick: true
   - name: Recruiter
     cost:
       treasure: 5
@@ -389,6 +421,8 @@ cards:
     isVictory: false
     isVillageSupplier: true
 
+    pickTimes: 8
+    toPick: true
   - name: Scepter
     cost:
       treasure: 5
@@ -412,6 +446,8 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
+    pickTimes: 8
+    toPick: true
   - name: Scholar
     cost:
       treasure: 5
@@ -435,6 +471,8 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
+    pickTimes: 8
+    toPick: true
   - name: Sculptor
     cost:
       treasure: 5
@@ -458,6 +496,8 @@ cards:
     isVictory: false
     isVillageSupplier: true
 
+    pickTimes: 8
+    toPick: true
   - name: Seer
     cost:
       treasure: 5
@@ -481,6 +521,8 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
+    pickTimes: 8
+    toPick: true
   - name: Spices
     cost:
       treasure: 5
@@ -504,6 +546,8 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
+    pickTimes: 8
+    toPick: true
   - name: Swashbuckler
     cost:
       treasure: 5
@@ -527,6 +571,8 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
+    pickTimes: 8
+    toPick: true
   - name: Treasurer
     cost:
       treasure: 5
@@ -550,6 +596,8 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
+    pickTimes: 8
+    toPick: true
   - name: Villain
     cost:
       treasure: 5
@@ -573,6 +621,8 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
+    pickTimes: 8
+    toPick: true
 projects:
   - name: Cathedral
     cost:

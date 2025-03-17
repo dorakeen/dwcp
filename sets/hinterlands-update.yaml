@@ -6,6 +6,8 @@ cards:
     isAction: true
     isBuySupplier: true
 
+    pickTimes: 3
+    toPick: true
   - name: Trail
     cost:
       treasure: 4
@@ -13,18 +15,24 @@ cards:
     isAction: true
     isReaction: true
 
+    pickTimes: 3
+    toPick: true
   - name: Weaver
     cost:
       treasure: 4
     isAction: true
     isReaction: true
 
+    pickTimes: 3
+    toPick: true
   - name: Berserker
     cost:
       treasure: 5
     isAttack: true
     isAction: true
 
+    pickTimes: 3
+    toPick: true
   - name: Cauldron
     cost:
       treasure: 5
@@ -32,6 +40,8 @@ cards:
     isBuySupplier: true
     isTreasure: true
 
+    pickTimes: 3
+    toPick: true
   - name: Guard Dog
     cost:
       treasure: 3
@@ -40,18 +50,24 @@ cards:
     isMultiDrawer: true
     isReaction: true
 
+    pickTimes: 3
+    toPick: true
   - name: Souk
     cost:
       treasure: 5
     isBuySupplier: true
     isAction: true
 
+    pickTimes: 3
+    toPick: true
   - name: Wheelwright
     cost:
       treasure: 5
     isAction: true
     isDrawer: true
 
+    pickTimes: 3
+    toPick: true
   - name: Witch's Hut
     cost:
       treasure: 5
@@ -59,3 +75,5 @@ cards:
     isAction: true
     isDrawer: true
     isMultiDrawer: true
+    pickTimes: 3
+    toPick: true

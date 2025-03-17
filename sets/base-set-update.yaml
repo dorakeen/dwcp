@@ -1,5 +1,5 @@
 name: Dominion (update)
-cards:  
+cards:
   - name: Harbinger
     cost:
       treasure: 3
@@ -14,6 +14,8 @@ cards:
     isDuration: false
     isActionSupplier: false
 
+    pickTimes: 11
+    toPick: true
   - name: Merchant
     cost:
       treasure: 3
@@ -28,6 +30,8 @@ cards:
     isDuration: false
     isActionSupplier: false
 
+    pickTimes: 11
+    toPick: true
   - name: Vassal
     cost:
       treasure: 3
@@ -42,6 +46,8 @@ cards:
     isDuration: false
     isActionSupplier: false
 
+    pickTimes: 11
+    toPick: true
   - name: Poacher
     cost:
       treasure: 4
@@ -56,6 +62,8 @@ cards:
     isDuration: false
     isActionSupplier: false
 
+    pickTimes: 11
+    toPick: true
   - name: Bandit
     cost:
       treasure: 5
@@ -70,6 +78,8 @@ cards:
     isDuration: false
     isActionSupplier: false
 
+    pickTimes: 11
+    toPick: true
   - name: Sentry
     cost:
       treasure: 5
@@ -84,6 +94,8 @@ cards:
     isDuration: false
     isActionSupplier: false
 
+    pickTimes: 11
+    toPick: true
   - name: Artisan
     cost:
       treasure: 6
@@ -97,3 +109,5 @@ cards:
     isReaction: false
     isDuration: false
     isActionSupplier: false
+    pickTimes: 11
+    toPick: true

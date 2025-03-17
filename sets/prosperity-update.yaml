@@ -6,6 +6,8 @@ cards:
     isTreasure: true
     isTrashing: true
 
+    pickTimes: 4
+    toPick: true
   - name: Clerk
     cost:
       treasure: 4
@@ -13,36 +15,48 @@ cards:
     isAction: true
     isReaction: true
 
+    pickTimes: 4
+    toPick: true
   - name: Investment
     cost:
       treasure: 4
     isTreasure: true
     isTrashing: true
 
+    pickTimes: 4
+    toPick: true
   - name: Tiara
     cost:
       treasure: 4
     isTreasure: true
     isBuySupplier: true
 
+    pickTimes: 4
+    toPick: true
   - name: Charlatan
     cost:
       treasure: 5
     isAttack: true
     isAction: true
 
+    pickTimes: 4
+    toPick: true
   - name: Collection
     cost:
       treasure: 5
     isTreasure: true
     isBuySupplier: true
 
+    pickTimes: 4
+    toPick: true
   - name: Crystal Ball
     cost:
       treasure: 5
     isTreasure: true
     isTrashing: true
 
+    pickTimes: 4
+    toPick: true
   - name: Magnate
     cost:
       treasure: 5
@@ -50,7 +64,11 @@ cards:
     isDrawer: true
     isMultiDrawer: true
 
+    pickTimes: 4
+    toPick: true
   - name: War Chest
     cost:
       treasure: 5
     isTreasure: true
+    pickTimes: 4
+    toPick: true

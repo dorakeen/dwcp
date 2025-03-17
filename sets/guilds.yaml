@@ -1,5 +1,5 @@
 name: Guilds
-cards:  
+cards:
   - name: Advisor
     cost:
       treasure: 4
@@ -13,6 +13,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 14
+    toPick: true
   - name: Baker
     cost:
       treasure: 5
@@ -24,6 +26,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 14
+    toPick: true
   - name: Butcher
     cost:
       treasure: 5
@@ -35,6 +39,8 @@ cards:
     isTrashing: true
     isReaction: false
 
+    pickTimes: 14
+    toPick: true
   - name: Candlestick Maker
     cost:
       treasure: 2
@@ -47,6 +53,8 @@ cards:
     isReaction: false
     isBuySupplier: true
 
+    pickTimes: 14
+    toPick: true
   - name: Doctor
     cost:
       treasure: 3
@@ -58,6 +66,8 @@ cards:
     isTrashing: true
     isReaction: false
 
+    pickTimes: 14
+    toPick: true
   - name: Herald
     cost:
       treasure: 4
@@ -69,6 +79,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 14
+    toPick: true
   - name: Journeyman
     cost:
       treasure: 5
@@ -82,6 +94,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 14
+    toPick: true
   - name: Masterpiece
     cost:
       treasure: 3
@@ -93,6 +107,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 14
+    toPick: true
   - name: Merchant Guild
     cost:
       treasure: 5
@@ -105,6 +121,8 @@ cards:
     isReaction: false
     isBuySupplier: true
 
+    pickTimes: 14
+    toPick: true
   - name: Plaza
     cost:
       treasure: 4
@@ -117,6 +135,8 @@ cards:
     isReaction: false
     isActionSupplier: true
 
+    pickTimes: 14
+    toPick: true
   - name: Soothsayer
     cost:
       treasure: 5
@@ -128,6 +148,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 14
+    toPick: true
   - name: Stonemason
     cost:
       treasure: 2
@@ -139,6 +161,8 @@ cards:
     isTrashing: true
     isReaction: false
 
+    pickTimes: 14
+    toPick: true
   - name: Taxman
     cost:
       treasure: 4
@@ -149,3 +173,5 @@ cards:
     isVictory: false
     isTrashing: true
     isReaction: false
+    pickTimes: 14
+    toPick: true

@@ -1,5 +1,5 @@
 name: Nocturne
-cards:  
+cards:
   - name: Druid
     cost:
       treasure: 2
@@ -18,7 +18,9 @@ cards:
     isTrashing: false
     isTreasure: false
     isVictory: false
-  
+
+    pickTimes: 9
+    toPick: true
   - name: Faithful Hound
     cost:
       treasure: 2
@@ -38,7 +40,9 @@ cards:
     isTrashing: false
     isTreasure: false
     isVictory: false
-  
+
+    pickTimes: 9
+    toPick: true
   - name: Guardian
     cost:
       treasure: 2
@@ -57,7 +61,9 @@ cards:
     isTrashing: false
     isTreasure: false
     isVictory: false
-  
+
+    pickTimes: 9
+    toPick: true
   - name: Monastery
     cost:
       treasure: 2
@@ -77,6 +83,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 9
+    toPick: true
   - name: Pixie
     cost:
       treasure: 2
@@ -96,6 +104,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 9
+    toPick: true
   - name: Tracker
     cost:
       treasure: 2
@@ -114,7 +124,9 @@ cards:
     isTrashing: false
     isTreasure: false
     isVictory: false
- 
+
+    pickTimes: 9
+    toPick: true
   - name: Changeling
     cost:
       treasure: 3
@@ -134,6 +146,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 9
+    toPick: true
   - name: Fool
     cost:
       treasure: 3
@@ -153,6 +167,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 9
+    toPick: true
   - name: Ghost Town
     cost:
       treasure: 3
@@ -172,6 +188,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 9
+    toPick: true
   - name: Leprechaun
     cost:
       treasure: 3
@@ -191,6 +209,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 9
+    toPick: true
   - name: Night Watchman
     cost:
       treasure: 3
@@ -210,6 +230,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 9
+    toPick: true
   - name: Secret Cave
     cost:
       treasure: 3
@@ -229,6 +251,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 9
+    toPick: true
   - name: Bard
     cost:
       treasure: 4
@@ -248,6 +272,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 9
+    toPick: true
   - name: Blessed Village
     cost:
       treasure: 4
@@ -267,6 +293,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 9
+    toPick: true
   - name: Cemetery
     cost:
       treasure: 4
@@ -286,6 +314,8 @@ cards:
     isTreasure: false
     isVictory: true
 
+    pickTimes: 9
+    toPick: true
   - name: Conclave
     cost:
       treasure: 4
@@ -305,6 +335,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 9
+    toPick: true
   - name: Devil's Workshop
     cost:
       treasure: 4
@@ -324,6 +356,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 9
+    toPick: true
   - name: Exorcist
     cost:
       treasure: 4
@@ -343,6 +377,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 9
+    toPick: true
   - name: Necromancer
     cost:
       treasure: 4
@@ -363,6 +399,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 9
+    toPick: true
   - name: Shepherd
     cost:
       treasure: 4
@@ -383,6 +421,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 9
+    toPick: true
   - name: Skulk
     cost:
       treasure: 4
@@ -402,6 +442,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 9
+    toPick: true
   - name: Cobbler
     cost:
       treasure: 5
@@ -419,8 +461,10 @@ cards:
     isReaction: false
     isTrashing: false
     isTreasure: false
-    isVictory: false    
+    isVictory: false
 
+    pickTimes: 9
+    toPick: true
   - name: Crypt
     cost:
       treasure: 5
@@ -440,6 +484,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 9
+    toPick: true
   - name: Cursed Village
     cost:
       treasure: 5
@@ -459,6 +505,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 9
+    toPick: true
   - name: Den of Sin
     cost:
       treasure: 5
@@ -479,6 +527,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 9
+    toPick: true
   - name: Idol
     cost:
       treasure: 5
@@ -498,6 +548,8 @@ cards:
     isTreasure: true
     isVictory: false
 
+    pickTimes: 9
+    toPick: true
   - name: Pooka
     cost:
       treasure: 5
@@ -518,6 +570,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 9
+    toPick: true
   - name: Sacred Grove
     cost:
       treasure: 5
@@ -537,6 +591,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 9
+    toPick: true
   - name: Tormentor
     cost:
       treasure: 5
@@ -556,6 +612,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 9
+    toPick: true
   - name: Tragic Hero
     cost:
       treasure: 5
@@ -576,6 +634,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 9
+    toPick: true
   - name: Vampire
     cost:
       treasure: 5
@@ -595,6 +655,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 9
+    toPick: true
   - name: Werewolf
     cost:
       treasure: 5
@@ -615,6 +677,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 9
+    toPick: true
   - name: Raider
     cost:
       treasure: 6
@@ -634,6 +698,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 9
+    toPick: true
 boons:
   - name: The Earth's Gift
   - name: The Field's Gift

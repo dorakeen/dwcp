@@ -15,6 +15,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 12
+    toPick: true
   - name: City Quarter
     cost:
       treasure: 0
@@ -32,6 +34,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 12
+    toPick: true
   - name: Overlord
     cost:
       treasure: 0
@@ -48,6 +52,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 12
+    toPick: true
   - name: Royal Blacksmith
     cost:
       treasure: 0
@@ -65,6 +71,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 12
+    toPick: true
   - name: Encampment / Plunder
     cost:
       treasure: 2
@@ -82,6 +90,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 12
+    toPick: true
   - name: Patrician / Emporium
     cost:
       treasure: 2
@@ -98,6 +108,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 12
+    toPick: true
   - name: Settlers / Bustling Village
     cost:
       treasure: 2
@@ -114,6 +126,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 12
+    toPick: true
   - name: Castles
     cost:
       treasure: 3
@@ -129,7 +143,9 @@ cards:
     isTrashing: false
     isTreasure: false
     isVictory: true
-  
+
+    pickTimes: 12
+    toPick: true
   - name: Catapult / Rocks
     cost:
       treasure: 3
@@ -146,6 +162,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 12
+    toPick: true
   - name: Chariot Race
     cost:
       treasure: 3
@@ -162,6 +180,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 12
+    toPick: true
   - name: Enchantress
     cost:
       treasure: 3
@@ -179,6 +199,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 12
+    toPick: true
   - name: Farmers Market
     cost:
       treasure: 3
@@ -196,6 +218,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 12
+    toPick: true
   - name: Gladiator / Fortune
     cost:
       treasure: 3
@@ -212,6 +236,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 12
+    toPick: true
   - name: Sacrifice
     cost:
       treasure: 4
@@ -230,6 +256,8 @@ cards:
     isTreasure: false
     isVictory: false
 
+    pickTimes: 12
+    toPick: true
   - name: Temple
     cost:
       treasure: 4
@@ -246,6 +274,8 @@ cards:
     isTrashing: false
     isTreasure: false
 
+    pickTimes: 12
+    toPick: true
   - name: Villa
     cost:
       treasure: 4
@@ -262,6 +292,8 @@ cards:
     isTrashing: false
     isTreasure: false
 
+    pickTimes: 12
+    toPick: true
   - name: Archive
     cost:
       treasure: 5
@@ -279,6 +311,8 @@ cards:
     isTrashing: false
     isTreasure: false
 
+    pickTimes: 12
+    toPick: true
   - name: Capital
     cost:
       treasure: 5
@@ -295,6 +329,8 @@ cards:
     isTrashing: false
     isTreasure: true
 
+    pickTimes: 12
+    toPick: true
   - name: Charm
     cost:
       treasure: 5
@@ -311,6 +347,8 @@ cards:
     isTrashing: false
     isTreasure: true
 
+    pickTimes: 12
+    toPick: true
   - name: Crown
     cost:
       treasure: 5
@@ -327,6 +365,8 @@ cards:
     isTrashing: false
     isTreasure: true
 
+    pickTimes: 12
+    toPick: true
   - name: Forum
     cost:
       treasure: 5
@@ -344,6 +384,8 @@ cards:
     isTrashing: false
     isTreasure: false
 
+    pickTimes: 12
+    toPick: true
   - name: Groundskeeper
     cost:
       treasure: 5
@@ -360,6 +402,8 @@ cards:
     isTrashing: false
     isTreasure: false
 
+    pickTimes: 12
+    toPick: true
   - name: Legionary
     cost:
       treasure: 5
@@ -376,6 +420,8 @@ cards:
     isTrashing: false
     isTreasure: false
 
+    pickTimes: 12
+    toPick: true
   - name: Wild Hunt
     cost:
       treasure: 5
@@ -393,6 +439,8 @@ cards:
     isTrashing: false
     isTreasure: false
 
+    pickTimes: 12
+    toPick: true
 events:
   - name: Triumph
     cost:
@@ -404,7 +452,7 @@ events:
     isDrawer: false
     isReaction: false
     isTrashing: false
-  
+
   - name: Annex
     cost:
       treasure: 0
@@ -543,7 +591,7 @@ landmarks:
       treasure: 0
       potion: 0
       debt: 0
-  
+
   - name: Arena
     cost:
       treasure: 0
@@ -645,7 +693,7 @@ landmarks:
       treasure: 0
       potion: 0
       debt: 0
-  
+
   - name: Triumphal Arch
     cost:
       treasure: 0

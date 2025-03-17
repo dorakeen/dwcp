@@ -1,5 +1,5 @@
 name: Dominion
-cards:  
+cards:
   - name: Adventurer
     cost:
       treasure: 6
@@ -12,6 +12,7 @@ cards:
     isReaction: false
     toPick: false
 
+    pickTimes: 23
   - name: Bureaucrat
     cost:
       treasure: 4
@@ -23,6 +24,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 23
+    toPick: true
   - name: Cellar
     cost:
       treasure: 2
@@ -36,6 +39,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 23
+    toPick: true
   - name: Chancellor
     cost:
       treasure: 3
@@ -48,6 +53,7 @@ cards:
     isVictory: false
     toPick: false
 
+    pickTimes: 23
   - name: Chapel
     cost:
       treasure: 2
@@ -59,6 +65,8 @@ cards:
     isTrashing: true
     isReaction: false
 
+    pickTimes: 23
+    toPick: true
   - name: Council Room
     cost:
       treasure: 5
@@ -73,6 +81,8 @@ cards:
     isReaction: false
     isBuySupplier: true
 
+    pickTimes: 23
+    toPick: true
   - name: Feast
     cost:
       treasure: 4
@@ -85,6 +95,7 @@ cards:
     isReaction: false
     toPick: false
 
+    pickTimes: 23
   - name: Festival
     cost:
       treasure: 5
@@ -98,6 +109,8 @@ cards:
     isActionSupplier: true
     isBuySupplier: true
 
+    pickTimes: 23
+    toPick: true
   - name: Gardens
     cost:
       treasure: 4
@@ -109,6 +122,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 23
+    toPick: true
   - name: Laboratory
     cost:
       treasure: 5
@@ -122,6 +137,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 23
+    toPick: true
   - name: Library
     cost:
       treasure: 5
@@ -135,6 +152,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 23
+    toPick: true
   - name: Market
     cost:
       treasure: 5
@@ -146,6 +165,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 23
+    toPick: true
   - name: Militia
     cost:
       treasure: 4
@@ -157,6 +178,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 23
+    toPick: true
   - name: Mine
     cost:
       treasure: 5
@@ -168,6 +191,8 @@ cards:
     isTrashing: true
     isReaction: false
 
+    pickTimes: 23
+    toPick: true
   - name: Moat
     cost:
       treasure: 2
@@ -181,6 +206,8 @@ cards:
     isTrashing: false
     isReaction: true
 
+    pickTimes: 23
+    toPick: true
   - name: Moneylender
     cost:
       treasure: 4
@@ -192,6 +219,8 @@ cards:
     isTrashing: true
     isReaction: false
 
+    pickTimes: 23
+    toPick: true
   - name: Remodel
     cost:
       treasure: 4
@@ -203,6 +232,8 @@ cards:
     isTrashing: true
     isReaction: false
 
+    pickTimes: 23
+    toPick: true
   - name: Smithy
     cost:
       treasure: 4
@@ -216,6 +247,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 23
+    toPick: true
   - name: Spy
     cost:
       treasure: 4
@@ -228,6 +261,7 @@ cards:
     isReaction: false
     toPick: false
 
+    pickTimes: 23
   - name: Thief
     cost:
       treasure: 4
@@ -240,6 +274,7 @@ cards:
     isReaction: false
     toPick: false
 
+    pickTimes: 23
   - name: Throne Room
     cost:
       treasure: 4
@@ -251,6 +286,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 23
+    toPick: true
   - name: Village
     cost:
       treasure: 3
@@ -263,6 +300,8 @@ cards:
     isReaction: false
     isActionSupplier: true
 
+    pickTimes: 23
+    toPick: true
   - name: Witch
     cost:
       treasure: 5
@@ -276,6 +315,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 23
+    toPick: true
   - name: Woodcutter
     cost:
       treasure: 3
@@ -289,6 +330,7 @@ cards:
     isBuyProvider: true
     toPick: false
 
+    pickTimes: 23
   - name: Workshop
     cost:
       treasure: 3
@@ -299,3 +341,5 @@ cards:
     isVictory: false
     isTrashing: false
     isReaction: false
+    pickTimes: 23
+    toPick: true

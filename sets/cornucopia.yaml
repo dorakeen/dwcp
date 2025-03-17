@@ -11,6 +11,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 17
+    toPick: true
   - name: Young Witch
     cost:
       treasure: 4
@@ -24,6 +26,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 17
+    toPick: true
   - name: Horse Traders
     cost:
       treasure: 4
@@ -36,6 +40,8 @@ cards:
     isReaction: true
     isBuySupplier: true
 
+    pickTimes: 17
+    toPick: true
   - name: Tournament
     cost:
       treasure: 4
@@ -47,6 +53,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 17
+    toPick: true
   - name: Hamlet
     cost:
       treasure: 2
@@ -60,6 +68,8 @@ cards:
     isBuySupplier: true
     isActionSupplier: true
 
+    pickTimes: 17
+    toPick: true
   - name: Jester
     cost:
       treasure: 5
@@ -71,6 +81,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 17
+    toPick: true
   - name: Fortune Teller
     cost:
       treasure: 3
@@ -82,6 +94,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 17
+    toPick: true
   - name: Fairgrounds
     cost:
       treasure: 6
@@ -93,6 +107,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 17
+    toPick: true
   - name: Horn of Plenty
     cost:
       treasure: 5
@@ -104,6 +120,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 17
+    toPick: true
   - name: Hunting Party
     cost:
       treasure: 5
@@ -117,6 +135,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 17
+    toPick: true
   - name: Menagerie
     cost:
       treasure: 3
@@ -130,6 +150,8 @@ cards:
     isTrashing: false
     isReaction: false
 
+    pickTimes: 17
+    toPick: true
   - name: Farming Village
     cost:
       treasure: 4
@@ -143,6 +165,8 @@ cards:
     isBuySupplier: true
     isActionSupplier: true
 
+    pickTimes: 17
+    toPick: true
   - name: Remake
     cost:
       treasure: 4
@@ -153,3 +177,5 @@ cards:
     isVictory: false
     isTrashing: true
     isReaction: false
+    pickTimes: 17
+    toPick: true
