@@ -15,7 +15,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 12
+    pickTimes: 0
     toPick: true
   - name: City Quarter
     cost:
@@ -34,7 +34,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 12
+    pickTimes: 0
     toPick: true
   - name: Overlord
     cost:
@@ -52,7 +52,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 12
+    pickTimes: 0
     toPick: true
   - name: Royal Blacksmith
     cost:
@@ -71,7 +71,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 12
+    pickTimes: 0
     toPick: true
   - name: Encampment / Plunder
     cost:
@@ -90,7 +90,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 12
+    pickTimes: 0
     toPick: true
   - name: Patrician / Emporium
     cost:
@@ -108,7 +108,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 12
+    pickTimes: 0
     toPick: true
   - name: Settlers / Bustling Village
     cost:
@@ -126,7 +126,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 12
+    pickTimes: 0
     toPick: true
   - name: Castles
     cost:
@@ -144,7 +144,7 @@ cards:
     isTreasure: false
     isVictory: true
 
-    pickTimes: 12
+    pickTimes: 0
     toPick: true
   - name: Catapult / Rocks
     cost:
@@ -162,7 +162,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 12
+    pickTimes: 0
     toPick: true
   - name: Chariot Race
     cost:
@@ -180,7 +180,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 12
+    pickTimes: 0
     toPick: true
   - name: Enchantress
     cost:
@@ -199,7 +199,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 12
+    pickTimes: 0
     toPick: true
   - name: Farmers Market
     cost:
@@ -218,7 +218,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 12
+    pickTimes: 0
     toPick: true
   - name: Gladiator / Fortune
     cost:
@@ -236,7 +236,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 12
+    pickTimes: 0
     toPick: true
   - name: Sacrifice
     cost:
@@ -256,7 +256,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 12
+    pickTimes: 0
     toPick: true
   - name: Temple
     cost:
@@ -274,7 +274,7 @@ cards:
     isTrashing: false
     isTreasure: false
 
-    pickTimes: 12
+    pickTimes: 0
     toPick: true
   - name: Villa
     cost:
@@ -292,7 +292,7 @@ cards:
     isTrashing: false
     isTreasure: false
 
-    pickTimes: 12
+    pickTimes: 0
     toPick: true
   - name: Archive
     cost:
@@ -311,7 +311,7 @@ cards:
     isTrashing: false
     isTreasure: false
 
-    pickTimes: 12
+    pickTimes: 0
     toPick: true
   - name: Capital
     cost:
@@ -329,7 +329,7 @@ cards:
     isTrashing: false
     isTreasure: true
 
-    pickTimes: 12
+    pickTimes: 0
     toPick: true
   - name: Charm
     cost:
@@ -347,7 +347,7 @@ cards:
     isTrashing: false
     isTreasure: true
 
-    pickTimes: 12
+    pickTimes: 0
     toPick: true
   - name: Crown
     cost:
@@ -365,7 +365,7 @@ cards:
     isTrashing: false
     isTreasure: true
 
-    pickTimes: 12
+    pickTimes: 0
     toPick: true
   - name: Forum
     cost:
@@ -384,7 +384,7 @@ cards:
     isTrashing: false
     isTreasure: false
 
-    pickTimes: 12
+    pickTimes: 0
     toPick: true
   - name: Groundskeeper
     cost:
@@ -402,7 +402,7 @@ cards:
     isTrashing: false
     isTreasure: false
 
-    pickTimes: 12
+    pickTimes: 0
     toPick: true
   - name: Legionary
     cost:
@@ -420,7 +420,7 @@ cards:
     isTrashing: false
     isTreasure: false
 
-    pickTimes: 12
+    pickTimes: 0
     toPick: true
   - name: Wild Hunt
     cost:
@@ -439,7 +439,7 @@ cards:
     isTrashing: false
     isTreasure: false
 
-    pickTimes: 12
+    pickTimes: 0
     toPick: true
 events:
   - name: Triumph

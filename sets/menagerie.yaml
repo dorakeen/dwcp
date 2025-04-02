@@ -22,7 +22,7 @@ cards:
     isTerminal: false
     isVictory: false
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Sleigh
     cost:
@@ -46,7 +46,7 @@ cards:
     isTerminal: false
     isVictory: false
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Supplies
     cost:
@@ -72,7 +72,7 @@ cards:
     setup:
       - horse
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Camel Train
     cost:
@@ -98,7 +98,7 @@ cards:
     setup:
       - exile_map
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Goatherd
     cost:
@@ -122,7 +122,7 @@ cards:
     isTerminal: false
     isVictory: false
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Scrap
     cost:
@@ -148,7 +148,7 @@ cards:
     setup:
       - horse
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Sheepdog
     cost:
@@ -172,7 +172,7 @@ cards:
     isTerminal: false
     isVictory: false
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Snowy Village
     cost:
@@ -196,7 +196,7 @@ cards:
     isTerminal: false
     isVictory: false
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Stockpile
     cost:
@@ -222,7 +222,7 @@ cards:
     setup:
       - exile_mat
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Bounty Hunter
     cost:
@@ -248,7 +248,7 @@ cards:
     setup:
       - exile_mat
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Cardinal
     cost:
@@ -274,7 +274,7 @@ cards:
     setup:
       - exile_mat
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Cavalry
     cost:
@@ -300,7 +300,7 @@ cards:
     setup:
       - horse
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Groom
     cost:
@@ -326,7 +326,7 @@ cards:
     setup:
       - horse
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Hostelry
     cost:
@@ -352,7 +352,7 @@ cards:
     setup:
       - horse
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Village Green
     cost:
@@ -376,7 +376,7 @@ cards:
     isTerminal: false
     isVictory: false
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Barge
     cost:
@@ -400,7 +400,7 @@ cards:
     isTerminal: false
     isVictory: false
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Coven
     cost:
@@ -426,7 +426,7 @@ cards:
     setup:
       - exile_mat
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Displace
     cost:
@@ -452,7 +452,7 @@ cards:
     setup:
       - exile_mat
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Falconer
     cost:
@@ -476,7 +476,7 @@ cards:
     isTerminal: false
     isVictory: false
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Gatekeeper
     cost:
@@ -502,7 +502,7 @@ cards:
     setup:
       - exile_mat
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Hunting Lodge
     cost:
@@ -526,7 +526,7 @@ cards:
     isTerminal: false
     isVictory: false
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Kiln
     cost:
@@ -550,7 +550,7 @@ cards:
     isTerminal: false
     isVictory: false
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Livery
     cost:
@@ -576,7 +576,7 @@ cards:
     setup:
       - horse
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Mastermind
     cost:
@@ -600,7 +600,7 @@ cards:
     isTerminal: false
     isVictory: false
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Paddock
     cost:
@@ -626,7 +626,7 @@ cards:
     setup:
       - horse
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Sanctuary
     cost:
@@ -652,7 +652,7 @@ cards:
     setup:
       - exile_mat
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Fisherman
     cost:
@@ -676,7 +676,7 @@ cards:
     isTerminal: false
     isVictory: false
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Destrier
     cost:
@@ -700,7 +700,7 @@ cards:
     isTerminal: false
     isVictory: false
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Wayfarer
     cost:
@@ -724,7 +724,7 @@ cards:
     isTerminal: false
     isVictory: false
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
   - name: Animal Fair
     cost:
@@ -748,7 +748,7 @@ cards:
     isTerminal: false
     isVictory: false
 
-    pickTimes: 7
+    pickTimes: 0
     toPick: true
 events:
   - name: Delay

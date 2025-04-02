@@ -14,7 +14,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Artificer
     cost:
@@ -31,7 +31,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Bridge Troll
     cost:
@@ -48,7 +48,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Caravan Guard
     cost:
@@ -65,7 +65,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Distant Lands
     cost:
@@ -83,7 +83,7 @@ cards:
     isTreasure: false
     isVictory: true
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Dungeon
     cost:
@@ -102,7 +102,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Duplicate
     cost:
@@ -120,7 +120,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Gear
     cost:
@@ -139,7 +139,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Giant
     cost:
@@ -157,7 +157,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Guide
     cost:
@@ -176,7 +176,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Haunted Woods
     cost:
@@ -195,7 +195,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Hireling
     cost:
@@ -214,7 +214,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Lost City
     cost:
@@ -233,7 +233,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Magpie
     cost:
@@ -252,7 +252,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Messenger
     cost:
@@ -270,7 +270,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Miser
     cost:
@@ -288,7 +288,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Page
     cost:
@@ -308,7 +308,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Peasant
     cost:
@@ -328,7 +328,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Port
     cost:
@@ -347,7 +347,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Ranger
     cost:
@@ -367,7 +367,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Ratcatcher
     cost:
@@ -386,7 +386,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Raze
     cost:
@@ -405,7 +405,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Relic
     cost:
@@ -424,7 +424,7 @@ cards:
     isTreasure: true
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Royal Carriage
     cost:
@@ -443,7 +443,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Storyteller
     cost:
@@ -463,7 +463,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Swamp Hag
     cost:
@@ -482,7 +482,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Transmogrify
     cost:
@@ -501,7 +501,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Treasure Trove
     cost:
@@ -520,7 +520,7 @@ cards:
     isTreasure: true
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Wine Merchant
     cost:
@@ -539,7 +539,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
   - name: Coin of the Realm
     cost:
@@ -558,7 +558,7 @@ cards:
     isTreasure: true
     isVictory: false
 
-    pickTimes: 13
+    pickTimes: 0
     toPick: true
 events:
   - name: Mission

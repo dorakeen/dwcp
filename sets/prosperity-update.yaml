@@ -6,7 +6,7 @@ cards:
     isTreasure: true
     isTrashing: true
 
-    pickTimes: 4
+    pickTimes: 0
     toPick: true
   - name: Clerk
     cost:
@@ -15,7 +15,7 @@ cards:
     isAction: true
     isReaction: true
 
-    pickTimes: 4
+    pickTimes: 0
     toPick: true
   - name: Investment
     cost:
@@ -23,7 +23,7 @@ cards:
     isTreasure: true
     isTrashing: true
 
-    pickTimes: 4
+    pickTimes: 0
     toPick: true
   - name: Tiara
     cost:
@@ -31,7 +31,7 @@ cards:
     isTreasure: true
     isBuySupplier: true
 
-    pickTimes: 4
+    pickTimes: 0
     toPick: true
   - name: Charlatan
     cost:
@@ -39,7 +39,7 @@ cards:
     isAttack: true
     isAction: true
 
-    pickTimes: 4
+    pickTimes: 0
     toPick: true
   - name: Collection
     cost:
@@ -47,7 +47,7 @@ cards:
     isTreasure: true
     isBuySupplier: true
 
-    pickTimes: 4
+    pickTimes: 0
     toPick: true
   - name: Crystal Ball
     cost:
@@ -55,7 +55,7 @@ cards:
     isTreasure: true
     isTrashing: true
 
-    pickTimes: 4
+    pickTimes: 0
     toPick: true
   - name: Magnate
     cost:
@@ -64,11 +64,11 @@ cards:
     isDrawer: true
     isMultiDrawer: true
 
-    pickTimes: 4
+    pickTimes: 0
     toPick: true
   - name: War Chest
     cost:
       treasure: 5
     isTreasure: true
-    pickTimes: 4
+    pickTimes: 0
     toPick: true

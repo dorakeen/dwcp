@@ -13,7 +13,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 19
+    pickTimes: 0
     toPick: true
   - name: Apothecary
     cost:
@@ -26,7 +26,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 19
+    pickTimes: 0
     toPick: true
   - name: Apprentice
     cost:
@@ -41,7 +41,7 @@ cards:
     isTrashing: true
     isReaction: false
 
-    pickTimes: 19
+    pickTimes: 0
     toPick: true
   - name: Familiar
     cost:
@@ -54,7 +54,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 19
+    pickTimes: 0
     toPick: true
   - name: Golem
     cost:
@@ -67,7 +67,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 19
+    pickTimes: 0
     toPick: true
   - name: Herbalist
     cost:
@@ -81,7 +81,7 @@ cards:
     isReaction: false
     isBuySupplier: true
 
-    pickTimes: 19
+    pickTimes: 0
     toPick: true
   - name: Philosopher's Stone
     cost:
@@ -94,7 +94,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 19
+    pickTimes: 0
     toPick: true
   - name: Possession
     cost:
@@ -108,7 +108,7 @@ cards:
     isReaction: false
     toPick: false
 
-    pickTimes: 19
+    pickTimes: 0
   - name: Scrying Pool
     cost:
       treasure: 2
@@ -120,7 +120,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 19
+    pickTimes: 0
     toPick: true
   - name: Transmute
     cost:
@@ -133,7 +133,7 @@ cards:
     isTrashing: true
     isReaction: false
 
-    pickTimes: 19
+    pickTimes: 0
     toPick: true
   - name: University
     cost:
@@ -147,7 +147,7 @@ cards:
     isReaction: false
     isActionSupplier: true
 
-    pickTimes: 19
+    pickTimes: 0
     toPick: true
   - name: Vineyard
     cost:
@@ -159,5 +159,5 @@ cards:
     isVictory: true
     isTrashing: false
     isReaction: false
-    pickTimes: 19
+    pickTimes: 0
     toPick: true

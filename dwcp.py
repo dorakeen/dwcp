@@ -230,22 +230,19 @@ def create_randomizer_piles(l_args):
 
         set_filepath = pathlib.Path.cwd() / "sets" / yamlname
         with open(set_filepath, 'r', encoding="utf-8") as file:
-            #dSet = yaml.safe_load(file)
             dSet = yaml.load(file)
             # log.debug(f" {dSet}")
 
+        print(f"Set: {setname} - {len(dSet['cards'])} cards")
         # Iterate over each kingdom card, and copy into randpiles while adding key/value for the set name itself
         for kcard in dSet["cards"]:
-            kcard = card_attibutes | kcard
+            # LUK XXX kcard = card_attibutes | kcard
             kcard["set"] = setname
             # log.debug(f" {kcard}")
             if kcard["toPick"] :
                 randpiles["kingdoms"].append(kcard)
             else :
                 log.debug(f"\t{kcard['name']} not to be picked")
-
-            # Count the number of times a card has been picked
-            kcard["pickTimes"] += 1
 
         # Iterate over each landscape card type, and copy into randpiles while adding key/value
         # for the set name itself, and the key/value of the landscape type
@@ -283,8 +280,23 @@ def pick_random_cards(randpiles, num_kingdom=10, num_landscape=0):
 
     # Pick kingdom cards
     if randpiles["kingdoms"]:
-        kingdom_cards = random.sample(randpiles["kingdoms"], min(num_kingdom, len(randpiles["kingdoms"])))
-        picked["kingdoms"].extend(kingdom_cards)
+        # kingdom_cards = random.sample(randpiles["kingdoms"], min(num_kingdom, len(randpiles["kingdoms"])))
+
+        weights = [float(1 / (card['pickTimes'] + 1)) for card in randpiles["kingdoms"]]
+                
+        print(f"randpiles['kingdoms']: {len(randpiles['kingdoms'])}")
+        for _ in  range(num_kingdom) :
+            kc = random.choices(randpiles["kingdoms"], weights=weights, k=1)
+
+            selected_idx = randpiles["kingdoms"].index(kc[0])
+            print(f"PICK: Card ID {selected_idx} - {kc[0]['name']}")
+            
+            picked["kingdoms"].append(kc[0])
+
+            # Remove picked cards from randomizer pile
+            # randpiles["kingdoms"].remove(kc[0])
+            randpiles["kingdoms"].pop(selected_idx)
+            weights.pop(selected_idx)
 
         # Looking for Liaison/Omen cards in the picked kingdom cards
         ally_card = None
@@ -303,10 +315,8 @@ def pick_random_cards(randpiles, num_kingdom=10, num_landscape=0):
                 prophecy_card = random.choice(randpiles["prophecies"])
                 picked["landscapes"].append(prophecy_card)
                 
-        # Remove picked cards from randomizer pile
-        # for card in kingdom_cards:
-            # randpiles["kingdoms"].remove(card)
 
+    # Sort the picked kingdom cards by name
     picked["kingdoms"].sort(key=lambda x: x['name'])
     
     # Pick landscape cards 
@@ -379,7 +389,7 @@ def print_result(selection) :
         elif landscape['type'] == 'prophecy': 
             color = "deep_sky_blue3"
         elif landscape['type'] == 'project': 
-            color = "red"
+            color = "salmon1"
         elif landscape['type'] == 'way': 
             color = "cyan"
         elif landscape['type'] == 'trait': 

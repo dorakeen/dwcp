@@ -11,7 +11,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Vagrant
     cost:
@@ -26,7 +26,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Catacombs
     cost:
@@ -41,7 +41,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Count
     cost:
@@ -54,7 +54,7 @@ cards:
     isTrashing: true
     isReaction: false
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Knights
     cost:
@@ -67,7 +67,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Fortress
     cost:
@@ -81,7 +81,7 @@ cards:
     isReaction: false
     isActionSupplier: true
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Scavenger
     cost:
@@ -94,7 +94,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Market Square
     cost:
@@ -108,7 +108,7 @@ cards:
     isReaction: true
     isBuySupplier: true
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Urchin
     cost:
@@ -123,7 +123,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Rats
     cost:
@@ -136,7 +136,7 @@ cards:
     isTrashing: true
     isReaction: false
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Sage
     cost:
@@ -149,7 +149,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Forager
     cost:
@@ -163,7 +163,7 @@ cards:
     isReaction: false
     isBuySupplier: true
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Altar
     cost:
@@ -176,7 +176,7 @@ cards:
     isTrashing: true
     isReaction: false
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Procession
     cost:
@@ -189,7 +189,7 @@ cards:
     isTrashing: true
     isReaction: false
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Squire
     cost:
@@ -204,7 +204,7 @@ cards:
     isActionSupplier: true
     isBuySupplier: true
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Beggar
     cost:
@@ -217,7 +217,7 @@ cards:
     isTrashing: false
     isReaction: true
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Poor House
     cost:
@@ -230,7 +230,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Death Cart
     cost:
@@ -243,7 +243,7 @@ cards:
     isTrashing: true
     isReaction: false
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Wandering Minstrel
     cost:
@@ -257,7 +257,7 @@ cards:
     isReaction: false
     isActionSupplier: true
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Ironmonger
     cost:
@@ -271,7 +271,7 @@ cards:
     isReaction: false
     isActionSupplier: false
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Hermit
     cost:
@@ -286,7 +286,7 @@ cards:
     isDrawer: true
     isMultiDrawer: true
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Pillage
     cost:
@@ -299,7 +299,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Mystic
     cost:
@@ -312,7 +312,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Storeroom
     cost:
@@ -328,7 +328,7 @@ cards:
     isReaction: false
     isBuySupplier: true
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Hunting Grounds
     cost:
@@ -341,7 +341,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Graverobber
     cost:
@@ -354,7 +354,7 @@ cards:
     isTrashing: true
     isReaction: false
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Counterfeit
     cost:
@@ -368,7 +368,7 @@ cards:
     isReaction: false
     isBuySupplier: true
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Cultist
     cost:
@@ -383,7 +383,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Rogue
     cost:
@@ -396,7 +396,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Marauder
     cost:
@@ -409,7 +409,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Band of Misfits
     cost:
@@ -422,7 +422,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Junk Dealer
     cost:
@@ -435,7 +435,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Feodum
     cost:
@@ -448,7 +448,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Rebuild
     cost:
@@ -461,7 +461,7 @@ cards:
     isTrashing: true
     isReaction: false
 
-    pickTimes: 15
+    pickTimes: 0
     toPick: true
   - name: Bandit Camp
     cost:
@@ -474,5 +474,5 @@ cards:
     isTrashing: false
     isReaction: false
     isActionSupplier: true
-    pickTimes: 15
+    pickTimes: 0
     toPick: true

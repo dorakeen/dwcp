@@ -14,7 +14,7 @@ cards:
     isReaction: false
     toPick: false
 
-    pickTimes: 20
+    pickTimes: 0
   - name: Smugglers
     cost:
       treasure: 3
@@ -26,7 +26,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 20
+    pickTimes: 0
     toPick: true
   - name: Salvager
     cost:
@@ -40,7 +40,7 @@ cards:
     isReaction: false
     isBuySupplier: true
 
-    pickTimes: 20
+    pickTimes: 0
     toPick: true
   - name: Haven
     cost:
@@ -54,7 +54,7 @@ cards:
     isReaction: false
     isDuration: true
 
-    pickTimes: 20
+    pickTimes: 0
     toPick: true
   - name: Ambassador
     cost:
@@ -69,7 +69,7 @@ cards:
     isDuration: false
     toPick: false
 
-    pickTimes: 20
+    pickTimes: 0
   - name: Sea Hag
     cost:
       treasure: 4
@@ -83,7 +83,7 @@ cards:
     isDuration: false
     toPick: false
 
-    pickTimes: 20
+    pickTimes: 0
   - name: Native Village
     cost:
       treasure: 2
@@ -97,7 +97,7 @@ cards:
     isDuration: false
     isActionSupplier: true
 
-    pickTimes: 20
+    pickTimes: 0
     toPick: true
   - name: Navigator
     cost:
@@ -112,7 +112,7 @@ cards:
     isDuration: false
     toPick: false
 
-    pickTimes: 20
+    pickTimes: 0
   - name: Tactician
     cost:
       treasure: 5
@@ -129,7 +129,7 @@ cards:
     isActionSupplier: false
     isBuySupplier: true
 
-    pickTimes: 20
+    pickTimes: 0
     toPick: true
   - name: Fishing Village
     cost:
@@ -144,7 +144,7 @@ cards:
     isDuration: true
     isActionSupplier: true
 
-    pickTimes: 20
+    pickTimes: 0
     toPick: true
   - name: Island
     cost:
@@ -158,7 +158,7 @@ cards:
     isReaction: false
     isDuration: false
 
-    pickTimes: 20
+    pickTimes: 0
     toPick: true
   - name: Wharf
     cost:
@@ -175,7 +175,7 @@ cards:
     isDuration: true
     isBuySupplier: true
 
-    pickTimes: 20
+    pickTimes: 0
     toPick: true
   - name: Bazaar
     cost:
@@ -190,7 +190,7 @@ cards:
     isDuration: false
     isActionSupplier: true
 
-    pickTimes: 20
+    pickTimes: 0
     toPick: true
   - name: Treasure Map
     cost:
@@ -204,7 +204,7 @@ cards:
     isReaction: false
     isDuration: false
 
-    pickTimes: 20
+    pickTimes: 0
     toPick: true
   - name: Explorer
     cost:
@@ -219,7 +219,7 @@ cards:
     isDuration: false
     toPick: false
 
-    pickTimes: 20
+    pickTimes: 0
   - name: Lookout
     cost:
       treasure: 3
@@ -232,7 +232,7 @@ cards:
     isReaction: false
     isDuration: false
 
-    pickTimes: 20
+    pickTimes: 0
     toPick: true
   - name: Treasury
     cost:
@@ -246,7 +246,7 @@ cards:
     isReaction: false
     isDuration: false
 
-    pickTimes: 20
+    pickTimes: 0
     toPick: true
   - name: Cutpurse
     cost:
@@ -260,7 +260,7 @@ cards:
     isReaction: false
     isDuration: false
 
-    pickTimes: 20
+    pickTimes: 0
     toPick: true
   - name: Caravan
     cost:
@@ -274,7 +274,7 @@ cards:
     isReaction: false
     isDuration: true
 
-    pickTimes: 20
+    pickTimes: 0
     toPick: true
   - name: Warehouse
     cost:
@@ -290,7 +290,7 @@ cards:
     isReaction: false
     isDuration: false
 
-    pickTimes: 20
+    pickTimes: 0
     toPick: true
   - name: Lighthouse
     cost:
@@ -304,7 +304,7 @@ cards:
     isReaction: false
     isDuration: true
 
-    pickTimes: 20
+    pickTimes: 0
     toPick: true
   - name: Pirate Ship
     cost:
@@ -319,7 +319,7 @@ cards:
     isDuration: false
     toPick: false
 
-    pickTimes: 20
+    pickTimes: 0
   - name: Pearl Diver
     cost:
       treasure: 2
@@ -333,7 +333,7 @@ cards:
     isDuration: false
     toPick: false
 
-    pickTimes: 20
+    pickTimes: 0
   - name: Merchant Ship
     cost:
       treasure: 5
@@ -346,7 +346,7 @@ cards:
     isReaction: false
     isDuration: true
 
-    pickTimes: 20
+    pickTimes: 0
     toPick: true
   - name: Embargo
     cost:
@@ -361,7 +361,7 @@ cards:
     isDuration: false
     toPick: false
 
-    pickTimes: 20
+    pickTimes: 0
   - name: Outpost
     cost:
       treasure: 5
@@ -373,5 +373,5 @@ cards:
     isTrashing: false
     isReaction: false
     isDuration: true
-    pickTimes: 20
+    pickTimes: 0
     toPick: true

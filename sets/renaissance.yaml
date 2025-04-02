@@ -22,7 +22,7 @@ cards:
     isTerminal: false
     isVictory: false
 
-    pickTimes: 8
+    pickTimes: 0
     toPick: true
   - name: Ducat
     cost:
@@ -46,7 +46,7 @@ cards:
     isTerminal: false
     isVictory: false
 
-    pickTimes: 8
+    pickTimes: 0
     toPick: true
   - name: Lackeys
     cost:
@@ -71,7 +71,7 @@ cards:
     isVictory: false
     isVillageSupplier: true
 
-    pickTimes: 8
+    pickTimes: 0
     toPick: true
   - name: Acting Troupe
     cost:
@@ -96,7 +96,7 @@ cards:
     isVictory: false
     isVillageSupplier: true
 
-    pickTimes: 8
+    pickTimes: 0
     toPick: true
   - name: Cargo Ship
     cost:
@@ -121,7 +121,7 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
-    pickTimes: 8
+    pickTimes: 0
     toPick: true
   - name: Experiment
     cost:
@@ -146,7 +146,7 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
-    pickTimes: 8
+    pickTimes: 0
     toPick: true
   - name: Improve
     cost:
@@ -171,7 +171,7 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
-    pickTimes: 8
+    pickTimes: 0
     toPick: true
   - name: Flag Bearer
     cost:
@@ -196,7 +196,7 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
-    pickTimes: 8
+    pickTimes: 0
     toPick: true
   - name: Hideout
     cost:
@@ -221,7 +221,7 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
-    pickTimes: 8
+    pickTimes: 0
     toPick: true
   - name: Inventor
     cost:
@@ -246,7 +246,7 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
-    pickTimes: 8
+    pickTimes: 0
     toPick: true
   - name: Mountain Village
     cost:
@@ -271,7 +271,7 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
-    pickTimes: 8
+    pickTimes: 0
     toPick: true
   - name: Patron
     cost:
@@ -296,7 +296,7 @@ cards:
     isVictory: false
     isVillageSupplier: true
 
-    pickTimes: 8
+    pickTimes: 0
     toPick: true
   - name: Priest
     cost:
@@ -321,7 +321,7 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
-    pickTimes: 8
+    pickTimes: 0
     toPick: true
   - name: Research
     cost:
@@ -346,7 +346,7 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
-    pickTimes: 8
+    pickTimes: 0
     toPick: true
   - name: Silk Merchant
     cost:
@@ -371,7 +371,7 @@ cards:
     isVictory: false
     isVillageSupplier: true
 
-    pickTimes: 8
+    pickTimes: 0
     toPick: true
   - name: Old Witch
     cost:
@@ -396,7 +396,7 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
-    pickTimes: 8
+    pickTimes: 0
     toPick: true
   - name: Recruiter
     cost:
@@ -421,7 +421,7 @@ cards:
     isVictory: false
     isVillageSupplier: true
 
-    pickTimes: 8
+    pickTimes: 0
     toPick: true
   - name: Scepter
     cost:
@@ -446,7 +446,7 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
-    pickTimes: 8
+    pickTimes: 0
     toPick: true
   - name: Scholar
     cost:
@@ -471,7 +471,7 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
-    pickTimes: 8
+    pickTimes: 0
     toPick: true
   - name: Sculptor
     cost:
@@ -496,7 +496,7 @@ cards:
     isVictory: false
     isVillageSupplier: true
 
-    pickTimes: 8
+    pickTimes: 0
     toPick: true
   - name: Seer
     cost:
@@ -521,7 +521,7 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
-    pickTimes: 8
+    pickTimes: 0
     toPick: true
   - name: Spices
     cost:
@@ -546,7 +546,7 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
-    pickTimes: 8
+    pickTimes: 0
     toPick: true
   - name: Swashbuckler
     cost:
@@ -571,7 +571,7 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
-    pickTimes: 8
+    pickTimes: 0
     toPick: true
   - name: Treasurer
     cost:
@@ -596,7 +596,7 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
-    pickTimes: 8
+    pickTimes: 0
     toPick: true
   - name: Villain
     cost:
@@ -621,7 +621,7 @@ cards:
     isVictory: false
     isVillageSupplier: false
 
-    pickTimes: 8
+    pickTimes: 0
     toPick: true
 projects:
   - name: Cathedral

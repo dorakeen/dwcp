@@ -14,7 +14,7 @@ cards:
     isDuration: false
     isActionSupplier: false
 
-    pickTimes: 11
+    pickTimes: 0
     toPick: true
   - name: Merchant
     cost:
@@ -30,7 +30,7 @@ cards:
     isDuration: false
     isActionSupplier: false
 
-    pickTimes: 11
+    pickTimes: 0
     toPick: true
   - name: Vassal
     cost:
@@ -46,7 +46,7 @@ cards:
     isDuration: false
     isActionSupplier: false
 
-    pickTimes: 11
+    pickTimes: 0
     toPick: true
   - name: Poacher
     cost:
@@ -62,7 +62,7 @@ cards:
     isDuration: false
     isActionSupplier: false
 
-    pickTimes: 11
+    pickTimes: 0
     toPick: true
   - name: Bandit
     cost:
@@ -78,7 +78,7 @@ cards:
     isDuration: false
     isActionSupplier: false
 
-    pickTimes: 11
+    pickTimes: 0
     toPick: true
   - name: Sentry
     cost:
@@ -94,7 +94,7 @@ cards:
     isDuration: false
     isActionSupplier: false
 
-    pickTimes: 11
+    pickTimes: 0
     toPick: true
   - name: Artisan
     cost:
@@ -109,5 +109,5 @@ cards:
     isReaction: false
     isDuration: false
     isActionSupplier: false
-    pickTimes: 11
+    pickTimes: 0
     toPick: true

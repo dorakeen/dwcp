@@ -23,7 +23,7 @@ cards:
     isTreasure: true
     isVictory: false
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Sycophant
     cost:
@@ -48,7 +48,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Townsfolk
     cost:
@@ -73,7 +73,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Augurs
     cost:
@@ -98,7 +98,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Clashes
     cost:
@@ -123,7 +123,7 @@ cards:
     isTreasure: false
     isVictory: true
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Forts
     cost:
@@ -148,7 +148,7 @@ cards:
     isTreasure: false
     isVictory: true
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Importer
     cost:
@@ -173,7 +173,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Merchant Camp
     cost:
@@ -198,7 +198,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Odysseys
     cost:
@@ -223,7 +223,7 @@ cards:
     isTreasure: true
     isVictory: true
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Sentinel
     cost:
@@ -248,7 +248,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Underling
     cost:
@@ -273,7 +273,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Wizards
     cost:
@@ -298,7 +298,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Broker
     cost:
@@ -323,7 +323,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Carpenter
     cost:
@@ -348,7 +348,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Courier
     cost:
@@ -373,7 +373,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Innkeeper
     cost:
@@ -398,7 +398,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Royal Galley
     cost:
@@ -423,7 +423,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Town
     cost:
@@ -448,7 +448,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Barbarian
     cost:
@@ -473,7 +473,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Capital City
     cost:
@@ -498,7 +498,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Contract
     cost:
@@ -523,7 +523,7 @@ cards:
     isTreasure: true
     isVictory: false
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Emissary
     cost:
@@ -548,7 +548,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Galleria
     cost:
@@ -573,7 +573,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Guildmaster
     cost:
@@ -598,7 +598,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Highwayman
     cost:
@@ -623,7 +623,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Hunter
     cost:
@@ -648,7 +648,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Modify
     cost:
@@ -673,7 +673,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Skirmisher
     cost:
@@ -698,7 +698,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Specialist
     cost:
@@ -723,7 +723,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Swap
     cost:
@@ -748,7 +748,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
   - name: Marquis
     cost:
@@ -773,7 +773,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 6
+    pickTimes: 0
     toPick: true
 allies:
   - name: Architects' Guild

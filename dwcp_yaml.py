@@ -108,5 +108,5 @@ if __name__ == "__main__":
         set_filepath = pathlib.Path.cwd() / "sets" / yamlname
         #set_filepath = pathlib.Path('sets/base-set.yaml')
 
-        add_pick_times_to_cards(set_filepath, times)
+        add_pick_times_to_cards(set_filepath, 0)
         times -= 1

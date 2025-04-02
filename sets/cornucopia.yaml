@@ -11,7 +11,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 17
+    pickTimes: 0
     toPick: true
   - name: Young Witch
     cost:
@@ -26,7 +26,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 17
+    pickTimes: 0
     toPick: true
   - name: Horse Traders
     cost:
@@ -40,7 +40,7 @@ cards:
     isReaction: true
     isBuySupplier: true
 
-    pickTimes: 17
+    pickTimes: 0
     toPick: true
   - name: Tournament
     cost:
@@ -53,7 +53,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 17
+    pickTimes: 0
     toPick: true
   - name: Hamlet
     cost:
@@ -68,7 +68,7 @@ cards:
     isBuySupplier: true
     isActionSupplier: true
 
-    pickTimes: 17
+    pickTimes: 0
     toPick: true
   - name: Jester
     cost:
@@ -81,7 +81,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 17
+    pickTimes: 0
     toPick: true
   - name: Fortune Teller
     cost:
@@ -94,7 +94,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 17
+    pickTimes: 0
     toPick: true
   - name: Fairgrounds
     cost:
@@ -107,7 +107,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 17
+    pickTimes: 0
     toPick: true
   - name: Horn of Plenty
     cost:
@@ -120,7 +120,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 17
+    pickTimes: 0
     toPick: true
   - name: Hunting Party
     cost:
@@ -135,7 +135,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 17
+    pickTimes: 0
     toPick: true
   - name: Menagerie
     cost:
@@ -150,7 +150,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 17
+    pickTimes: 0
     toPick: true
   - name: Farming Village
     cost:
@@ -165,7 +165,7 @@ cards:
     isBuySupplier: true
     isActionSupplier: true
 
-    pickTimes: 17
+    pickTimes: 0
     toPick: true
   - name: Remake
     cost:
@@ -177,5 +177,5 @@ cards:
     isVictory: false
     isTrashing: true
     isReaction: false
-    pickTimes: 17
+    pickTimes: 0
     toPick: true

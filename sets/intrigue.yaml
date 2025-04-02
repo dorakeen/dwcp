@@ -15,7 +15,7 @@ cards:
     isDuration: false
     isActionSupplier: true
 
-    pickTimes: 22
+    pickTimes: 0
     toPick: true
   - name: Conspirator
     cost:
@@ -31,7 +31,7 @@ cards:
     isReaction: false
     isDuration: false
 
-    pickTimes: 22
+    pickTimes: 0
     toPick: true
   - name: Mining Village
     cost:
@@ -46,7 +46,7 @@ cards:
     isDuration: false
     isActionSupplier: true
 
-    pickTimes: 22
+    pickTimes: 0
     toPick: true
   - name: Secret Chamber
     cost:
@@ -60,7 +60,7 @@ cards:
     isReaction: true
     isDuration: false
 
-    pickTimes: 22
+    pickTimes: 0
     toPick: true
   - name: Coppersmith
     cost:
@@ -74,7 +74,7 @@ cards:
     isReaction: false
     isDuration: false
 
-    pickTimes: 22
+    pickTimes: 0
     toPick: true
   - name: Pawn
     cost:
@@ -89,7 +89,7 @@ cards:
     isDuration: false
     isBuySupplier: true
 
-    pickTimes: 22
+    pickTimes: 0
     toPick: true
   - name: Courtyard
     cost:
@@ -105,7 +105,7 @@ cards:
     isReaction: false
     isDuration: false
 
-    pickTimes: 22
+    pickTimes: 0
     toPick: true
   - name: Trading Post
     cost:
@@ -119,7 +119,7 @@ cards:
     isReaction: false
     isDuration: false
 
-    pickTimes: 22
+    pickTimes: 0
     toPick: true
   - name: Scout
     cost:
@@ -135,7 +135,7 @@ cards:
     isReaction: false
     isDuration: false
 
-    pickTimes: 22
+    pickTimes: 0
     toPick: true
   - name: Duke
     cost:
@@ -149,7 +149,7 @@ cards:
     isReaction: false
     isDuration: false
 
-    pickTimes: 22
+    pickTimes: 0
     toPick: true
   - name: Baron
     cost:
@@ -164,7 +164,7 @@ cards:
     isDuration: false
     isBuySupplier: true
 
-    pickTimes: 22
+    pickTimes: 0
     toPick: true
   - name: Swindler
     cost:
@@ -178,7 +178,7 @@ cards:
     isReaction: false
     isDuration: false
 
-    pickTimes: 22
+    pickTimes: 0
     toPick: true
   - name: Bridge
     cost:
@@ -193,7 +193,7 @@ cards:
     isDuration: false
     isBuySupplier: true
 
-    pickTimes: 22
+    pickTimes: 0
     toPick: true
   - name: Torturer
     cost:
@@ -209,7 +209,7 @@ cards:
     isReaction: false
     isDuration: false
 
-    pickTimes: 22
+    pickTimes: 0
     toPick: true
   - name: Wishing Well
     cost:
@@ -225,7 +225,7 @@ cards:
     isReaction: false
     isDuration: false
 
-    pickTimes: 22
+    pickTimes: 0
     toPick: true
   - name: Masquerade
     cost:
@@ -241,7 +241,7 @@ cards:
     isReaction: false
     isDuration: false
 
-    pickTimes: 22
+    pickTimes: 0
     toPick: true
   - name: Ironworks
     cost:
@@ -257,7 +257,7 @@ cards:
     isReaction: false
     isDuration: false
 
-    pickTimes: 22
+    pickTimes: 0
     toPick: true
   - name: Steward
     cost:
@@ -273,7 +273,7 @@ cards:
     isReaction: false
     isDuration: false
 
-    pickTimes: 22
+    pickTimes: 0
     toPick: true
   - name: Harem
     cost:
@@ -287,7 +287,7 @@ cards:
     isReaction: false
     isDuration: false
 
-    pickTimes: 22
+    pickTimes: 0
     toPick: true
   - name: Minion
     cost:
@@ -303,7 +303,7 @@ cards:
     isReaction: false
     isDuration: false
 
-    pickTimes: 22
+    pickTimes: 0
     toPick: true
   - name: Saboteur
     cost:
@@ -318,7 +318,7 @@ cards:
     isDuration: false
     toPick: false
 
-    pickTimes: 22
+    pickTimes: 0
   - name: Upgrade
     cost:
       treasure: 5
@@ -331,7 +331,7 @@ cards:
     isReaction: false
     isDuration: false
 
-    pickTimes: 22
+    pickTimes: 0
     toPick: true
   - name: Tribute
     cost:
@@ -348,7 +348,7 @@ cards:
     isDuration: false
     toPick: false
 
-    pickTimes: 22
+    pickTimes: 0
   - name: Great Hall
     cost:
       treasure: 3
@@ -361,7 +361,7 @@ cards:
     isReaction: false
     isDuration: false
 
-    pickTimes: 22
+    pickTimes: 0
     toPick: true
   - name: Shanty Town
     cost:
@@ -377,5 +377,5 @@ cards:
     isReaction: false
     isDuration: false
     isActionSupplier: true
-    pickTimes: 22
+    pickTimes: 0
     toPick: true

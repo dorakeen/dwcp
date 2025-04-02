@@ -12,7 +12,7 @@ cards:
     isReaction: false
     isActionSupplier: true
 
-    pickTimes: 16
+    pickTimes: 0
     toPick: true
   - name: Fool's Gold
     cost:
@@ -25,7 +25,7 @@ cards:
     isTrashing: false
     isReaction: true
 
-    pickTimes: 16
+    pickTimes: 0
     toPick: true
   - name: Trader
     cost:
@@ -38,7 +38,7 @@ cards:
     isTrashing: false
     isReaction: true
 
-    pickTimes: 16
+    pickTimes: 0
     toPick: true
   - name: Highway
     cost:
@@ -51,7 +51,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 16
+    pickTimes: 0
     toPick: true
   - name: Silk Road
     cost:
@@ -64,7 +64,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 16
+    pickTimes: 0
     toPick: true
   - name: Ill-Gotten Gains
     cost:
@@ -77,7 +77,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 16
+    pickTimes: 0
     toPick: true
   - name: Embassy
     cost:
@@ -92,7 +92,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 16
+    pickTimes: 0
     toPick: true
   - name: Nomad Camp
     cost:
@@ -107,7 +107,7 @@ cards:
     isBuySupplier: true
     toPick: false
 
-    pickTimes: 16
+    pickTimes: 0
   - name: Spice Merchant
     cost:
       treasure: 4
@@ -122,7 +122,7 @@ cards:
     isReaction: false
     isBuySupplier: true
 
-    pickTimes: 16
+    pickTimes: 0
     toPick: true
   - name: Oracle
     cost:
@@ -137,7 +137,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 16
+    pickTimes: 0
     toPick: true
   - name: Cartographer
     cost:
@@ -150,7 +150,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 16
+    pickTimes: 0
     toPick: true
   - name: Farmland
     cost:
@@ -163,7 +163,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 16
+    pickTimes: 0
     toPick: true
   - name: Noble Brigand
     cost:
@@ -177,7 +177,7 @@ cards:
     isReaction: false
     toPick: false
 
-    pickTimes: 16
+    pickTimes: 0
   - name: Margrave
     cost:
       treasure: 5
@@ -192,7 +192,7 @@ cards:
     isReaction: false
     isBuySupplier: true
 
-    pickTimes: 16
+    pickTimes: 0
     toPick: true
   - name: Haggler
     cost:
@@ -205,7 +205,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 16
+    pickTimes: 0
     toPick: true
   - name: Scheme
     cost:
@@ -218,7 +218,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 16
+    pickTimes: 0
     toPick: true
   - name: Inn
     cost:
@@ -232,7 +232,7 @@ cards:
     isReaction: false
     isActionSupplier: true
 
-    pickTimes: 16
+    pickTimes: 0
     toPick: true
   - name: Tunnel
     cost:
@@ -245,7 +245,7 @@ cards:
     isTrashing: false
     isReaction: true
 
-    pickTimes: 16
+    pickTimes: 0
     toPick: true
   - name: Crossroads
     cost:
@@ -262,7 +262,7 @@ cards:
     isReaction: false
     isActionSupplier: true
 
-    pickTimes: 16
+    pickTimes: 0
     toPick: true
   - name: Develop
     cost:
@@ -275,7 +275,7 @@ cards:
     isTrashing: true
     isReaction: false
 
-    pickTimes: 16
+    pickTimes: 0
     toPick: true
   - name: Oasis
     cost:
@@ -288,7 +288,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 16
+    pickTimes: 0
     toPick: true
   - name: Mandarin
     cost:
@@ -301,7 +301,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 16
+    pickTimes: 0
     toPick: true
   - name: Cache
     cost:
@@ -314,7 +314,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 16
+    pickTimes: 0
     toPick: true
   - name: Duchess
     cost:
@@ -328,7 +328,7 @@ cards:
     isReaction: false
     toPick: false
 
-    pickTimes: 16
+    pickTimes: 0
   - name: Stables
     cost:
       treasure: 5
@@ -342,7 +342,7 @@ cards:
     isTrashing: false
     isReaction: false
 
-    pickTimes: 16
+    pickTimes: 0
     toPick: true
   - name: Jack of All Trades
     cost:
@@ -356,5 +356,5 @@ cards:
     isVictory: false
     isTrashing: true
     isReaction: false
-    pickTimes: 16
+    pickTimes: 0
     toPick: true

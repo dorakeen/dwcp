@@ -13,7 +13,7 @@ cards:
     isDuration: false
     isActionSupplier: false
 
-    pickTimes: 10
+    pickTimes: 0
     toPick: true
   - name: Diplomat
     cost:
@@ -30,7 +30,7 @@ cards:
     isDuration: false
     isActionSupplier: false
 
-    pickTimes: 10
+    pickTimes: 0
     toPick: true
   - name: Mill
     cost:
@@ -46,7 +46,7 @@ cards:
     isDuration: false
     isActionSupplier: false
 
-    pickTimes: 10
+    pickTimes: 0
     toPick: true
   - name: Secret Passage
     cost:
@@ -63,7 +63,7 @@ cards:
     isDuration: false
     isActionSupplier: false
 
-    pickTimes: 10
+    pickTimes: 0
     toPick: true
   - name: Patrol
     cost:
@@ -80,7 +80,7 @@ cards:
     isDuration: false
     isActionSupplier: false
 
-    pickTimes: 10
+    pickTimes: 0
     toPick: true
   - name: Courtier
     cost:
@@ -96,7 +96,7 @@ cards:
     isDuration: false
     isActionSupplier: false
 
-    pickTimes: 10
+    pickTimes: 0
     toPick: true
   - name: Replace
     cost:
@@ -111,5 +111,5 @@ cards:
     isReaction: false
     isDuration: false
     isActionSupplier: false
-    pickTimes: 10
+    pickTimes: 0
     toPick: true

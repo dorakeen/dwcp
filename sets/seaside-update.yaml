@@ -11,7 +11,7 @@ cards:
     isReaction: false
     isDuration: true
 
-    pickTimes: 5
+    pickTimes: 0
     toPick: true
   - name: Monkey
     cost:
@@ -24,7 +24,7 @@ cards:
     isReaction: false
     isDuration: true
 
-    pickTimes: 5
+    pickTimes: 0
     toPick: true
   - name: Sea Chart
     cost:
@@ -37,7 +37,7 @@ cards:
     isReaction: false
     isDuration: false
 
-    pickTimes: 5
+    pickTimes: 0
     toPick: true
   - name: Blockade
     cost:
@@ -50,7 +50,7 @@ cards:
     isReaction: false
     isDuration: true
 
-    pickTimes: 5
+    pickTimes: 0
     toPick: true
   - name: Sailor
     cost:
@@ -63,7 +63,7 @@ cards:
     isReaction: false
     isDuration: true
 
-    pickTimes: 5
+    pickTimes: 0
     toPick: true
   - name: Tide Pools
     cost:
@@ -76,7 +76,7 @@ cards:
     isReaction: false
     isDuration: true
 
-    pickTimes: 5
+    pickTimes: 0
     toPick: true
   - name: Corsair
     cost:
@@ -89,7 +89,7 @@ cards:
     isReaction: false
     isDuration: true
 
-    pickTimes: 5
+    pickTimes: 0
     toPick: true
   - name: Pirate
     cost:
@@ -102,7 +102,7 @@ cards:
     isReaction: true
     isDuration: true
 
-    pickTimes: 5
+    pickTimes: 0
     toPick: true
   - name: Sea Witch
     cost:
@@ -114,5 +114,5 @@ cards:
     isTrashing: false
     isReaction: false
     isDuration: true
-    pickTimes: 5
+    pickTimes: 0
     toPick: true
