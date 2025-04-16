@@ -23,6 +23,7 @@
 #   - Rich
 #
 # TODO:
+#   - Print the number of possible set selections
 #   - Save the picked cards to the respective yaml files
 #   - Add Colony/Platinum selection
 #   - Add Shelter selection
@@ -233,7 +234,7 @@ def create_randomizer_piles(l_args):
             dSet = yaml.load(file)
             # log.debug(f" {dSet}")
 
-        print(f"Set: {setname} - {len(dSet['cards'])} cards")
+        log.debug(f"Set: {setname} - {len(dSet['cards'])} cards")
         # Iterate over each kingdom card, and copy into randpiles while adding key/value for the set name itself
         for kcard in dSet["cards"]:
             # LUK XXX kcard = card_attibutes | kcard
@@ -284,12 +285,16 @@ def pick_random_cards(randpiles, num_kingdom=10, num_landscape=0):
 
         weights = [float(1 / (card['pickTimes'] + 1)) for card in randpiles["kingdoms"]]
                 
-        print(f"randpiles['kingdoms']: {len(randpiles['kingdoms'])}")
+        log.debug(f"randpiles['kingdoms']: {len(randpiles['kingdoms'])}")
+        console.print()
+        console.print(f"Selecting {num_kingdom} kingdoms from a set of {len(randpiles['kingdoms'])} ...", style='bold blue1')
+        console.print()
+
         for _ in  range(num_kingdom) :
             kc = random.choices(randpiles["kingdoms"], weights=weights, k=1)
 
             selected_idx = randpiles["kingdoms"].index(kc[0])
-            print(f"PICK: Card ID {selected_idx} - {kc[0]['name']}")
+            print(f"PICK: Card ID {selected_idx:03} - {kc[0]['name']}\t ({kc[0]['set']}) \t[{kc[0]['pickTimes']}]")
             
             picked["kingdoms"].append(kc[0])
 
@@ -344,7 +349,7 @@ def print_result(selection) :
     """
     
     console.print("")
-    console.print("               ─━═ Kingdom Cards ═━─        ", style='bold blue1')
+    console.print("          ─━═ Kingdom Cards ═━─        ", style='bold blue1')
     n = 1
     sets_list = set()
     log.info("Selected Kingdom Cards:")
@@ -371,12 +376,12 @@ def print_result(selection) :
         
         log.info(f"\t{kcard['name']}\t({kcard['set']})")
         # <3 and <20 for spacing. Num has to be combined with . old fashioned way for this to work
-        console.print(f"{str(n) + '.' : <3} [{color}]{kcard['name'] : <27}[/{color}] ({kcard['set'].title()})")
+        console.print(f"{str(n) + '.' : <3} [{color}]{kcard['name'] : <17}[/{color}] ({kcard['set'].title()})")
         n += 1
 
 
     console.print("")
-    console.print("             ─━═ Landscapes Cards ═━─        ", style='bold blue1')
+    console.print("        ─━═ Landscapes Cards ═━─        ", style='bold blue1')
     n = 1
     log.info("Selected Landscape Cards:") 
     for landscape in selection["landscapes"]:
@@ -400,15 +405,15 @@ def print_result(selection) :
         sets_list.add(landscape['set'])
 
         log.info(f"\t{landscape['name']}\t({landscape['set']}) - {landscape['type']}")
-        # <3 and <27 for spacing. Num has to be combined with . old fashioned way for this to work
-        console.print(f"{str(n) + '.' : <3} [{color}]{landscape['name'] : <27}[/{color}] ({landscape['set'].title()})\t- ({landscape['type'].title()})")
+        # <3 and <17 for spacing. Num has to be combined with . old fashioned way for this to work
+        console.print(f"{str(n) + '.' : <3} [{color}]{landscape['name'] : <17}[/{color}] ({landscape['set'].title()}) - ({landscape['type'].title()})")
         n += 1
 
     color = "white"
     sets_list = sorted(sets_list)  # Sort the set names alphabetically
 
     console.print("")
-    console.print(f"             ─━═ {len(sets_list)} Sets Choosen ═━─        ", style='bold blue1')
+    console.print(f"        ─━═ {len(sets_list)} Sets Choosen ═━─        ", style='bold blue1')
     #console.print(f"[{color}]{', '.join(sets_list)}[/{color}] ") # one line list
     for s in sets_list :
         console.print(f"[{color}]{s.title()}[/{color}] ")
