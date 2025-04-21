@@ -73,7 +73,6 @@ log.addHandler(SH)
 # Global vars
 
 # Global variable to hold the card sets
-dSet = 0
 yaml = YAML()
     
 
@@ -212,8 +211,6 @@ def create_randomizer_piles(l_args):
     This list will be modified/deleted to track what cards were taken. Those cards will be "moved" to pickedpiles.
     '''
 
-    global dSet
-
     randpiles = {
         "kingdoms": [],
         "landscapes": [],
@@ -223,7 +220,7 @@ def create_randomizer_piles(l_args):
 
     log.debug(f" ==== create_randomizer_piles({l_args})")
 
-    card_attibutes = set_default_card_attibutes()
+    # card_attibutes = set_default_card_attibutes()
     for setname, yamlname in SETNAME_TO_YAMLNAME.items():
         log.debug(f" [{setname}][{yamlname}]")
 
@@ -327,12 +324,10 @@ def pick_random_cards(randpiles, num_kingdom=10, num_landscape=0):
         landscape_cards = random.sample(randpiles["landscapes"], min(num_landscape, len(randpiles["landscapes"])))
         picked["landscapes"].extend(landscape_cards)
 
-        #for lcard in picked["landscapes"]:
-            #lcard['pickTimes'] += 1
-
-        # Remove picked cards from randomizer pile
-        # for card in landscape_cards:
-            # randpiles["landscapes"].remove(card)
+        """
+        for lcard in picked["landscapes"]:
+            lcard['pickTimes'] += 1
+        """
 
     return picked
 
@@ -439,14 +434,46 @@ def save_picked_cards(selection) :
     Saves the picked cards to the respective yaml files.
     This is needed to select the weight probability.
     """
-    global dSet
     
-    #print(dSet)
-    for kcard in selection["kingdoms"]:
-        pass
+    answ = console.input("Do you want to save the picked cards? (y/n) ")
+    if not answ == 'y':
+        return
 
-    for landscape in selection["landscapes"]:
-        pass
+    for setname, yamlname in SETNAME_TO_YAMLNAME.items():
+        log.debug(f" [{setname}][{yamlname}]")
+
+        set_filepath = pathlib.Path.cwd() / "sets" / yamlname
+        with open(set_filepath, 'r', encoding="utf-8") as file:
+            dSet = yaml.load(file)
+            # log.debug(f" {dSet}")
+
+        for scard in selection["kingdoms"]:
+            for kcard in dSet["cards"]:
+                if scard['name'] == kcard['name'] :
+                    # Update the pickTimes
+                    kcard['pickTimes'] = scard['pickTimes']
+
+                    # Save the card
+                    with open(set_filepath, 'w', encoding="utf-8") as file:
+                        yaml.dump(dSet, file)
+
+                    log.info(f"Saved {scard['name']} to {yamlname}")
+                    break
+
+        """
+        for slandscape in selection["landscapes"]:
+            for lcard in dSet["cards"]:
+                if slandscape['name'] == lcard['name'] :
+                    # Update the pickTimes
+                    lcard['pickTimes'] = slandscape['pickTimes']
+
+                    # Save the card
+                    with open(set_filepath, 'w', encoding="utf-8") as file:
+                        yaml.dump(dSet, file)
+
+                    log.info(f"Saved {slandscape['name']} to {yamlname}")
+                    break
+        """
 
 
 # ===============================================================================
