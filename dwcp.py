@@ -11,9 +11,9 @@
 #
 # Author: dorakeen
 #
-# Date: 2021-09-01
+# Date: 2025-03-01
 #
-# Version: 0.1
+# Version: 1.0
 #
 # Usage: python3 dwcp.py
 #
@@ -25,8 +25,6 @@
 # TODO:
 #   - Print the number of possible set selections
 #   - Save the picked cards to the respective yaml files
-#   - Add Colony/Platinum selection
-#   - Add Shelter selection
 #   - Selection max number of kingdom set cards
 #   - Save the picked cards to a database
 #   - Add support for specifying the number of kingdom and landscape cards to select
@@ -379,6 +377,18 @@ def print_result(selection) :
         console.print(f"{str(n) + '.' : <3} [{color}]{kcard['name'] : <17}[/{color}] ({kcard['set'].title()})")
         n += 1
 
+    # platinum / colony selection (15%)
+    platcol = random.randint(1, 100)
+    if platcol <= 15 :
+        console.print("")
+        console.print(f"Makes use of [gold1]Platinum[/gold1] and [green]Colonies[/green] ")
+
+
+    # shelter selection (11%)
+    platcol = random.randint(1, 100)
+    if platcol <= 11 :
+        console.print("")
+        console.print(f"Makes use of [orange4]Shelters[/orange4] ")
 
     console.print("")
     console.print("        ─━═ Landscapes Cards ═━─        ", style='bold blue1')
