@@ -426,7 +426,7 @@ cards:
     setup:
       - exile_mat
 
-    pickTimes: 0
+    pickTimes: 1
     toPick: true
   - name: Displace
     cost:

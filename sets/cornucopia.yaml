@@ -1,181 +1,181 @@
 name: Cornucopia
 cards:
-  - name: Harvest
-    cost:
-      treasure: 5
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
+- name: Harvest
+  cost:
+    treasure: 5
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Young Witch
-    cost:
-      treasure: 4
-      potion: 0
-    isAttack: true
-    isAction: true
-    isDrawer: true
-    isMultiDrawer: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Young Witch
+  cost:
+    treasure: 4
+    potion: 0
+  isAttack: true
+  isAction: true
+  isDrawer: true
+  isMultiDrawer: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Horse Traders
-    cost:
-      treasure: 4
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: true
-    isBuySupplier: true
+  pickTimes: 0
+  toPick: true
+- name: Horse Traders
+  cost:
+    treasure: 4
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: true
+  isBuySupplier: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Tournament
-    cost:
-      treasure: 4
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Tournament
+  cost:
+    treasure: 4
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Hamlet
-    cost:
-      treasure: 2
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
-    isBuySupplier: true
-    isActionSupplier: true
+  pickTimes: 1
+  toPick: true
+- name: Hamlet
+  cost:
+    treasure: 2
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
+  isBuySupplier: true
+  isActionSupplier: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Jester
-    cost:
-      treasure: 5
-      potion: 0
-    isAttack: true
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Jester
+  cost:
+    treasure: 5
+    potion: 0
+  isAttack: true
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Fortune Teller
-    cost:
-      treasure: 3
-      potion: 0
-    isAttack: true
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Fortune Teller
+  cost:
+    treasure: 3
+    potion: 0
+  isAttack: true
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Fairgrounds
-    cost:
-      treasure: 6
-      potion: 0
-    isAttack: false
-    isAction: false
-    isTreasure: false
-    isVictory: true
-    isTrashing: false
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Fairgrounds
+  cost:
+    treasure: 6
+    potion: 0
+  isAttack: false
+  isAction: false
+  isTreasure: false
+  isVictory: true
+  isTrashing: false
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Horn of Plenty
-    cost:
-      treasure: 5
-      potion: 0
-    isAttack: false
-    isAction: false
-    isTreasure: true
-    isVictory: false
-    isTrashing: false
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Horn of Plenty
+  cost:
+    treasure: 5
+    potion: 0
+  isAttack: false
+  isAction: false
+  isTreasure: true
+  isVictory: false
+  isTrashing: false
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Hunting Party
-    cost:
-      treasure: 5
-      potion: 0
-    isAttack: false
-    isAction: true
-    isDrawer: true
-    isMultiDrawer: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Hunting Party
+  cost:
+    treasure: 5
+    potion: 0
+  isAttack: false
+  isAction: true
+  isDrawer: true
+  isMultiDrawer: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Menagerie
-    cost:
-      treasure: 3
-      potion: 0
-    isAttack: false
-    isAction: true
-    isDrawer: true
-    isMultiDrawer: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Menagerie
+  cost:
+    treasure: 3
+    potion: 0
+  isAttack: false
+  isAction: true
+  isDrawer: true
+  isMultiDrawer: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Farming Village
-    cost:
-      treasure: 4
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
-    isBuySupplier: true
-    isActionSupplier: true
+  pickTimes: 0
+  toPick: true
+- name: Farming Village
+  cost:
+    treasure: 4
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
+  isBuySupplier: true
+  isActionSupplier: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Remake
-    cost:
-      treasure: 4
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: true
-    isReaction: false
-    pickTimes: 0
-    toPick: true
+  pickTimes: 0
+  toPick: true
+- name: Remake
+  cost:
+    treasure: 4
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: true
+  isReaction: false
+  pickTimes: 0
+  toPick: true

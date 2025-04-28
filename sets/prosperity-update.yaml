@@ -31,7 +31,7 @@ cards:
     isTreasure: true
     isBuySupplier: true
 
-    pickTimes: 0
+    pickTimes: 1
     toPick: true
   - name: Charlatan
     cost:
@@ -70,5 +70,5 @@ cards:
     cost:
       treasure: 5
     isTreasure: true
-    pickTimes: 0
+    pickTimes: 1
     toPick: true

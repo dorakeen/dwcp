@@ -1,478 +1,478 @@
 name: Dark Ages
 cards:
-  - name: Armory
-    cost:
-      treasure: 4
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
+- name: Armory
+  cost:
+    treasure: 4
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Vagrant
-    cost:
-      treasure: 2
-      potion: 0
-    isAttack: false
-    isAction: true
-    isDrawer: true
-    isMultiDrawer: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Vagrant
+  cost:
+    treasure: 2
+    potion: 0
+  isAttack: false
+  isAction: true
+  isDrawer: true
+  isMultiDrawer: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Catacombs
-    cost:
-      treasure: 5
-      potion: 0
-    isAttack: false
-    isAction: true
-    isDrawer: true
-    isMultiDrawer: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Catacombs
+  cost:
+    treasure: 5
+    potion: 0
+  isAttack: false
+  isAction: true
+  isDrawer: true
+  isMultiDrawer: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Count
-    cost:
-      treasure: 5
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: true
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Count
+  cost:
+    treasure: 5
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: true
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Knights
-    cost:
-      treasure: 5
-      potion: 0
-    isAttack: true
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Knights
+  cost:
+    treasure: 5
+    potion: 0
+  isAttack: true
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Fortress
-    cost:
-      treasure: 4
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
-    isActionSupplier: true
+  pickTimes: 0
+  toPick: true
+- name: Fortress
+  cost:
+    treasure: 4
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
+  isActionSupplier: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Scavenger
-    cost:
-      treasure: 4
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Scavenger
+  cost:
+    treasure: 4
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Market Square
-    cost:
-      treasure: 3
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: true
-    isBuySupplier: true
+  pickTimes: 0
+  toPick: true
+- name: Market Square
+  cost:
+    treasure: 3
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: true
+  isBuySupplier: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Urchin
-    cost:
-      treasure: 3
-      potion: 0
-    isAttack: true
-    isAction: true
-    isDrawer: true
-    isMultiDrawer: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Urchin
+  cost:
+    treasure: 3
+    potion: 0
+  isAttack: true
+  isAction: true
+  isDrawer: true
+  isMultiDrawer: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Rats
-    cost:
-      treasure: 4
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: true
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Rats
+  cost:
+    treasure: 4
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: true
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Sage
-    cost:
-      treasure: 3
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Sage
+  cost:
+    treasure: 3
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Forager
-    cost:
-      treasure: 3
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
-    isBuySupplier: true
+  pickTimes: 0
+  toPick: true
+- name: Forager
+  cost:
+    treasure: 3
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
+  isBuySupplier: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Altar
-    cost:
-      treasure: 6
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: true
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Altar
+  cost:
+    treasure: 6
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: true
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Procession
-    cost:
-      treasure: 4
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: true
-    isReaction: false
+  pickTimes: 1
+  toPick: true
+- name: Procession
+  cost:
+    treasure: 4
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: true
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Squire
-    cost:
-      treasure: 2
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
-    isActionSupplier: true
-    isBuySupplier: true
+  pickTimes: 0
+  toPick: true
+- name: Squire
+  cost:
+    treasure: 2
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
+  isActionSupplier: true
+  isBuySupplier: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Beggar
-    cost:
-      treasure: 2
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: true
+  pickTimes: 0
+  toPick: true
+- name: Beggar
+  cost:
+    treasure: 2
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Poor House
-    cost:
-      treasure: 1
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Poor House
+  cost:
+    treasure: 1
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Death Cart
-    cost:
-      treasure: 4
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: true
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Death Cart
+  cost:
+    treasure: 4
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: true
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Wandering Minstrel
-    cost:
-      treasure: 4
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
-    isActionSupplier: true
+  pickTimes: 0
+  toPick: true
+- name: Wandering Minstrel
+  cost:
+    treasure: 4
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
+  isActionSupplier: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Ironmonger
-    cost:
-      treasure: 4
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
-    isActionSupplier: false
+  pickTimes: 0
+  toPick: true
+- name: Ironmonger
+  cost:
+    treasure: 4
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
+  isActionSupplier: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Hermit
-    cost:
-      treasure: 3
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: true
-    isReaction: false
-    isDrawer: true
-    isMultiDrawer: true
+  pickTimes: 0
+  toPick: true
+- name: Hermit
+  cost:
+    treasure: 3
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: true
+  isReaction: false
+  isDrawer: true
+  isMultiDrawer: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Pillage
-    cost:
-      treasure: 5
-      potion: 0
-    isAttack: true
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Pillage
+  cost:
+    treasure: 5
+    potion: 0
+  isAttack: true
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Mystic
-    cost:
-      treasure: 5
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Mystic
+  cost:
+    treasure: 5
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Storeroom
-    cost:
-      treasure: 3
-      potion: 0
-    isAttack: false
-    isAction: true
-    isDrawer: true
-    isMultiDrawer: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
-    isBuySupplier: true
+  pickTimes: 0
+  toPick: true
+- name: Storeroom
+  cost:
+    treasure: 3
+    potion: 0
+  isAttack: false
+  isAction: true
+  isDrawer: true
+  isMultiDrawer: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
+  isBuySupplier: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Hunting Grounds
-    cost:
-      treasure: 6
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
+  pickTimes: 1
+  toPick: true
+- name: Hunting Grounds
+  cost:
+    treasure: 6
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Graverobber
-    cost:
-      treasure: 5
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: true
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Graverobber
+  cost:
+    treasure: 5
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: true
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Counterfeit
-    cost:
-      treasure: 5
-      potion: 0
-    isAttack: false
-    isAction: false
-    isTreasure: true
-    isVictory: false
-    isTrashing: false
-    isReaction: false
-    isBuySupplier: true
+  pickTimes: 0
+  toPick: true
+- name: Counterfeit
+  cost:
+    treasure: 5
+    potion: 0
+  isAttack: false
+  isAction: false
+  isTreasure: true
+  isVictory: false
+  isTrashing: false
+  isReaction: false
+  isBuySupplier: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Cultist
-    cost:
-      treasure: 5
-      potion: 0
-    isAttack: true
-    isAction: true
-    isDrawer: true
-    isMultiDrawer: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Cultist
+  cost:
+    treasure: 5
+    potion: 0
+  isAttack: true
+  isAction: true
+  isDrawer: true
+  isMultiDrawer: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Rogue
-    cost:
-      treasure: 5
-      potion: 0
-    isAttack: true
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Rogue
+  cost:
+    treasure: 5
+    potion: 0
+  isAttack: true
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Marauder
-    cost:
-      treasure: 4
-      potion: 0
-    isAttack: true
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Marauder
+  cost:
+    treasure: 4
+    potion: 0
+  isAttack: true
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Band of Misfits
-    cost:
-      treasure: 5
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Band of Misfits
+  cost:
+    treasure: 5
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Junk Dealer
-    cost:
-      treasure: 5
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Junk Dealer
+  cost:
+    treasure: 5
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Feodum
-    cost:
-      treasure: 4
-      potion: 0
-    isAttack: false
-    isAction: false
-    isTreasure: false
-    isVictory: true
-    isTrashing: false
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Feodum
+  cost:
+    treasure: 4
+    potion: 0
+  isAttack: false
+  isAction: false
+  isTreasure: false
+  isVictory: true
+  isTrashing: false
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Rebuild
-    cost:
-      treasure: 5
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: true
-    isReaction: false
+  pickTimes: 0
+  toPick: true
+- name: Rebuild
+  cost:
+    treasure: 5
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: true
+  isReaction: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Bandit Camp
-    cost:
-      treasure: 5
-      potion: 0
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
-    isActionSupplier: true
-    pickTimes: 0
-    toPick: true
+  pickTimes: 0
+  toPick: true
+- name: Bandit Camp
+  cost:
+    treasure: 5
+    potion: 0
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
+  isActionSupplier: true
+  pickTimes: 0
+  toPick: true

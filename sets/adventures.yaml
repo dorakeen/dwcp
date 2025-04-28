@@ -539,7 +539,7 @@ cards:
     isTreasure: false
     isVictory: false
 
-    pickTimes: 0
+    pickTimes: 1
     toPick: true
   - name: Coin of the Realm
     cost:

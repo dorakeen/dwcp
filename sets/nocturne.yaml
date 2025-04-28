@@ -1,715 +1,715 @@
 name: Nocturne
 cards:
-  - name: Druid
-    cost:
-      treasure: 2
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isAttack: false
-    isBuySupplier: true
-    isDrawer: false
-    isDoom: false
-    isDuration: false
-    isFate: true
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+- name: Druid
+  cost:
+    treasure: 2
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isAttack: false
+  isBuySupplier: true
+  isDrawer: false
+  isDoom: false
+  isDuration: false
+  isFate: true
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Faithful Hound
-    cost:
-      treasure: 2
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: true
-    isMultiDrawer: true
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isNight: false
-    isReaction: true
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+  pickTimes: 1
+  toPick: true
+- name: Faithful Hound
+  cost:
+    treasure: 2
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: true
+  isMultiDrawer: true
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isNight: false
+  isReaction: true
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Guardian
-    cost:
-      treasure: 2
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: false
-    isDuration: true
-    isFate: false
-    isNight: true
-    isReaction: true
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Guardian
+  cost:
+    treasure: 2
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: false
+  isDuration: true
+  isFate: false
+  isNight: true
+  isReaction: true
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Monastery
-    cost:
-      treasure: 2
-      potion: 0
-      debt: 0
-    isAction: false
-    isActionSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isNight: true
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Monastery
+  cost:
+    treasure: 2
+    potion: 0
+    debt: 0
+  isAction: false
+  isActionSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isNight: true
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Pixie
-    cost:
-      treasure: 2
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: true
-    isDoom: false
-    isDuration: false
-    isFate: true
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Pixie
+  cost:
+    treasure: 2
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: true
+  isDoom: false
+  isDuration: false
+  isFate: true
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Tracker
-    cost:
-      treasure: 2
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: false
-    isDuration: false
-    isFate: true
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Tracker
+  cost:
+    treasure: 2
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: false
+  isDuration: false
+  isFate: true
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Changeling
-    cost:
-      treasure: 3
-      potion: 0
-      debt: 0
-    isAction: false
-    isActionSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isNight: true
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Changeling
+  cost:
+    treasure: 3
+    potion: 0
+    debt: 0
+  isAction: false
+  isActionSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isNight: true
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Fool
-    cost:
-      treasure: 3
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: false
-    isDuration: false
-    isFate: true
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Fool
+  cost:
+    treasure: 3
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: false
+  isDuration: false
+  isFate: true
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Ghost Town
-    cost:
-      treasure: 3
-      potion: 0
-      debt: 0
-    isAction: false
-    isActionSupplier: true
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: true
-    isDoom: false
-    isDuration: true
-    isFate: false
-    isNight: true
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Ghost Town
+  cost:
+    treasure: 3
+    potion: 0
+    debt: 0
+  isAction: false
+  isActionSupplier: true
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: true
+  isDoom: false
+  isDuration: true
+  isFate: false
+  isNight: true
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Leprechaun
-    cost:
-      treasure: 3
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: true
-    isDuration: false
-    isFate: false
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Leprechaun
+  cost:
+    treasure: 3
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: true
+  isDuration: false
+  isFate: false
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Night Watchman
-    cost:
-      treasure: 3
-      potion: 0
-      debt: 0
-    isAction: false
-    isActionSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isNight: true
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Night Watchman
+  cost:
+    treasure: 3
+    potion: 0
+    debt: 0
+  isAction: false
+  isActionSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isNight: true
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Secret Cave
-    cost:
-      treasure: 3
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: true
-    isDoom: false
-    isDuration: true
-    isFate: false
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Secret Cave
+  cost:
+    treasure: 3
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: true
+  isDoom: false
+  isDuration: true
+  isFate: false
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Bard
-    cost:
-      treasure: 4
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: false
-    isDuration: false
-    isFate: true
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Bard
+  cost:
+    treasure: 4
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: false
+  isDuration: false
+  isFate: true
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Blessed Village
-    cost:
-      treasure: 4
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: true
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: false
-    isDuration: false
-    isFate: true
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Blessed Village
+  cost:
+    treasure: 4
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: true
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: false
+  isDuration: false
+  isFate: true
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Cemetery
-    cost:
-      treasure: 4
-      potion: 0
-      debt: 0
-    isAction: false
-    isActionSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isNight: false
-    isReaction: false
-    isTrashing: true
-    isTreasure: false
-    isVictory: true
+  pickTimes: 0
+  toPick: true
+- name: Cemetery
+  cost:
+    treasure: 4
+    potion: 0
+    debt: 0
+  isAction: false
+  isActionSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isNight: false
+  isReaction: false
+  isTrashing: true
+  isTreasure: false
+  isVictory: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Conclave
-    cost:
-      treasure: 4
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+  pickTimes: 1
+  toPick: true
+- name: Conclave
+  cost:
+    treasure: 4
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Devil's Workshop
-    cost:
-      treasure: 4
-      potion: 0
-      debt: 0
-    isAction: false
-    isActionSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isNight: true
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Devil's Workshop
+  cost:
+    treasure: 4
+    potion: 0
+    debt: 0
+  isAction: false
+  isActionSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isNight: true
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Exorcist
-    cost:
-      treasure: 4
-      potion: 0
-      debt: 0
-    isAction: false
-    isActionSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isNight: true
-    isReaction: false
-    isTrashing: true
-    isTreasure: false
-    isVictory: false
+  pickTimes: 1
+  toPick: true
+- name: Exorcist
+  cost:
+    treasure: 4
+    potion: 0
+    debt: 0
+  isAction: false
+  isActionSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isNight: true
+  isReaction: false
+  isTrashing: true
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Necromancer
-    cost:
-      treasure: 4
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: true
-    isMultiDrawer: true
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Necromancer
+  cost:
+    treasure: 4
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: true
+  isMultiDrawer: true
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Shepherd
-    cost:
-      treasure: 4
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: true
-    isMultiDrawer: true
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Shepherd
+  cost:
+    treasure: 4
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: true
+  isMultiDrawer: true
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Skulk
-    cost:
-      treasure: 4
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isAttack: true
-    isBuySupplier: true
-    isDrawer: false
-    isDoom: true
-    isDuration: false
-    isFate: true
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Skulk
+  cost:
+    treasure: 4
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isAttack: true
+  isBuySupplier: true
+  isDrawer: false
+  isDoom: true
+  isDuration: false
+  isFate: true
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Cobbler
-    cost:
-      treasure: 5
-      potion: 0
-      debt: 0
-    isAction: false
-    isActionSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: false
-    isDuration: true
-    isFate: false
-    isNight: true
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Cobbler
+  cost:
+    treasure: 5
+    potion: 0
+    debt: 0
+  isAction: false
+  isActionSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: false
+  isDuration: true
+  isFate: false
+  isNight: true
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Crypt
-    cost:
-      treasure: 5
-      potion: 0
-      debt: 0
-    isAction: false
-    isActionSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: false
-    isDuration: true
-    isFate: false
-    isNight: true
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Crypt
+  cost:
+    treasure: 5
+    potion: 0
+    debt: 0
+  isAction: false
+  isActionSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: false
+  isDuration: true
+  isFate: false
+  isNight: true
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Cursed Village
-    cost:
-      treasure: 5
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: true
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: true
-    isDoom: true
-    isDuration: false
-    isFate: false
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+  pickTimes: 1
+  toPick: true
+- name: Cursed Village
+  cost:
+    treasure: 5
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: true
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: true
+  isDoom: true
+  isDuration: false
+  isFate: false
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Den of Sin
-    cost:
-      treasure: 5
-      potion: 0
-      debt: 0
-    isAction: false
-    isActionSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: true
-    isMultiDrawer: true
-    isDoom: false
-    isDuration: true
-    isFate: false
-    isNight: true
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Den of Sin
+  cost:
+    treasure: 5
+    potion: 0
+    debt: 0
+  isAction: false
+  isActionSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: true
+  isMultiDrawer: true
+  isDoom: false
+  isDuration: true
+  isFate: false
+  isNight: true
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Idol
-    cost:
-      treasure: 5
-      potion: 0
-      debt: 0
-    isAction: false
-    isActionSupplier: false
-    isAttack: true
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: false
-    isDuration: false
-    isFate: true
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: true
-    isVictory: false
+  pickTimes: 1
+  toPick: true
+- name: Idol
+  cost:
+    treasure: 5
+    potion: 0
+    debt: 0
+  isAction: false
+  isActionSupplier: false
+  isAttack: true
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: false
+  isDuration: false
+  isFate: true
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: true
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Pooka
-    cost:
-      treasure: 5
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: true
-    isMultiDrawer: true
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isNight: false
-    isReaction: false
-    isTrashing: true
-    isTreasure: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Pooka
+  cost:
+    treasure: 5
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: true
+  isMultiDrawer: true
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isNight: false
+  isReaction: false
+  isTrashing: true
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Sacred Grove
-    cost:
-      treasure: 5
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isAttack: false
-    isBuySupplier: true
-    isDrawer: true
-    isDoom: false
-    isDuration: false
-    isFate: true
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Sacred Grove
+  cost:
+    treasure: 5
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isAttack: false
+  isBuySupplier: true
+  isDrawer: true
+  isDoom: false
+  isDuration: false
+  isFate: true
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Tormentor
-    cost:
-      treasure: 5
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isAttack: true
-    isBuySupplier: false
-    isDrawer: true
-    isDoom: true
-    isDuration: false
-    isFate: false
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Tormentor
+  cost:
+    treasure: 5
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isAttack: true
+  isBuySupplier: false
+  isDrawer: true
+  isDoom: true
+  isDuration: false
+  isFate: false
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Tragic Hero
-    cost:
-      treasure: 5
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isAttack: false
-    isBuySupplier: true
-    isDrawer: true
-    isMultiDrawer: true
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Tragic Hero
+  cost:
+    treasure: 5
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isAttack: false
+  isBuySupplier: true
+  isDrawer: true
+  isMultiDrawer: true
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Vampire
-    cost:
-      treasure: 5
-      potion: 0
-      debt: 0
-    isAction: false
-    isActionSupplier: false
-    isAttack: true
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: true
-    isDuration: false
-    isFate: false
-    isNight: true
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Vampire
+  cost:
+    treasure: 5
+    potion: 0
+    debt: 0
+  isAction: false
+  isActionSupplier: false
+  isAttack: true
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: true
+  isDuration: false
+  isFate: false
+  isNight: true
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Werewolf
-    cost:
-      treasure: 5
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isAttack: true
-    isBuySupplier: false
-    isDrawer: true
-    isMultiDrawer: true
-    isDoom: true
-    isDuration: false
-    isFate: false
-    isNight: true
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Werewolf
+  cost:
+    treasure: 5
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isAttack: true
+  isBuySupplier: false
+  isDrawer: true
+  isMultiDrawer: true
+  isDoom: true
+  isDuration: false
+  isFate: false
+  isNight: true
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Raider
-    cost:
-      treasure: 6
-      potion: 0
-      debt: 0
-    isAction: false
-    isActionSupplier: false
-    isAttack: true
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: false
-    isDuration: true
-    isFate: false
-    isNight: true
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Raider
+  cost:
+    treasure: 6
+    potion: 0
+    debt: 0
+  isAction: false
+  isActionSupplier: false
+  isAttack: true
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: false
+  isDuration: true
+  isFate: false
+  isNight: true
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
+  pickTimes: 0
+  toPick: true
 boons:
-  - name: The Earth's Gift
-  - name: The Field's Gift
-  - name: The Flame's Gift
-  - name: The Forest's Gift
-  - name: The Moon's Gift
-  - name: The Mountain's Gift
-  - name: The River's Gift
-  - name: The Sea's Gift
-  - name: The Sky's Gift
-  - name: The Sun's Gift
-  - name: The Swamp's Gift
-  - name: The Wind's Gift
+- name: The Earth's Gift
+- name: The Field's Gift
+- name: The Flame's Gift
+- name: The Forest's Gift
+- name: The Moon's Gift
+- name: The Mountain's Gift
+- name: The River's Gift
+- name: The Sea's Gift
+- name: The Sky's Gift
+- name: The Sun's Gift
+- name: The Swamp's Gift
+- name: The Wind's Gift
