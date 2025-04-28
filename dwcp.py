@@ -19,18 +19,21 @@
 #
 # Requirements:
 #   - Python 3.6 or higher
-#   - PyYAML
-#   - Rich
+#   - ruamel.yaml
+#   - rich.console
 #
 # TODO:
-#   - Print the number of possible set selections
-#   - Save the picked cards to the respective yaml files
+#   - substitute already used cards with new ones
+#   - potion 3 card rule
 #   - Selection max number of kingdom set cards
 #   - Save the picked cards to a database
 #   - Add support for specifying the number of kingdom and landscape cards to select
 #   - Add support for specifying the card sets to include in the selection
 #   - Add support for specifying the card attributes to weight the selection
 #   - Add support for specifying the card attributes to exclude from the selection
+#
+# REFs:
+#   - https://rich.readthedocs.io/en/stable/appendix/colors.html
 #
 # ===============================================================================
 # 
@@ -202,9 +205,11 @@ def set_default_landscape_attibutes() :
 # ===============================================================================
 def create_randomizer_piles(l_args):
     '''
-    Create Randomizer Piles (one for Kingdom, one for Landscape)
+    Creates tow Randomizer Piles (one for Kingdom, one for Landscape)
+
     kingdoms:
         [list of cards as dicts] - card has additional key/value of set
+
     landscapes:
         [list of landscapes as dicts] - card has additional key/value of set, and additional key/value of the type of landscape
 
@@ -281,22 +286,52 @@ def pick_random_cards(randpiles, num_kingdom=10, num_landscape=0):
         weights = [float(1 / (card['pickTimes'] + 1)) for card in randpiles["kingdoms"]]
                 
         log.debug(f"randpiles['kingdoms']: {len(randpiles['kingdoms'])}")
+        log.debug(f"weights: {weights}")
         console.print()
         console.print(f"Selecting {num_kingdom} kingdoms from a set of {len(randpiles['kingdoms'])} ...", style='bold blue1')
         console.print()
 
-        for _ in  range(num_kingdom) :
-            kc = random.choices(randpiles["kingdoms"], weights=weights, k=1)
+        # Pick kingdom cards
+        answ = []
+        while True :
+            for _ in range(num_kingdom) :
+                kc = random.choices(randpiles["kingdoms"], weights=weights, k=1)
 
-            selected_idx = randpiles["kingdoms"].index(kc[0])
-            print(f"PICK: Card ID {selected_idx:03} - {kc[0]['name']}\t ({kc[0]['set']}) \t[{kc[0]['pickTimes']}]")
-            
-            picked["kingdoms"].append(kc[0])
+                selected_idx = randpiles["kingdoms"].index(kc[0])
+                #print(f"PICK: Card ID {selected_idx:03} - {kc[0]['name']}\t ({kc[0]['set']}) \t[{kc[0]['pickTimes']}]")
+                
+                picked["kingdoms"].append(kc[0])
 
-            # Remove picked cards from randomizer pile
-            # randpiles["kingdoms"].remove(kc[0])
-            randpiles["kingdoms"].pop(selected_idx)
-            weights.pop(selected_idx)
+                # Remove picked cards from randomizer pile
+                # randpiles["kingdoms"].remove(kc[0])
+                randpiles["kingdoms"].pop(selected_idx)
+                weights.pop(selected_idx)
+
+            # Sort the picked kingdom cards by name
+            picked["kingdoms"].sort(key=lambda x: x['name'])
+
+            sets_list = set() # useless here ...
+            print_k_result(picked, sets_list)
+            answ = str.split(console.input("Select the number related to the card to change (return for none) ? "))
+            if len(answ) == 0 :
+                # nothing to change, move on
+                break
+
+            num_kingdom = len(answ)
+            names = []
+            for remove_idx in answ :
+                # lists the card names to remove
+                idx = int(remove_idx) - 1
+                names.append(picked['kingdoms'][int(idx)]['name'])
+
+            for name in names :
+                for pcard in picked["kingdoms"]:
+                    if pcard['name'] == name :
+                        # Remove picked cards from randomizer pile
+                        idx = picked["kingdoms"].index(pcard)
+                        #print(f"REMOVE: Card ID {idx:03} - {pcard['name']}\t ({pcard['set']}) \t[{pcard['pickTimes']}]")
+                        picked["kingdoms"].pop(idx)
+                        break
 
         # Looking for Liaison/Omen cards in the picked kingdom cards
         ally_card = None
@@ -315,10 +350,6 @@ def pick_random_cards(randpiles, num_kingdom=10, num_landscape=0):
                 prophecy_card = random.choice(randpiles["prophecies"])
                 picked["landscapes"].append(prophecy_card)
                 
-
-    # Sort the picked kingdom cards by name
-    picked["kingdoms"].sort(key=lambda x: x['name'])
-    
     # Pick landscape cards 
     if randpiles["landscapes"] and num_landscape > 0:
         landscape_cards = random.sample(randpiles["landscapes"], min(num_landscape, len(randpiles["landscapes"])))
@@ -334,9 +365,9 @@ def pick_random_cards(randpiles, num_kingdom=10, num_landscape=0):
 
 
 # ===============================================================================
-# print_result(l_args)
+# print_k_result(selection)
 # =============================================================================== 
-def print_result(selection) :
+def print_k_result(selection, sets_list) :
     """
     Print the selected cards
     """
@@ -344,7 +375,6 @@ def print_result(selection) :
     console.print("")
     console.print("          ─━═ Kingdom Cards ═━─        ", style='bold blue1')
     n = 1
-    sets_list = set()
     log.info("Selected Kingdom Cards:")
     for kcard in selection["kingdoms"]:
         # Set color. For multi-types, the first chosen here is the priority color
@@ -353,9 +383,11 @@ def print_result(selection) :
         elif kcard.get('isAttack'): 
             color = "red"
         elif kcard.get('isReaction'): 
-            color = "cyan"
+            color = "dodger_blue1"
         elif kcard.get('isVictory'): 
             color = "green"
+        elif kcard.get('isDuration'): 
+            color = "dark_orange"
         else: 
             color = "white"
 
@@ -371,6 +403,24 @@ def print_result(selection) :
         # <3 and <20 for spacing. Num has to be combined with . old fashioned way for this to work
         console.print(f"{str(n) + '.' : <3} [{color}]{kcard['name'] : <17}[/{color}] ({kcard['set'].title()})")
         n += 1
+
+    console.print()
+
+
+# ===============================================================================
+# print_result(selection)
+# =============================================================================== 
+def print_result(selection) :
+    """
+    Print the selected cards
+    """
+
+    console.print()
+    console.print()
+    console.print(f"... and the final selection is :", style='bold blue1')
+
+    sets_list = set()
+    print_k_result(selection, sets_list)
 
     # platinum / colony selection (15%)
     platcol = random.randint(1, 100)
@@ -435,10 +485,6 @@ def save_picked_cards(selection) :
     This is needed to select the weight probability.
     """
     
-    answ = console.input("Do you want to save the picked cards? (y/n) ")
-    if not answ == 'y':
-        return
-
     for setname, yamlname in SETNAME_TO_YAMLNAME.items():
         log.debug(f" [{setname}][{yamlname}]")
 
@@ -494,7 +540,9 @@ def dwcp(l_args):
     
     print_result(selected)
 
-    save_picked_cards(selected)
+    answ = console.input("Do you want to save the picked cards? (y/N) ")
+    if answ == 'y':
+        save_picked_cards(selected)
 
     return selected
 
