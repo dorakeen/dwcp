@@ -41,7 +41,7 @@ cards:
   isTrashing: false
   isReaction: false
 
-  pickTimes: 0
+  pickTimes: 1
   toPick: true
 - name: Count
   cost:
@@ -81,7 +81,7 @@ cards:
   isReaction: false
   isActionSupplier: true
 
-  pickTimes: 0
+  pickTimes: 1
   toPick: true
 - name: Scavenger
   cost:

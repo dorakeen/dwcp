@@ -1,118 +1,118 @@
 name: Seaside (update)
 cards:
-  - name: Astrolabe
-    cost:
-      treasure: 3
-    isAttack: false
-    isAction: false
-    isTreasure: true
-    isVictory: false
-    isTrashing: false
-    isReaction: false
-    isDuration: true
+- name: Astrolabe
+  cost:
+    treasure: 3
+  isAttack: false
+  isAction: false
+  isTreasure: true
+  isVictory: false
+  isTrashing: false
+  isReaction: false
+  isDuration: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Monkey
-    cost:
-      treasure: 3
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
-    isDuration: true
+  pickTimes: 0
+  toPick: true
+- name: Monkey
+  cost:
+    treasure: 3
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
+  isDuration: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Sea Chart
-    cost:
-      treasure: 3
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
-    isDuration: false
+  pickTimes: 0
+  toPick: true
+- name: Sea Chart
+  cost:
+    treasure: 3
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
+  isDuration: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Blockade
-    cost:
-      treasure: 4
-    isAttack: true
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
-    isDuration: true
+  pickTimes: 1
+  toPick: true
+- name: Blockade
+  cost:
+    treasure: 4
+  isAttack: true
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
+  isDuration: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Sailor
-    cost:
-      treasure: 4
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
-    isDuration: true
+  pickTimes: 0
+  toPick: true
+- name: Sailor
+  cost:
+    treasure: 4
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
+  isDuration: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Tide Pools
-    cost:
-      treasure: 4
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
-    isDuration: true
+  pickTimes: 0
+  toPick: true
+- name: Tide Pools
+  cost:
+    treasure: 4
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
+  isDuration: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Corsair
-    cost:
-      treasure: 5
-    isAttack: true
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
-    isDuration: true
+  pickTimes: 0
+  toPick: true
+- name: Corsair
+  cost:
+    treasure: 5
+  isAttack: true
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
+  isDuration: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Pirate
-    cost:
-      treasure: 5
-    isAttack: false
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: true
-    isDuration: true
+  pickTimes: 0
+  toPick: true
+- name: Pirate
+  cost:
+    treasure: 5
+  isAttack: false
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: true
+  isDuration: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Sea Witch
-    cost:
-      treasure: 5
-    isAttack: true
-    isAction: true
-    isTreasure: false
-    isVictory: false
-    isTrashing: false
-    isReaction: false
-    isDuration: true
-    pickTimes: 0
-    toPick: true
+  pickTimes: 0
+  toPick: true
+- name: Sea Witch
+  cost:
+    treasure: 5
+  isAttack: true
+  isAction: true
+  isTreasure: false
+  isVictory: false
+  isTrashing: false
+  isReaction: false
+  isDuration: true
+  pickTimes: 0
+  toPick: true

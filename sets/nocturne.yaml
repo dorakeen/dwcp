@@ -548,7 +548,7 @@ cards:
   isTreasure: true
   isVictory: false
 
-  pickTimes: 0
+  pickTimes: 1
   toPick: true
 - name: Pooka
   cost:
@@ -698,7 +698,7 @@ cards:
   isTreasure: false
   isVictory: false
 
-  pickTimes: 0
+  pickTimes: 1
   toPick: true
 boons:
 - name: The Earth's Gift
