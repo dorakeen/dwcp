@@ -53,7 +53,7 @@ cards:
   isTrashing: false
   isReaction: false
 
-  pickTimes: 1
+  pickTimes: 2
   toPick: true
 - name: Hamlet
   cost:
@@ -68,7 +68,7 @@ cards:
   isBuySupplier: true
   isActionSupplier: true
 
-  pickTimes: 0
+  pickTimes: 1
   toPick: true
 - name: Jester
   cost:

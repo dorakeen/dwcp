@@ -1,79 +1,79 @@
 name: Hinterlands (update)
 cards:
-  - name: Nomads
-    cost:
-      treasure: 4
-    isAction: true
-    isBuySupplier: true
+- name: Nomads
+  cost:
+    treasure: 4
+  isAction: true
+  isBuySupplier: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Trail
-    cost:
-      treasure: 4
-      potion: 0
-    isAction: true
-    isReaction: true
+  pickTimes: 0
+  toPick: true
+- name: Trail
+  cost:
+    treasure: 4
+    potion: 0
+  isAction: true
+  isReaction: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Weaver
-    cost:
-      treasure: 4
-    isAction: true
-    isReaction: true
+  pickTimes: 0
+  toPick: true
+- name: Weaver
+  cost:
+    treasure: 4
+  isAction: true
+  isReaction: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Berserker
-    cost:
-      treasure: 5
-    isAttack: true
-    isAction: true
+  pickTimes: 1
+  toPick: true
+- name: Berserker
+  cost:
+    treasure: 5
+  isAttack: true
+  isAction: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Cauldron
-    cost:
-      treasure: 5
-    isAttack: true
-    isBuySupplier: true
-    isTreasure: true
+  pickTimes: 0
+  toPick: true
+- name: Cauldron
+  cost:
+    treasure: 5
+  isAttack: true
+  isBuySupplier: true
+  isTreasure: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Guard Dog
-    cost:
-      treasure: 3
-    isAction: true
-    isDrawer: true
-    isMultiDrawer: true
-    isReaction: true
+  pickTimes: 0
+  toPick: true
+- name: Guard Dog
+  cost:
+    treasure: 3
+  isAction: true
+  isDrawer: true
+  isMultiDrawer: true
+  isReaction: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Souk
-    cost:
-      treasure: 5
-    isBuySupplier: true
-    isAction: true
+  pickTimes: 0
+  toPick: true
+- name: Souk
+  cost:
+    treasure: 5
+  isBuySupplier: true
+  isAction: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Wheelwright
-    cost:
-      treasure: 5
-    isAction: true
-    isDrawer: true
+  pickTimes: 0
+  toPick: true
+- name: Wheelwright
+  cost:
+    treasure: 5
+  isAction: true
+  isDrawer: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Witch's Hut
-    cost:
-      treasure: 5
-    isAttack: false
-    isAction: true
-    isDrawer: true
-    isMultiDrawer: true
-    pickTimes: 0
-    toPick: true
+  pickTimes: 0
+  toPick: true
+- name: Witch's Hut
+  cost:
+    treasure: 5
+  isAttack: false
+  isAction: true
+  isDrawer: true
+  isMultiDrawer: true
+  pickTimes: 0
+  toPick: true

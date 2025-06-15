@@ -1,74 +1,74 @@
 name: Prosperity (update)
 cards:
-  - name: Anvil
-    cost:
-      treasure: 3
-    isTreasure: true
-    isTrashing: true
+- name: Anvil
+  cost:
+    treasure: 3
+  isTreasure: true
+  isTrashing: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Clerk
-    cost:
-      treasure: 4
-    isAttack: true
-    isAction: true
-    isReaction: true
+  pickTimes: 0
+  toPick: true
+- name: Clerk
+  cost:
+    treasure: 4
+  isAttack: true
+  isAction: true
+  isReaction: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Investment
-    cost:
-      treasure: 4
-    isTreasure: true
-    isTrashing: true
+  pickTimes: 0
+  toPick: true
+- name: Investment
+  cost:
+    treasure: 4
+  isTreasure: true
+  isTrashing: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Tiara
-    cost:
-      treasure: 4
-    isTreasure: true
-    isBuySupplier: true
+  pickTimes: 0
+  toPick: true
+- name: Tiara
+  cost:
+    treasure: 4
+  isTreasure: true
+  isBuySupplier: true
 
-    pickTimes: 1
-    toPick: true
-  - name: Charlatan
-    cost:
-      treasure: 5
-    isAttack: true
-    isAction: true
+  pickTimes: 1
+  toPick: true
+- name: Charlatan
+  cost:
+    treasure: 5
+  isAttack: true
+  isAction: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Collection
-    cost:
-      treasure: 5
-    isTreasure: true
-    isBuySupplier: true
+  pickTimes: 0
+  toPick: true
+- name: Collection
+  cost:
+    treasure: 5
+  isTreasure: true
+  isBuySupplier: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Crystal Ball
-    cost:
-      treasure: 5
-    isTreasure: true
-    isTrashing: true
+  pickTimes: 0
+  toPick: true
+- name: Crystal Ball
+  cost:
+    treasure: 5
+  isTreasure: true
+  isTrashing: true
 
-    pickTimes: 0
-    toPick: true
-  - name: Magnate
-    cost:
-      treasure: 5
-    isAction: true
-    isDrawer: true
-    isMultiDrawer: true
+  pickTimes: 0
+  toPick: true
+- name: Magnate
+  cost:
+    treasure: 5
+  isAction: true
+  isDrawer: true
+  isMultiDrawer: true
 
-    pickTimes: 0
-    toPick: true
-  - name: War Chest
-    cost:
-      treasure: 5
-    isTreasure: true
-    pickTimes: 1
-    toPick: true
+  pickTimes: 1
+  toPick: true
+- name: War Chest
+  cost:
+    treasure: 5
+  isTreasure: true
+  pickTimes: 1
+  toPick: true

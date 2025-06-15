@@ -146,7 +146,7 @@ cards:
   isTreasure: false
   isVictory: false
 
-  pickTimes: 0
+  pickTimes: 1
   toPick: true
 - name: Fool
   cost:
@@ -377,7 +377,7 @@ cards:
   isTreasure: false
   isVictory: false
 
-  pickTimes: 0
+  pickTimes: 1
   toPick: true
 - name: Necromancer
   cost:
@@ -570,7 +570,7 @@ cards:
   isTreasure: false
   isVictory: false
 
-  pickTimes: 0
+  pickTimes: 1
   toPick: true
 - name: Sacred Grove
   cost:

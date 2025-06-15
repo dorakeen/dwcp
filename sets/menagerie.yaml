@@ -1,870 +1,870 @@
 name: Menagerie
 cards:
-  - name: Black Cat
-    cost:
-      treasure: 2
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isArtifactSupplier: false
-    isAttack: true
-    isBuySupplier: false
-    isDrawer: true
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isMultiDrawer: true
-    isNight: false
-    isReaction: true
-    isTrashing: false
-    isTreasure: false
-    isTerminal: false
-    isVictory: false
+- name: Black Cat
+  cost:
+    treasure: 2
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isArtifactSupplier: false
+  isAttack: true
+  isBuySupplier: false
+  isDrawer: true
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isMultiDrawer: true
+  isNight: false
+  isReaction: true
+  isTrashing: false
+  isTreasure: false
+  isTerminal: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Sleigh
-    cost:
-      treasure: 2
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isArtifactSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: true
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isMultiDrawer: true
-    isNight: false
-    isReaction: true
-    isTrashing: false
-    isTreasure: false
-    isTerminal: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Sleigh
+  cost:
+    treasure: 2
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isArtifactSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: true
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isMultiDrawer: true
+  isNight: false
+  isReaction: true
+  isTrashing: false
+  isTreasure: false
+  isTerminal: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Supplies
-    cost:
-      treasure: 2
-      potion: 0
-      debt: 0
-    isAction: false
-    isActionSupplier: false
-    isArtifactSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isMultiDrawer: false
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: true
-    isTerminal: false
-    isVictory: false
-    setup:
-      - horse
+  pickTimes: 0
+  toPick: true
+- name: Supplies
+  cost:
+    treasure: 2
+    potion: 0
+    debt: 0
+  isAction: false
+  isActionSupplier: false
+  isArtifactSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isMultiDrawer: false
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: true
+  isTerminal: false
+  isVictory: false
+  setup:
+  - horse
 
-    pickTimes: 0
-    toPick: true
-  - name: Camel Train
-    cost:
-      treasure: 3
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isArtifactSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isMultiDrawer: false
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isTerminal: false
-    isVictory: false
-    setup:
-      - exile_map
+  pickTimes: 0
+  toPick: true
+- name: Camel Train
+  cost:
+    treasure: 3
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isArtifactSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isMultiDrawer: false
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isTerminal: false
+  isVictory: false
+  setup:
+  - exile_map
 
-    pickTimes: 0
-    toPick: true
-  - name: Goatherd
-    cost:
-      treasure: 3
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isArtifactSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: true
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isMultiDrawer: true
-    isNight: false
-    isReaction: false
-    isTrashing: true
-    isTreasure: false
-    isTerminal: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Goatherd
+  cost:
+    treasure: 3
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isArtifactSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: true
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isMultiDrawer: true
+  isNight: false
+  isReaction: false
+  isTrashing: true
+  isTreasure: false
+  isTerminal: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Scrap
-    cost:
-      treasure: 3
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isArtifactSupplier: false
-    isAttack: false
-    isBuySupplier: true
-    isDrawer: true
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isMultiDrawer: false
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isTerminal: false
-    isVictory: false
-    setup:
-      - horse
+  pickTimes: 0
+  toPick: true
+- name: Scrap
+  cost:
+    treasure: 3
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isArtifactSupplier: false
+  isAttack: false
+  isBuySupplier: true
+  isDrawer: true
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isMultiDrawer: false
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isTerminal: false
+  isVictory: false
+  setup:
+  - horse
 
-    pickTimes: 0
-    toPick: true
-  - name: Sheepdog
-    cost:
-      treasure: 3
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isArtifactSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: true
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isMultiDrawer: true
-    isNight: false
-    isReaction: true
-    isTrashing: false
-    isTreasure: false
-    isTerminal: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Sheepdog
+  cost:
+    treasure: 3
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isArtifactSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: true
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isMultiDrawer: true
+  isNight: false
+  isReaction: true
+  isTrashing: false
+  isTreasure: false
+  isTerminal: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Snowy Village
-    cost:
-      treasure: 3
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: true
-    isArtifactSupplier: false
-    isAttack: false
-    isBuySupplier: true
-    isDrawer: true
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isMultiDrawer: false
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isTerminal: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Snowy Village
+  cost:
+    treasure: 3
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: true
+  isArtifactSupplier: false
+  isAttack: false
+  isBuySupplier: true
+  isDrawer: true
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isMultiDrawer: false
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isTerminal: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Stockpile
-    cost:
-      treasure: 3
-      potion: 0
-      debt: 0
-    isAction: false
-    isActionSupplier: false
-    isArtifactSupplier: false
-    isAttack: false
-    isBuySupplier: true
-    isDrawer: false
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isMultiDrawer: false
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: true
-    isTerminal: false
-    isVictory: false
-    setup:
-      - exile_mat
+  pickTimes: 0
+  toPick: true
+- name: Stockpile
+  cost:
+    treasure: 3
+    potion: 0
+    debt: 0
+  isAction: false
+  isActionSupplier: false
+  isArtifactSupplier: false
+  isAttack: false
+  isBuySupplier: true
+  isDrawer: false
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isMultiDrawer: false
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: true
+  isTerminal: false
+  isVictory: false
+  setup:
+  - exile_mat
 
-    pickTimes: 0
-    toPick: true
-  - name: Bounty Hunter
-    cost:
-      treasure: 4
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isArtifactSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isMultiDrawer: false
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isTerminal: false
-    isVictory: false
-    setup:
-      - exile_mat
+  pickTimes: 0
+  toPick: true
+- name: Bounty Hunter
+  cost:
+    treasure: 4
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isArtifactSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isMultiDrawer: false
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isTerminal: false
+  isVictory: false
+  setup:
+  - exile_mat
 
-    pickTimes: 0
-    toPick: true
-  - name: Cardinal
-    cost:
-      treasure: 4
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isArtifactSupplier: false
-    isAttack: true
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isMultiDrawer: false
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isTerminal: false
-    isVictory: false
-    setup:
-      - exile_mat
+  pickTimes: 0
+  toPick: true
+- name: Cardinal
+  cost:
+    treasure: 4
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isArtifactSupplier: false
+  isAttack: true
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isMultiDrawer: false
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isTerminal: false
+  isVictory: false
+  setup:
+  - exile_mat
 
-    pickTimes: 0
-    toPick: true
-  - name: Cavalry
-    cost:
-      treasure: 4
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isArtifactSupplier: false
-    isAttack: false
-    isBuySupplier: true
-    isDrawer: true
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isMultiDrawer: true
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isTerminal: false
-    isVictory: false
-    setup:
-      - horse
+  pickTimes: 1
+  toPick: true
+- name: Cavalry
+  cost:
+    treasure: 4
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isArtifactSupplier: false
+  isAttack: false
+  isBuySupplier: true
+  isDrawer: true
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isMultiDrawer: true
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isTerminal: false
+  isVictory: false
+  setup:
+  - horse
 
-    pickTimes: 0
-    toPick: true
-  - name: Groom
-    cost:
-      treasure: 4
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isArtifactSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: true
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isMultiDrawer: false
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isTerminal: false
-    isVictory: false
-    setup:
-      - horse
+  pickTimes: 0
+  toPick: true
+- name: Groom
+  cost:
+    treasure: 4
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isArtifactSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: true
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isMultiDrawer: false
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isTerminal: false
+  isVictory: false
+  setup:
+  - horse
 
-    pickTimes: 0
-    toPick: true
-  - name: Hostelry
-    cost:
-      treasure: 4
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: true
-    isArtifactSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: true
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isMultiDrawer: false
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isTerminal: false
-    isVictory: false
-    setup:
-      - horse
+  pickTimes: 0
+  toPick: true
+- name: Hostelry
+  cost:
+    treasure: 4
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: true
+  isArtifactSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: true
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isMultiDrawer: false
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isTerminal: false
+  isVictory: false
+  setup:
+  - horse
 
-    pickTimes: 0
-    toPick: true
-  - name: Village Green
-    cost:
-      treasure: 4
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: true
-    isArtifactSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: true
-    isDoom: false
-    isDuration: true
-    isFate: false
-    isMultiDrawer: false
-    isNight: false
-    isReaction: true
-    isTrashing: false
-    isTreasure: false
-    isTerminal: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Village Green
+  cost:
+    treasure: 4
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: true
+  isArtifactSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: true
+  isDoom: false
+  isDuration: true
+  isFate: false
+  isMultiDrawer: false
+  isNight: false
+  isReaction: true
+  isTrashing: false
+  isTreasure: false
+  isTerminal: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Barge
-    cost:
-      treasure: 5
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isArtifactSupplier: false
-    isAttack: false
-    isBuySupplier: true
-    isDrawer: true
-    isDoom: false
-    isDuration: true
-    isFate: false
-    isMultiDrawer: true
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isTerminal: false
-    isVictory: false
+  pickTimes: 1
+  toPick: true
+- name: Barge
+  cost:
+    treasure: 5
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isArtifactSupplier: false
+  isAttack: false
+  isBuySupplier: true
+  isDrawer: true
+  isDoom: false
+  isDuration: true
+  isFate: false
+  isMultiDrawer: true
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isTerminal: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Coven
-    cost:
-      treasure: 5
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isArtifactSupplier: false
-    isAttack: true
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isMultiDrawer: false
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isTerminal: false
-    isVictory: false
-    setup:
-      - exile_mat
+  pickTimes: 0
+  toPick: true
+- name: Coven
+  cost:
+    treasure: 5
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isArtifactSupplier: false
+  isAttack: true
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isMultiDrawer: false
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isTerminal: false
+  isVictory: false
+  setup:
+  - exile_mat
 
-    pickTimes: 1
-    toPick: true
-  - name: Displace
-    cost:
-      treasure: 5
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isArtifactSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isMultiDrawer: false
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isTerminal: false
-    isVictory: false
-    setup:
-      - exile_mat
+  pickTimes: 1
+  toPick: true
+- name: Displace
+  cost:
+    treasure: 5
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isArtifactSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isMultiDrawer: false
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isTerminal: false
+  isVictory: false
+  setup:
+  - exile_mat
 
-    pickTimes: 0
-    toPick: true
-  - name: Falconer
-    cost:
-      treasure: 5
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isArtifactSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isMultiDrawer: false
-    isNight: false
-    isReaction: true
-    isTrashing: false
-    isTreasure: false
-    isTerminal: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Falconer
+  cost:
+    treasure: 5
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isArtifactSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isMultiDrawer: false
+  isNight: false
+  isReaction: true
+  isTrashing: false
+  isTreasure: false
+  isTerminal: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Gatekeeper
-    cost:
-      treasure: 5
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isArtifactSupplier: false
-    isAttack: true
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: false
-    isDuration: true
-    isFate: false
-    isMultiDrawer: false
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isTerminal: false
-    isVictory: false
-    setup:
-      - exile_mat
+  pickTimes: 1
+  toPick: true
+- name: Gatekeeper
+  cost:
+    treasure: 5
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isArtifactSupplier: false
+  isAttack: true
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: false
+  isDuration: true
+  isFate: false
+  isMultiDrawer: false
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isTerminal: false
+  isVictory: false
+  setup:
+  - exile_mat
 
-    pickTimes: 0
-    toPick: true
-  - name: Hunting Lodge
-    cost:
-      treasure: 5
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: true
-    isArtifactSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: true
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isMultiDrawer: true
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isTerminal: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Hunting Lodge
+  cost:
+    treasure: 5
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: true
+  isArtifactSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: true
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isMultiDrawer: true
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isTerminal: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Kiln
-    cost:
-      treasure: 5
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isArtifactSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isMultiDrawer: false
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isTerminal: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Kiln
+  cost:
+    treasure: 5
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isArtifactSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isMultiDrawer: false
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isTerminal: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Livery
-    cost:
-      treasure: 5
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isArtifactSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isMultiDrawer: false
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isTerminal: false
-    isVictory: false
-    setup:
-      - horse
+  pickTimes: 0
+  toPick: true
+- name: Livery
+  cost:
+    treasure: 5
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isArtifactSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isMultiDrawer: false
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isTerminal: false
+  isVictory: false
+  setup:
+  - horse
 
-    pickTimes: 0
-    toPick: true
-  - name: Mastermind
-    cost:
-      treasure: 5
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isArtifactSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: false
-    isDuration: true
-    isFate: false
-    isMultiDrawer: false
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isTerminal: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Mastermind
+  cost:
+    treasure: 5
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isArtifactSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: false
+  isDuration: true
+  isFate: false
+  isMultiDrawer: false
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isTerminal: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Paddock
-    cost:
-      treasure: 5
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isArtifactSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: false
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isMultiDrawer: false
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isTerminal: false
-    isVictory: false
-    setup:
-      - horse
+  pickTimes: 0
+  toPick: true
+- name: Paddock
+  cost:
+    treasure: 5
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isArtifactSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: false
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isMultiDrawer: false
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isTerminal: false
+  isVictory: false
+  setup:
+  - horse
 
-    pickTimes: 0
-    toPick: true
-  - name: Sanctuary
-    cost:
-      treasure: 5
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isArtifactSupplier: false
-    isAttack: false
-    isBuySupplier: true
-    isDrawer: true
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isMultiDrawer: false
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isTerminal: false
-    isVictory: false
-    setup:
-      - exile_mat
+  pickTimes: 0
+  toPick: true
+- name: Sanctuary
+  cost:
+    treasure: 5
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isArtifactSupplier: false
+  isAttack: false
+  isBuySupplier: true
+  isDrawer: true
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isMultiDrawer: false
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isTerminal: false
+  isVictory: false
+  setup:
+  - exile_mat
 
-    pickTimes: 0
-    toPick: true
-  - name: Fisherman
-    cost:
-      treasure: 5
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isArtifactSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: true
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isMultiDrawer: false
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isTerminal: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Fisherman
+  cost:
+    treasure: 5
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isArtifactSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: true
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isMultiDrawer: false
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isTerminal: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Destrier
-    cost:
-      treasure: 6
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isArtifactSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: true
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isMultiDrawer: true
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isTerminal: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Destrier
+  cost:
+    treasure: 6
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isArtifactSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: true
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isMultiDrawer: true
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isTerminal: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Wayfarer
-    cost:
-      treasure: 6
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isArtifactSupplier: false
-    isAttack: false
-    isBuySupplier: false
-    isDrawer: true
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isMultiDrawer: true
-    isNight: false
-    isReaction: false
-    isTrashing: false
-    isTreasure: false
-    isTerminal: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Wayfarer
+  cost:
+    treasure: 6
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isArtifactSupplier: false
+  isAttack: false
+  isBuySupplier: false
+  isDrawer: true
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isMultiDrawer: true
+  isNight: false
+  isReaction: false
+  isTrashing: false
+  isTreasure: false
+  isTerminal: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
-  - name: Animal Fair
-    cost:
-      treasure: 7
-      potion: 0
-      debt: 0
-    isAction: true
-    isActionSupplier: false
-    isArtifactSupplier: false
-    isAttack: false
-    isBuySupplier: true
-    isDrawer: false
-    isDoom: false
-    isDuration: false
-    isFate: false
-    isMultiDrawer: false
-    isNight: false
-    isReaction: false
-    isTrashing: true
-    isTreasure: false
-    isTerminal: false
-    isVictory: false
+  pickTimes: 0
+  toPick: true
+- name: Animal Fair
+  cost:
+    treasure: 7
+    potion: 0
+    debt: 0
+  isAction: true
+  isActionSupplier: false
+  isArtifactSupplier: false
+  isAttack: false
+  isBuySupplier: true
+  isDrawer: false
+  isDoom: false
+  isDuration: false
+  isFate: false
+  isMultiDrawer: false
+  isNight: false
+  isReaction: false
+  isTrashing: true
+  isTreasure: false
+  isTerminal: false
+  isVictory: false
 
-    pickTimes: 0
-    toPick: true
+  pickTimes: 0
+  toPick: true
 events:
-  - name: Delay
-    cost:
-      treasure: 0
+- name: Delay
+  cost:
+    treasure: 0
 
-  - name: Desperation
-    cost:
-      treasure: 0
+- name: Desperation
+  cost:
+    treasure: 0
 
-  - name: Gamble
-    cost:
-      treasure: 2
+- name: Gamble
+  cost:
+    treasure: 2
 
-  - name: Pursue
-    cost:
-      treasure: 2
+- name: Pursue
+  cost:
+    treasure: 2
 
-  - name: Ride
-    cost:
-      treasure: 2
-    setup:
-      - horse
+- name: Ride
+  cost:
+    treasure: 2
+  setup:
+  - horse
 
-  - name: Toil
-    cost:
-      treasure: 2
+- name: Toil
+  cost:
+    treasure: 2
 
-  - name: Enhance
-    cost:
-      treasure: 3
+- name: Enhance
+  cost:
+    treasure: 3
 
-  - name: March
-    cost:
-      treasure: 3
+- name: March
+  cost:
+    treasure: 3
 
-  - name: Transport
-    cost:
-      treasure: 3
-    setup:
-      - exile_mat
+- name: Transport
+  cost:
+    treasure: 3
+  setup:
+  - exile_mat
 
-  - name: Banish
-    cost:
-      treasure: 4
-    setup:
-      - exile_mat
+- name: Banish
+  cost:
+    treasure: 4
+  setup:
+  - exile_mat
 
-  - name: Bargain
-    cost:
-      treasure: 4
-    setup:
-      - horse
+- name: Bargain
+  cost:
+    treasure: 4
+  setup:
+  - horse
 
-  - name: Invest
-    cost:
-      treasure: 4
-    setup:
-      - exile_mat
+- name: Invest
+  cost:
+    treasure: 4
+  setup:
+  - exile_mat
 
-  - name: Seize the Day
-    cost:
-      treasure: 4
+- name: Seize the Day
+  cost:
+    treasure: 4
 
-  - name: Commerce
-    cost:
-      treasure: 5
+- name: Commerce
+  cost:
+    treasure: 5
 
-  - name: Demand
-    cost:
-      treasure: 5
-    setup:
-      - horse
+- name: Demand
+  cost:
+    treasure: 5
+  setup:
+  - horse
 
-  - name: Stampede
-    cost:
-      treasure: 5
-    setup:
-      - horse
+- name: Stampede
+  cost:
+    treasure: 5
+  setup:
+  - horse
 
-  - name: Reap
-    cost:
-      treasure: 7
+- name: Reap
+  cost:
+    treasure: 7
 
-  - name: Enclave
-    cost:
-      treasure: 8
-    setup:
-      - exile_mat
+- name: Enclave
+  cost:
+    treasure: 8
+  setup:
+  - exile_mat
 
-  - name: Alliance
-    cost:
-      treasure: 10
+- name: Alliance
+  cost:
+    treasure: 10
 
-  - name: Populate
-    cost:
-      treasure: 10
+- name: Populate
+  cost:
+    treasure: 10
 
 ways:
-  - name: Way of the Butterfly
-  - name: Way of the Camel
-  - name: Way of the Chameleon
-  - name: Way of the Frog
-  - name: Way of the Goat
-  - name: Way of the Horse
-  - name: Way of the Mole
-  - name: Way of the Monkey
-  - name: Way of the Mouse
-  - name: Way of the Mule
-  - name: Way of the Otter
-  - name: Way of the Owl
-  - name: Way of the Ox
-  - name: Way of the Pig
-  - name: Way of the Rat
-  - name: Way of the Seal
-  - name: Way of the Sheep
-  - name: Way of the Squirrel
-  - name: Way of the Turtle
-  - name: Way of the Worm
+- name: Way of the Butterfly
+- name: Way of the Camel
+- name: Way of the Chameleon
+- name: Way of the Frog
+- name: Way of the Goat
+- name: Way of the Horse
+- name: Way of the Mole
+- name: Way of the Monkey
+- name: Way of the Mouse
+- name: Way of the Mule
+- name: Way of the Otter
+- name: Way of the Owl
+- name: Way of the Ox
+- name: Way of the Pig
+- name: Way of the Rat
+- name: Way of the Seal
+- name: Way of the Sheep
+- name: Way of the Squirrel
+- name: Way of the Turtle
+- name: Way of the Worm

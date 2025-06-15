@@ -348,7 +348,7 @@ cards:
   isTreasure: false
   isVictory: false
 
-  pickTimes: 0
+  pickTimes: 1
   toPick: true
 - name: Courier
   cost:
@@ -473,7 +473,7 @@ cards:
   isTreasure: false
   isVictory: false
 
-  pickTimes: 0
+  pickTimes: 1
   toPick: true
 - name: Capital City
   cost:
