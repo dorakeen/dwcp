@@ -23,7 +23,6 @@
 #   - rich.console
 #
 # TODO:
-#   - substitute already used cards with new ones
 #   - potion 3 card rule
 #   - Selection max number of kingdom set cards
 #   - Save the picked cards to a database
@@ -205,7 +204,7 @@ def set_default_landscape_attibutes() :
 # ===============================================================================
 def create_randomizer_piles(l_args):
     '''
-    Creates tow Randomizer Piles (one for Kingdom, one for Landscape)
+    Creates two Randomizer Piles (one for Kingdom, one for Landscape)
 
     kingdoms:
         [list of cards as dicts] - card has additional key/value of set
@@ -401,12 +400,24 @@ def print_k_result(selection, sets_list) :
         
         log.info(f"\t{kcard['name']}\t({kcard['set']})")
         # <3 and <20 for spacing. Num has to be combined with . old fashioned way for this to work
-        console.print(f"{str(n) + '.' : <3} [{color}]{kcard['name'] : <17}[/{color}] ({kcard['set'].title()})")
+        console.print(f"{str(n).rjust(2) + '.' : <3} [{color}]{kcard['name'] : <17}[/{color}] ({kcard['set'].title()})")
         n += 1
 
     console.print()
 
 
+# ===============================================================================
+# select_trait_card(selection)
+# 
+# This function is called when a trait card is selected to select the related
+# trait kingdom card.
+# =============================================================================== 
+def select_trait_card(selection) :
+    pick = random.randint(0, 9)
+
+    return selection['kingdoms'][pick]['name']
+    
+    
 # ===============================================================================
 # print_result(selection)
 # =============================================================================== 
@@ -439,6 +450,7 @@ def print_result(selection) :
     console.print("        ─━═ Landscapes Cards ═━─        ", style='bold blue1')
     n = 1
     log.info("Selected Landscape Cards:") 
+    trait_card = '' # default value, in case no trait card is selected
     for landscape in selection["landscapes"]:
         if landscape['type'] == 'ally': 
             color = "yellow"
@@ -454,6 +466,7 @@ def print_result(selection) :
             color = "cyan"
         elif landscape['type'] == 'trait': 
             color = "magenta"
+            trait_card = " - (" + select_trait_card(selection) + ")"
         else: 
             color = "white"
 
@@ -461,7 +474,7 @@ def print_result(selection) :
 
         log.info(f"\t{landscape['name']}\t({landscape['set']}) - {landscape['type']}")
         # <3 and <17 for spacing. Num has to be combined with . old fashioned way for this to work
-        console.print(f"{str(n) + '.' : <3} [{color}]{landscape['name'] : <17}[/{color}] ({landscape['set'].title()}) - ({landscape['type'].title()})")
+        console.print(f"{str(n) + '.' : <3} [{color}]{landscape['name'] : <17}[/{color}] ({landscape['set'].title()}) - ({landscape['type'].title()}){trait_card}")
         n += 1
 
     color = "white"
