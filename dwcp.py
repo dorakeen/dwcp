@@ -23,7 +23,6 @@
 #   - rich.console
 #
 # TODO:
-#   - potion 3 card rule
 #   - Selection max number of kingdom set cards
 #   - Save the picked cards to a database
 #   - Add support for specifying the number of kingdom and landscape cards to select
@@ -46,6 +45,8 @@ import random
 import os
 import sys
 #import yaml
+from enum import Enum
+
 from ruamel.yaml import YAML
 
 from rich.console import Console
@@ -80,6 +81,11 @@ yaml = YAML()
 
 # #
 #
+class DO(Enum) :
+    NOTHING = 0
+    CONTINUE = 1
+    BREAK = 2
+    ALCHEMY = 3
 
 #
 # CARDS 
@@ -263,6 +269,31 @@ def create_randomizer_piles(l_args):
 
     return randpiles
 
+# ===============================================================================
+# alchemy_card_check(kingdomCard, selectedCards)
+# ===============================================================================
+def alchemy_card_check(kingdomCard, selectedCards, alchemyCards) :
+
+    # cards to be selected
+    missing = 10 - selectedCards
+
+    # If there are already 3 Alchemy cards, whatever card is good
+    if alchemyCards >= 3 :
+        return DO.NOTHING
+    
+    # If the card is Alchemy, check if there are space for it
+    if kingdomCard.get('set') == 'alchemy' :
+        # if there is space (we want at least 3 Alchemy cards) keep it
+        if 3 - alchemyCards <= missing :
+            return DO.ALCHEMY
+        # if there is no space, discard it
+        else :
+            return DO.CONTINUE
+    
+    if kingdomCard.get('set') != 'alchemy' and alchemyCards >= 1 :
+        return DO.CONTINUE
+    
+    return DO.NOTHING
 
 # ===============================================================================
 # pick_random_cards(randpiles, num_kingdom=10, num_landscape=0)
@@ -292,12 +323,24 @@ def pick_random_cards(randpiles, num_kingdom=10, num_landscape=0):
 
         # Pick kingdom cards
         answ = []
+        alchemyCards = 0 
         while True :
-            for _ in range(num_kingdom) :
+            numCardsPicked = 0
+            while numCardsPicked < num_kingdom :
                 kc = random.choices(randpiles["kingdoms"], weights=weights, k=1)
 
                 selected_idx = randpiles["kingdoms"].index(kc[0])
                 #print(f"PICK: Card ID {selected_idx:03} - {kc[0]['name']}\t ({kc[0]['set']}) \t[{kc[0]['pickTimes']}]")
+                rc = alchemy_card_check(kc[0], len(picked["kingdoms"]), alchemyCards) 
+                match rc:
+                    case DO.NOTHING:
+                        pass # no action
+                    case DO.CONTINUE:
+                        continue # discard this card and continue
+                    case DO.ALCHEMY:
+                        alchemyCards += 1
+                    case _:
+                        pass
                 
                 picked["kingdoms"].append(kc[0])
 
@@ -305,6 +348,8 @@ def pick_random_cards(randpiles, num_kingdom=10, num_landscape=0):
                 # randpiles["kingdoms"].remove(kc[0])
                 randpiles["kingdoms"].pop(selected_idx)
                 weights.pop(selected_idx)
+            
+                numCardsPicked += 1
 
             # Sort the picked kingdom cards by name
             picked["kingdoms"].sort(key=lambda x: x['name'])
@@ -313,7 +358,7 @@ def pick_random_cards(randpiles, num_kingdom=10, num_landscape=0):
             print_k_result(picked, sets_list)
             answ = str.split(console.input("Select the number related to the card to change (return for none) ? "))
             if len(answ) == 0 :
-                # nothing to change, move on
+                # nothing to change, move on [OUT OF THE WHILE LOOP]
                 break
 
             num_kingdom = len(answ)
@@ -450,8 +495,8 @@ def print_result(selection) :
     console.print("        ─━═ Landscapes Cards ═━─        ", style='bold blue1')
     n = 1
     log.info("Selected Landscape Cards:") 
-    trait_card = '' # default value, in case no trait card is selected
     for landscape in selection["landscapes"]:
+        trait_card = '' # default value, in case no trait card is selected
         if landscape['type'] == 'ally': 
             color = "yellow"
         elif landscape['type'] == 'event': 
