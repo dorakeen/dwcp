@@ -46,6 +46,7 @@ import os
 import sys
 #import yaml
 from enum import Enum
+from math import comb
 
 from ruamel.yaml import YAML
 
@@ -311,14 +312,15 @@ def pick_random_cards(randpiles, num_kingdom=10, num_landscape=0):
 
     # Pick kingdom cards
     if randpiles["kingdoms"]:
-        # kingdom_cards = random.sample(randpiles["kingdoms"], min(num_kingdom, len(randpiles["kingdoms"])))
+        num_items = len(randpiles["kingdoms"])
+        # kingdom_cards = random.sample(randpiles["kingdoms"], min(num_kingdom, num_items))
 
         weights = [float(1 / (card['pickTimes'] + 1)) for card in randpiles["kingdoms"]]
                 
-        log.debug(f"randpiles['kingdoms']: {len(randpiles['kingdoms'])}")
+        log.debug(f"randpiles['kingdoms']: {num_items}")
         log.debug(f"weights: {weights}")
         console.print()
-        console.print(f"Selecting {num_kingdom} kingdoms from a set of {len(randpiles['kingdoms'])} ...", style='bold blue1')
+        console.print(f"Selecting {num_kingdom} kingdoms from a set of {num_items} [{comb(num_items, num_kingdom)} combinations] ...", style='bold blue1')
         console.print()
 
         # Pick kingdom cards
@@ -396,6 +398,12 @@ def pick_random_cards(randpiles, num_kingdom=10, num_landscape=0):
                 
     # Pick landscape cards 
     if randpiles["landscapes"] and num_landscape > 0:
+        num_items = len(randpiles["landscapes"])
+
+        console.print()
+        console.print()
+        console.print(f"Selecting {num_landscape} landscapes from a set of {num_items} [{comb(num_items, num_landscape)} combinations] ...", style='bold blue1')
+
         landscape_cards = random.sample(randpiles["landscapes"], min(num_landscape, len(randpiles["landscapes"])))
         picked["landscapes"].extend(landscape_cards)
 
