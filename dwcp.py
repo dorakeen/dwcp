@@ -453,7 +453,7 @@ def print_k_result(selection, sets_list) :
         
         log.info(f"\t{kcard['name']}\t({kcard['set']})")
         # <3 and <20 for spacing. Num has to be combined with . old fashioned way for this to work
-        console.print(f"{str(n).rjust(2) + '.' : <3} [{color}]{kcard['name'] : <17}[/{color}] ({kcard['set'].title()})")
+        console.print(f"{str(n).rjust(2) + '.' : <3} [{color}]{kcard['name'] : <19}[/{color}] - {kcard['set'].title() : <15} - {str(kcard['pickTimes'])}º time")
         n += 1
 
     console.print()
