@@ -177,5 +177,5 @@ cards:
   isVictory: false
   isTrashing: true
   isReaction: false
-  pickTimes: 0
+  pickTimes: 1
   toPick: true

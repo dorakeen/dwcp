@@ -24,7 +24,7 @@ cards:
   isVictory: false
   isLootSupplier: false
 
-  pickTimes: 0
+  pickTimes: 1
   toPick: true
 - name: Grotto
   cost:

@@ -129,7 +129,7 @@ cards:
   isActionSupplier: false
   isBuySupplier: true
 
-  pickTimes: 0
+  pickTimes: 1
   toPick: true
 - name: Fishing Village
   cost:

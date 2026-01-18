@@ -548,7 +548,7 @@ cards:
   isTreasure: true
   isVictory: false
 
-  pickTimes: 1
+  pickTimes: 2
   toPick: true
 - name: Pooka
   cost:

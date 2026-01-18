@@ -15,7 +15,7 @@ cards:
   isDuration: false
   isActionSupplier: true
 
-  pickTimes: 0
+  pickTimes: 1
   toPick: true
 - name: Conspirator
   cost:

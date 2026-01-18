@@ -191,7 +191,7 @@ cards:
   isTrashing: true
   isReaction: false
 
-  pickTimes: 0
+  pickTimes: 1
   toPick: true
 - name: Moat
   cost:
