@@ -9,11 +9,136 @@ $5: Gold Mine, Imperial Envoy, Kitsune, Litter, Rice Broker, Ronin, Tanuki, Tea 
 $6: Samurai
 $7: Rice
 cards:
-  - name: 
+  - name: Mountain Shrine
     cost:
       treasure: 0
       potion: 0
-      debt: 4
+      debt: 5
+    isAction: true
+    isActionSupplier: false
+    isAttack: false
+    isBuySupplier: false
+    isDrawer: true
+    isMultiDrawer: true
+    isDuration: false
+    isOmen: true
+    isReaction: false
+    isTrashing: false
+    isTreasure: false
+    isVictory: false
+    pickTimes: 0
+    toPick: true
+
+  - name: Daimyo
+    cost:
+      treasure: 0
+      potion: 0
+      debt: 6
+    isAction: true
+    isActionSupplier: true
+    isAttack: false
+    isBuySupplier: false
+    isCommand: true
+    isDrawer: true
+    isMultiDrawer: false
+    isDuration: false
+    isOmen: false
+    isReaction: false
+    isTrashing: false
+    isTreasure: false
+    isVictory: false
+    pickTimes: 0
+    toPick: true
+
+
+  - name: Artist
+    cost:
+      treasure: 0
+      potion: 0
+      debt: 8
+    isAction: true
+    isActionSupplier: true
+    isAttack: false
+    isBuySupplier: false
+    isDrawer: true
+    isMultiDrawer: true
+    isDuration: false
+    isOmen: false
+    isReaction: false
+    isTrashing: false
+    isTreasure: false
+    isVictory: false
+    pickTimes: 0
+    toPick: true
+
+
+  - name: Fishmonger
+    cost:
+      treasure: 2
+      potion: 0
+      debt: 0
+    isAction: true
+    isActionSupplier: false
+    isAttack: false
+    isBuySupplier: true
+    isDuration: false
+    isOmen: false
+    isReaction: false
+    isShadow: true
+    isTrashing: false
+    isTreasure: false
+    isVictory: false
+    pickTimes: 0
+    toPick: true
+
+
+  - name: Snake Witch
+    cost:
+      treasure: 2
+      potion: 0
+      debt: 0
+    isAction: true
+    isActionSupplier: true
+    isAttack: true
+    isBuySupplier: false
+    isDrawer: true
+    isMultiDrawer: false
+    isDuration: false
+    isOmen: false
+    isReaction: false
+    isTrashing: false
+    isTreasure: false
+    isVictory: false
+    pickTimes: 0
+    toPick: true
+
+
+  - name: Aristocrat
+    cost:
+      treasure: 3
+      potion: 0
+      debt: 0
+    isAction: true
+    isActionSupplier: true
+    isAttack: false
+    isBuySupplier: true
+    isDrawer: true
+    isMultiDrawer: true
+    isDuration: false
+    isOmen: false
+    isReaction: false
+    isTrashing: false
+    isTreasure: false
+    isVictory: false
+    pickTimes: 0
+    toPick: true
+
+
+  - name: Craftsman
+    cost:
+      treasure: 3
+      potion: 0
+      debt: 0
     isAction: true
     isActionSupplier: false
     isAttack: false
@@ -24,44 +149,494 @@ cards:
     isTrashing: false
     isTreasure: false
     isVictory: false
+    pickTimes: 0
+    toPick: true
 
 
-8D: Continue
-$2: Amass, Asceticism, Credit, Foresight
-$3: Kintsugi, Practice
-$4: Sea Trade
-$5: Receive Tribute
-$7: Gather
-events:
-  - name: 
+  - name: Riverboat
+    cost:
+      treasure: 3
+      potion: 0
+      debt: 0
+    isAction: true
+    isActionSupplier: true
+    isAttack: false
+    isBuySupplier: false
+    isDrawer: true
+    isMultiDrawer: false
+    isDuration: true
+    isOmen: false
+    isReaction: false
+    isTrashing: false
+    isTreasure: false
+    isVictory: false
+    pickTimes: 0
+    toPick: true
+
+
+  - name: Root Cellar
+    cost:
+      treasure: 3
+      potion: 0
+      debt: 0
+    isAction: true
+    isActionSupplier: true
+    isAttack: false
+    isBuySupplier: false
+    isDrawer: true
+    isMultiDrawer: true
+    isDuration: false
+    isOmen: false
+    isReaction: false
+    isTrashing: false
+    isTreasure: false
+    isVictory: false
+    pickTimes: 0
+    toPick: true
+
+
+  - name: Alley
+    cost:
+      treasure: 4
+      potion: 0
+      debt: 0
+    isAction: true
+    isActionSupplier: true
+    isAttack: false
+    isBuySupplier: false
+    isDrawer: true
+    isMultiDrawer: false
+    isDuration: false
+    isOmen: false
+    isReaction: false
+    isShadow: true
+    isTrashing: false
+    isTreasure: false
+    isVictory: false
+    pickTimes: 0
+    toPick: true
+
+
+  - name: Change
+    cost:
+      treasure: 4
+      potion: 0
+      debt: 0
+    isAction: true
+    isActionSupplier: false
+    isAttack: false
+    isBuySupplier: false
+    isDuration: false
+    isOmen: false
+    isReaction: false
+    isTrashing: false
+    isTreasure: false
+    isVictory: false
+    pickTimes: 0
+    toPick: true
+
+
+  - name: Ninja
+    cost:
+      treasure: 4
+      potion: 0
+      debt: 0
+    isAction: true
+    isActionSupplier: false
+    isAttack: true
+    isBuySupplier: false
+    isDrawer: true
+    isMultiDrawer: false
+    isDuration: false
+    isOmen: false
+    isReaction: false
+    isShadow: true
+    isTrashing: false
+    isTreasure: false
+    isVictory: false
+    pickTimes: 0
+    toPick: true
+
+
+  - name: Poet
+    cost:
+      treasure: 4
+      potion: 0
+      debt: 0
+    isAction: true
+    isActionSupplier: false
+    isAttack: false
+    isBuySupplier: false
+    isDrawer: true
+    isMultiDrawer: true
+    isDuration: false
+    isOmen: true
+    isReaction: false
+    isTrashing: false
+    isTreasure: false
+    isVictory: false
+    pickTimes: 0
+    toPick: true
+
+
+  - name: River Shrine
+    cost:
+      treasure: 4
+      potion: 0
+      debt: 0
+    isAction: true
+    isActionSupplier: false
+    isAttack: false
+    isBuySupplier: false
+    isDuration: false
+    isOmen: false
+    isReaction: false
+    isTrashing: false
+    isTreasure: false
+    isVictory: false
+    pickTimes: 0
+    toPick: true
+
+
+  - name: Rustic Village
+    cost:
+      treasure: 4
+      potion: 0
+      debt: 0
+    isAction: true
+    isActionSupplier: true
+    isAttack: false
+    isBuySupplier: false
+    isDrawer: true
+    isMultiDrawer: true
+    isDuration: false
+    isOmen: true
+    isReaction: false
+    isTrashing: false
+    isTreasure: false
+    isVictory: false
+    pickTimes: 0
+    toPick: true
+
+
+  - name: Gold Mine
+    cost:
+      treasure: 5
+      potion: 0
+      debt: 0
+    isAction: true
+    isActionSupplier: false
+    isAttack: false
+    isBuySupplier: true
+    isDrawer: true
+    isMultiDrawer: false
+    isDuration: false
+    isOmen: false
+    isReaction: false
+    isTrashing: false
+    isTreasure: false
+    isVictory: false
+    pickTimes: 0
+    toPick: true
+
+
+  - name: Imperial Envoy
+    cost:
+      treasure: 5
+      potion: 0
+      debt: 0
+    isAction: true
+    isActionSupplier: false
+    isAttack: false
+    isBuySupplier: true
+    isDrawer: true
+    isMultiDrawer: true
+    isDuration: false
+    isOmen: false
+    isReaction: false
+    isTrashing: false
+    isTreasure: false
+    isVictory: false
+    pickTimes: 0
+    toPick: true
+
+
+  - name: Kitsune
+    cost:
+      treasure: 5
+      potion: 0
+      debt: 0
+    isAction: true
+    isActionSupplier: true
+    isAttack: true
+    isBuySupplier: false
+    isDuration: false
+    isOmen: true
+    isReaction: false
+    isTrashing: false
+    isTreasure: false
+    isVictory: false
+    pickTimes: 0
+    toPick: true
+
+
+  - name: Litter
+    cost:
+      treasure: 5
+      potion: 0
+      debt: 0
+    isAction: true
+    isActionSupplier: true
+    isAttack: false
+    isBuySupplier: false
+    isDrawer: true
+    isMultiDrawer: true
+    isDuration: false
+    isOmen: false
+    isReaction: false
+    isTrashing: false
+    isTreasure: false
+    isVictory: false
+    pickTimes: 0
+    toPick: true
+
+
+  - name: Rice Broker
+    cost:
+      treasure: 5
+      potion: 0
+      debt: 0
+    isAction: true
+    isActionSupplier: true
+    isAttack: false
+    isBuySupplier: false
+    isDrawer: true
+    isMultiDrawer: true
+    isDuration: false
+    isOmen: false
+    isReaction: false
+    isTrashing: true
+    isTreasure: false
+    isVictory: false
+    pickTimes: 0
+    toPick: true
+
+
+  - name: Ronin
+    cost:
+      treasure: 5
+      potion: 0
+      debt: 0
+    isAction: true
+    isActionSupplier: false
+    isAttack: false
+    isBuySupplier: false
+    isDrawer: true
+    isMultiDrawer: true
+    isDuration: false
+    isOmen: false
+    isReaction: false
+    isShadow: true
+    isTrashing: false
+    isTreasure: false
+    isVictory: false
+    pickTimes: 0
+    toPick: true
+
+
+  - name: Tanuki
+    cost:
+      treasure: 5
+      potion: 0
+      debt: 0
+    isAction: true
+    isActionSupplier: false
+    isAttack: false
+    isBuySupplier: false
+    isDuration: false
+    isOmen: false
+    isReaction: false
+    isShadow: true
+    isTrashing: true
+    isTreasure: false
+    isVictory: false
+    pickTimes: 0
+    toPick: true
+
+
+  - name: Tea House
+    cost:
+      treasure: 5
+      potion: 0
+      debt: 0
+    isAction: true
+    isActionSupplier: tru
+    isAttack: false
+    isBuySupplier: false
+    isDrawer: true
+    isMultiDrawer: false
+    isDuration: false
+    isOmen: true
+    isReaction: false
+    isTrashing: false
+    isTreasure: false
+    isVictory: false
+    pickTimes: 0
+    toPick: true
+
+
+  - name: Samurai
     cost:
       treasure: 0
       potion: 0
-      debt: 5
+      debt: 0
+    isAction: true
+    isActionSupplier: false
+    isAttack: true
+    isBuySupplier: false
+    isDuration: true
+    isOmen: false
+    isReaction: false
+    isTrashing: false
+    isTreasure: false
+    isVictory: false
+    pickTimes: 0
+    toPick: true
+
+
+  - name: Rice
+    cost:
+      treasure: 7
+      potion: 0
+      debt: 0
+    isAction: false
+    isActionSupplier: false
+    isAttack: false
+    isBuySupplier: true
+    isDuration: false
+    isOmen: false
+    isReaction: false
+    isTrashing: false
+    isTreasure: true
+    isVictory: false
+    pickTimes: 0
+    toPick: true
+
+
+events:
+  - name: Amass
+    cost:
+      treasure: 2
+      potion: 0
+      debt: 0
     isActionSupplier: false
     isBuySupplier: false
     isDrawer: false
     isTrashing: false
   
-Approaching Army
-Biding Time
-Bureaucracy
-Divine Wind
-Enlightenment
-Flourishing Trade
-Good Harvest
-Great Leader
-Growth
-Harsh Winter
-Kind Emperor
-Panic
-Progress
-Rapid Expansion
-Sickness
-prophecies:
-  - name: 
+  - name: Asceticism
+    cost:
+      treasure: 2
+      potion: 0
+      debt: 0
+    isActionSupplier: false
+    isBuySupplier: false
+    isDrawer: false
+    isTrashing: false
+  
+  - name: Credit
+    cost:
+      treasure: 2
+      potion: 0
+      debt: 0
+    isActionSupplier: false
+    isBuySupplier: false
+    isDrawer: false
+    isTrashing: false
+  
+  - name: Foresight
+    cost:
+      treasure: 2
+      potion: 0
+      debt: 0
+    isActionSupplier: false
+    isBuySupplier: false
+    isDrawer: false
+    isTrashing: false
+  
+  - name: Kintsugi
+    cost:
+      treasure: 3
+      potion: 0
+      debt: 0
+    isActionSupplier: false
+    isBuySupplier: false
+    isDrawer: false
+    isTrashing: false
+  
+  - name: Practice
+    cost:
+      treasure: 3
+      potion: 0
+      debt: 0
+    isActionSupplier: false
+    isBuySupplier: false
+    isDrawer: false
+    isTrashing: false
+  
+  - name: Sea Trade
+    cost:
+      treasure: 4
+      potion: 0
+      debt: 0
+    isActionSupplier: false
+    isBuySupplier: false
+    isDrawer: false
+    isTrashing: false
+  
+  - name: Receive Tribute
+    cost:
+      treasure: 5
+      potion: 0
+      debt: 0
+    isActionSupplier: false
+    isBuySupplier: false
+    isDrawer: false
+    isTrashing: false
+  
+  - name: Gather
+    cost:
+      treasure: 7
+      potion: 0
+      debt: 0
+    isActionSupplier: false
+    isBuySupplier: false
+    isDrawer: false
+    isTrashing: false
+  
+  - name: Continue
     cost:
       treasure: 0
       potion: 0
-      debt: 0
+      debt: 8
+    isActionSupplier: false
+    isBuySupplier: false
+    isDrawer: false
+    isTrashing: false
   
+prophecies:
+  - name: Approaching Army
+  - name: Biding Time
+  - name: Bureaucracy
+  - name: Divine Wind
+  - name: Enlightenment
+  - name: Flourishing Trade
+  - name: Good Harvest
+  - name: Great Leader
+  - name: Growth
+  - name: Harsh Winter
+  - name: Kind Emperor
+  - name: Panic
+  - name: Progress
+  - name: Rapid Expansion
+  - name: Sickness

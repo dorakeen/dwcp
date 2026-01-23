@@ -29,8 +29,8 @@ SETNAME_TO_YAMLNAME = {
     "prosperity-update": "prosperity-update.yaml",
     "hinterlands-update": "hinterlands-update.yaml",
     "plunder": "plunder.yaml",
-    "cornucopia-guilds-update": "cornucopia-guilds-update.yaml"
-    #"rising-sun": "rising-sun.yaml"
+    "cornucopia-guilds-update": "cornucopia-guilds-update.yaml",
+    "rising-sun": "rising-sun.yaml"
 }
 
 # ===============================================================================

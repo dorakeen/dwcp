@@ -23,6 +23,8 @@
 #   - rich.console
 #
 # TODO:
+#   - Implents a GUI using tkinter or PyQt (html based ?)
+#   - Implements Riverboat [rising sun]
 #   - Selection max number of kingdom set cards
 #   - Save the picked cards to a database
 #   - Add support for specifying the number of kingdom and landscape cards to select
@@ -105,18 +107,18 @@ SETNAME_TO_YAMLNAME = {
     "guilds": "guilds.yaml",
     "adventures": "adventures.yaml",
     "empires": "empires.yaml",
-    "base-update": "base-set-update.yaml",
-    "intrigue-update": "intrigue-update.yaml",
+    "base-upd": "base-set-update.yaml",
+    "intrigue-upd": "intrigue-update.yaml",
     "nocturne": "nocturne.yaml",
     "renaissance": "renaissance.yaml",
     "menagerie": "menagerie.yaml",
     "allies": "allies.yaml",
-    "seaside-update": "seaside-update.yaml",
-    "prosperity-update": "prosperity-update.yaml",
-    "hinterlands-update": "hinterlands-update.yaml",
+    "seaside-upd": "seaside-update.yaml",
+    "prosperity-upd": "prosperity-update.yaml",
+    "hinterlands-upd": "hinterlands-update.yaml",
     "plunder": "plunder.yaml",
-    "cornucopia-guilds-update": "cornucopia-guilds-update.yaml"
-    #"rising-sun": "rising-sun.yaml"
+    "cornucopia-guilds-upd": "cornucopia-guilds-update.yaml",
+    "rising-sun": "rising-sun.yaml"
 }
 # #
 #
@@ -162,6 +164,7 @@ def set_default_card_attibutes() :
                       'isOmen': False,
                       'isReaction': False,
                       'isReserve': False,
+                      'isShadow': False,
                       'isTrashing': False,
                       'isTraveller': False,
                       'isTreasure': False,
@@ -197,6 +200,7 @@ def set_default_landscape_attibutes() :
                       'isOmen': False,
                       'isReaction': False,
                       'isReserve': False,
+                      'isShadow': False,
                       'isTrashing': False,
                       'isTraveller': False,
                       'isTreasure': False,
@@ -453,7 +457,7 @@ def print_k_result(selection, sets_list) :
         
         log.info(f"\t{kcard['name']}\t({kcard['set']})")
         # <3 and <20 for spacing. Num has to be combined with . old fashioned way for this to work
-        console.print(f"{str(n).rjust(2) + '.' : <3} [{color}]{kcard['name'] : <19}[/{color}] - {kcard['set'].title() : <15} - {str(kcard['pickTimes'])}º time")
+        console.print(f"{str(n).rjust(2) + '.' : <3} [{color}]{kcard['name'] : <19}[/{color}] - {kcard['set'].title() : <12} - {str(kcard['pickTimes'])} time")
         n += 1
 
     console.print()
